@@ -1,0 +1,315 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="dark">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
+  <meta name="color-scheme" content="dark light" />
+  <meta name="theme-color" content="#0a1020" />
+
+  <title>ASTRA • HIREX — Cover Letter Generator v2.0.0</title>
+  <meta name="description" content="Generate a JD-optimized, humanized cover letter using stored job description and LaTeX resume." />
+  <meta name="author" content="Sri Akash Kadali" />
+
+  <link rel="icon" type="image/png" href="/static/assets/favicon.png" />
+  <link rel="stylesheet" href="/static/css/base.css?v=2.0.0" />
+  <link rel="stylesheet" href="/static/css/animations.css?v=2.0.0" />
+  <link rel="stylesheet" href="/static/css/app.css?v=2.0.0" />
+
+  <style>
+    :root{
+      --bg:#0a1020;
+      --accent:#5bd0ff;
+      --accent2:#a678ff;
+      --muted:rgba(255,255,255,0.7);
+      --card-bg:rgba(255,255,255,0.05);
+      --card-border:rgba(255,255,255,0.08);
+      --radius:14px;
+    }
+
+    /* ====== Futuristic Background ====== */
+    body{
+      background: radial-gradient(circle at 30% 20%, var(--bg) 0%, #03060f 80%) fixed;
+      color:#e4ecff;
+      font-family:"Inter","Segoe UI",Roboto,sans-serif;
+      scroll-behavior:smooth;
+      overflow-x:hidden;
+      position:relative;
+      line-height:1.6;
+      margin:0;
+    }
+    ::selection{ background:var(--accent); color:#000; }
+
+    body::before{
+      content:""; position:fixed; inset:0; pointer-events:none; z-index:0;
+      background:
+        repeating-linear-gradient(to right, rgba(255,255,255,0.03) 0 1px, transparent 1px 80px),
+        repeating-linear-gradient(to bottom, rgba(255,255,255,0.03) 0 1px, transparent 1px 80px);
+    }
+
+    body::after{
+      content:""; position:fixed; width:420px; height:420px; top:20%; right:10%; pointer-events:none; z-index:0;
+      background: radial-gradient(circle, rgba(91,208,255,0.15), transparent 70%);
+      filter: blur(60px); animation: floatGlow 10s ease-in-out infinite alternate;
+    }
+    @keyframes floatGlow{ from{transform:translateY(0) scale(1); opacity:.9;} to{transform:translateY(-30px) scale(1.05); opacity:.7;} }
+
+    .menu-toggle, .theme-toggle{ display:none !important; }
+
+    /* ====== Sidebar ====== */
+    .sidebar{
+      display:flex;
+      flex-direction:column;
+      padding-top:.25rem;
+    }
+    .brand{
+      display:flex; align-items:center; gap:.75rem;
+      padding:.6rem 1rem .05rem;
+    }
+    .vnav{
+      margin:.05rem 1rem 1rem;
+      list-style:none;
+      padding:0;
+    }
+    .vnav li{ margin-bottom:.42rem; }
+
+    .vnav a{
+      display:block;
+      padding:.6rem 1rem;
+      color:#cfd9ff;
+      text-decoration:none;
+      border-radius:10px;
+      transition: background .2s, color .2s;
+    }
+    .vnav a:hover,
+    .vnav a.active-link{
+      background: rgba(91,208,255,0.15);
+      color: var(--accent);
+    }
+
+    .brand img{
+      width:72px;
+      height:auto;
+      aspect-ratio:1 / 1;
+      object-fit:contain;
+      filter: drop-shadow(0 0 6px rgba(91,208,255,0.6));
+      transition: transform .25s ease, filter .25s ease;
+    }
+    .brand img:hover{ transform:scale(1.05); filter: drop-shadow(0 0 12px rgba(91,208,255,0.9)); }
+
+    .logo-text{
+      font-weight:700; font-size:1.35rem;
+      background:linear-gradient(90deg,var(--accent),var(--accent2));
+      -webkit-background-clip:text; background-clip:text; color:transparent;
+    }
+
+    /* ====== Layout ====== */
+    main.console{
+      position:relative; z-index:2;
+      padding:3rem 3rem 5rem;
+      max-width:1600px; min-height:100vh;
+      margin-left:260px;
+      animation: fadeRise 1s ease;
+    }
+    footer{ margin-left:260px; }
+
+    @media (max-width:880px){
+      main.console, footer{ margin-left:0; padding:1.25rem; }
+      .brand{ padding:.5rem 1rem .04rem; }
+      .brand img{ width:60px; }
+      .logo-text{ font-size:1.2rem; }
+      .vnav{ margin:.02rem 1rem 1rem; }
+    }
+
+    /* ====== Typography ====== */
+    .page-title{
+      font-size:2.2rem; font-weight:700; margin-bottom:.6rem; text-align:center;
+      background:linear-gradient(90deg,var(--accent),var(--accent2));
+      -webkit-background-clip:text; background-clip:text; color:transparent; letter-spacing:1px;
+    }
+    .muted{ color:var(--muted); text-align:center; max-width:720px; margin:0 auto 2rem; }
+
+    /* ====== Form Section ====== */
+    .form-section{
+      background:var(--card-bg); border:1px solid var(--card-border);
+      border-radius:16px; padding:1.75rem 2rem; margin-bottom:2rem;
+      box-shadow:0 0 25px rgba(91,208,255,0.15); backdrop-filter:blur(14px);
+      position:relative; overflow:hidden;
+      transition:transform .4s ease, box-shadow .4s ease;
+    }
+    .form-section::before{
+      content:""; position:absolute; inset:0; opacity:0; transition:opacity .4s ease;
+      background:linear-gradient(135deg, transparent, rgba(91,208,255,0.1));
+    }
+    .form-section:hover{ transform:translateY(-4px); box-shadow:0 0 35px rgba(91,208,255,0.25); }
+    .form-section:hover::before{ opacity:1; }
+
+    label{ font-size:.85rem; color:var(--muted); display:block; margin-bottom:6px; letter-spacing:.3px; }
+    select{
+      width:100%; border-radius:10px; border:1px solid rgba(255,255,255,0.12);
+      background:rgba(255,255,255,0.03); color:#fff; padding:10px 12px; font-size:14px;
+      transition:border-color .25s ease, box-shadow .25s ease;
+    }
+    select:focus{ border-color:var(--accent); box-shadow:0 0 12px rgba(91,208,255,0.35); outline:none; }
+
+    .btn{
+      border:1px solid rgba(255,255,255,0.14); background:rgba(10,16,32,0.85);
+      color:#fff; padding:10px 14px; border-radius:10px; cursor:pointer;
+      font-size:14px; letter-spacing:.3px; transition:background .2s, transform .15s;
+    }
+    .btn:hover{ background:rgba(255,255,255,0.08); transform:translateY(-1px); }
+    .btn.accent{ border-color:var(--accent); color:var(--accent); box-shadow:0 0 15px rgba(91,208,255,0.15); }
+
+    #meta_badge{ margin-left:1rem; color:var(--muted); font-size:.9rem; }
+
+    /* ====== Preview Pane ====== */
+    .pane{
+      height:70vh; border-radius:12px; border:1px solid rgba(255,255,255,0.08);
+      background:rgba(255,255,255,0.03); overflow:hidden; backdrop-filter:blur(12px);
+      box-shadow:0 0 18px rgba(91,208,255,0.08); transition:box-shadow .3s ease;
+    }
+    .pane.active{ box-shadow:0 0 28px rgba(91,208,255,0.25); }
+    .pane pre{
+      margin:0; padding:14px; height:100%; overflow:auto; white-space:pre-wrap; word-break:break-word;
+      font-family:"Fira Code", monospace; font-size:13px; color:#dfe7ff;
+    }
+    .pdf-frame{ width:100%; height:100%; border:none; background:#0b0f1e; border-radius:12px; }
+
+    /* ====== Tabs ====== */
+    .tabs{ display:flex; gap:.6rem; margin-bottom:.8rem; justify-content:center; }
+    .tab{
+      background:rgba(255,255,255,0.04); border:1px solid rgba(255,255,255,0.08);
+      border-radius:8px; padding:8px 12px; color:#c9d4ff; font-size:14px; cursor:pointer; transition:all .2s ease;
+    }
+    .tab:hover{ border-color:var(--accent); color:var(--accent); box-shadow:0 0 12px rgba(91,208,255,0.15); }
+    .tab.active{
+      background:var(--accent); color:#000; border:none;
+      box-shadow:0 0 15px rgba(91,208,255,0.25);
+    }
+
+    @keyframes fadeRise{ from{opacity:0; transform:translateY(25px);} to{opacity:1; transform:translateY(0);} }
+  </style>
+</head>
+
+<body class="page-enter" data-app="hirex">
+  <!-- Sidebar -->
+  <aside class="sidebar" id="sidebar" role="navigation" aria-label="Primary">
+    <div class="brand">
+      <img src="/static/assets/logo.png" alt="ASTRA Logo" loading="lazy" />
+      <span class="logo-text">ASTRA</span>
+    </div>
+    <ul class="vnav">
+      <li><a href="/index.html">🏠 HIREX</a></li>
+      <li><a href="/preview.html">📄 HIREX Preview</a></li>
+      <li><a href="/coverletter.html" class="active-link" aria-current="page">✉️ HIREX Letter</a></li>
+      <li><a href="/talk.html">💬 Talk to HIREX</a></li>
+      <li><a href="/mastermind.html">🧠 MasterMind</a></li>
+      <li><a href="/superhuman.html">✨ SuperHuman</a></li>
+      <li><a href="/dashboard.html">📊 Dashboard</a></li>
+      <li><a href="/genie.html">🧞 Genie</a></li>
+    </ul>
+  </aside>
+
+  <!-- Main -->
+  <main id="content" class="console" role="main">
+    <div class="main-inner">
+      <h1 class="page-title anim rise">✉️ Cover Letter Generator</h1>
+      <p class="muted">Select a stored <strong>Job Description + Resume</strong> pair to generate your cover letter.</p>
+
+      <section id="cl-form" class="form-section anim blur-rise">
+        <label for="historySelect">Select Previous JD + Resume</label>
+        <select id="historySelect" aria-label="Previous JD and Resume pairs"></select>
+
+        <div style="margin-top:1.5rem;text-align:center;">
+          <button class="btn accent" id="generate_btn">Generate Cover Letter</button>
+          <span id="meta_badge" aria-live="polite">Idle</span>
+        </div>
+      </section>
+
+      <section class="preview-section anim fade">
+        <div class="tabs" role="tablist" aria-label="Cover letter preview tabs">
+          <button class="tab active" data-tab="pdf" role="tab" aria-selected="true" aria-controls="pane_pdf">📄 PDF</button>
+          <button class="tab" data-tab="tex" role="tab" aria-selected="false" aria-controls="pane_tex">🧾 LaTeX</button>
+          <button class="tab" data-tab="body" role="tab" aria-selected="false" aria-controls="pane_body">🧠 Body</button>
+        </div>
+
+        <div id="pane_pdf" class="pane active" role="tabpanel">
+          <iframe id="pdf_frame" class="pdf-frame" title="Cover Letter PDF"></iframe>
+        </div>
+        <div id="pane_tex" class="pane" role="tabpanel" hidden>
+          <pre id="cl-tex-output">(waiting…)</pre>
+        </div>
+        <div id="pane_body" class="pane" role="tabpanel" hidden>
+          <pre id="body_output">(waiting…)</pre>
+        </div>
+      </section>
+    </div>
+  </main>
+
+  <footer style="text-align:center; padding:2rem 1rem; color:#9aa7cc;">
+    &copy; 2025 <strong>ASTRA</strong> — Developed by <strong>Sri Akash Kadali</strong> |
+    Powered by <strong>FastAPI</strong> + <strong>OpenAI</strong> + <strong>LaTeX</strong>
+  </footer>
+
+  <div id="toast" role="status" aria-live="polite"></div>
+  <script src="/static/js/util.js?v=2.0.0" defer></script>
+  <script src="/static/js/ui.js?v=2.0.0" defer></script>
+  <script src="/static/js/coverletter.js?v=2.0.0" defer></script>
+
+  <script>
+    document.addEventListener("DOMContentLoaded", () => {
+      const select = document.getElementById("historySelect");
+      const genBtn = document.getElementById("generate_btn");
+      const meta   = document.getElementById("meta_badge");
+
+      // Load unified history (pushed by main.js v2.0.0)
+      const history = (() => {
+        try { return JSON.parse(localStorage.getItem("hirex_history") || "[]"); }
+        catch { return []; }
+      })();
+
+      if (!history.length) {
+        select.innerHTML = "<option disabled selected>No saved resumes</option>";
+        genBtn && (genBtn.disabled = true);
+      } else {
+        // Newest first for UX; preserve original index via data-idx
+        const rows = [...history].map((h, i) => ({ i, ...h }));
+        rows.reverse();
+        select.innerHTML = rows.map((h, idx) => {
+          const label = `${h.company || "—"} — ${h.role || "—"}`;
+          return `<option value="${h.i}">${label}</option>`;
+        }).join("");
+        select.selectedIndex = 0;
+
+        // Persist selected record id (so coverletter.js can optionally use it)
+        const persistSelection = () => {
+          const raw = history[Number(select.value)] || null;
+          if (raw) localStorage.setItem("hirex_selected_cl", JSON.stringify(raw));
+        };
+        persistSelection();
+        select.addEventListener("change", persistSelection);
+      }
+
+      // Tabs
+      document.addEventListener("click",(e)=>{
+        const tab=e.target.closest(".tab"); if(!tab)return;
+        document.querySelectorAll(".tab").forEach(t=>{
+          t.classList.remove("active");
+          t.setAttribute("aria-selected","false");
+        });
+        tab.classList.add("active");
+        tab.setAttribute("aria-selected","true");
+
+        ["pdf","tex","body"].forEach(x=>{
+          const p=document.getElementById("pane_"+x);
+          const on=x===tab.dataset.tab;
+          p.hidden=!on; p.classList.toggle("active",on);
+        });
+      });
+
+      // Let coverletter.js own the generation flow/status; only log here
+      window.HIREX?.debugLog?.("COVER LETTER PAGE LOADED",{version:"v2.0.0"});
+      if (meta) meta.textContent = meta.textContent || "Idle";
+    });
+  </script>
+</body>
+</html>

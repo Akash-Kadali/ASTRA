@@ -1,0 +1,375 @@
+<!DOCTYPE html> 
+<html lang="en" dir="ltr" data-theme="dark">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover" />
+  <meta name="color-scheme" content="dark light" />
+  <meta name="theme-color" content="#0a1020" />
+
+  <title>🧞 Genie | ASTRA — Guide & FAQ v2.0.0</title>
+  <meta name="description" content="Genie — unified About + Help for the ASTRA suite. Includes HIREX resume optimizer quick start, FAQs, credits, and architecture." />
+  <meta name="author" content="Sri Akash Kadali" />
+  <meta property="og:title" content="ASTRA — Genie (About + Help)" />
+  <meta property="og:description" content="Unified guide for ASTRA: HIREX (resume optimizer), MasterMind (standalone assistant), SuperHuman (standalone humanizer)." />
+  <meta property="og:image" content="/static/assets/og-preview.png" />
+
+  <link rel="icon" type="image/png" href="/static/assets/favicon.png" />
+  <link rel="stylesheet" href="/static/css/base.css?v=2.0.0" />
+  <link rel="stylesheet" href="/static/css/animations.css?v=2.0.0" />
+  <link rel="stylesheet" href="/static/css/app.css?v=2.0.0" />
+
+  <style>
+    :root{
+      --bg:#0a1020;
+      --accent:#5bd0ff;
+      --accent2:#9f78ff;
+      --panel:rgba(255,255,255,0.05);
+      --muted:rgba(255,255,255,0.7);
+      --radius:14px;
+      --glow:0 0 25px rgba(91,208,255,0.25);
+    }
+
+    /* ========= HARD STACK: force vertical, kill horizontal layouts ========= */
+    html, body { direction:ltr; writing-mode:horizontal-tb; text-align:left; }
+    #content.console{
+      display:block !important;
+      white-space:normal !important;
+      grid-auto-flow: row !important;
+      grid-template-columns: 1fr !important;
+      flex-direction: column !important;
+      flex-wrap: nowrap !important;
+      column-count: initial !important;
+      column-width: auto !important;
+    }
+    #content.console{ display:block !important; }
+    #content.console *{ direction:ltr; writing-mode:horizontal-tb; }
+    #content.console > *{
+      float:none !important;
+      width:100% !important;
+      max-width:100% !important;
+      break-inside:avoid;
+    }
+    #content.console :where(.row,.rows,.hstack,.cards,.grid,.flex){
+      display:flex !important;
+      flex-direction:column !important;
+      gap:0.75rem !important;
+    }
+    #content.console :is(ul,ol){
+      display:block !important;
+      list-style-position:outside;
+      padding-left:1.35rem;
+      margin:0;
+    }
+    #content.console li{ display:list-item !important; margin:.4rem 0; }
+    #content.console details,
+    #content.console summary{ display:block; text-align:left; }
+    .vnav,.vnav li,.vnav a{ display:block !important; text-align:left; }
+
+    /* ===== Background & selection ===== */
+    body{
+      background: radial-gradient(circle at 25% 22%, var(--bg) 0%, #03060f 80%) fixed;
+      color:#e4ecff;
+      font-family:"Inter","Segoe UI",Roboto,sans-serif;
+      line-height:1.6;
+      overflow-x:hidden;
+      margin:0;
+      position:relative;
+    }
+    ::selection{ background: var(--accent); color:#000; }
+
+    body::before{
+      content:""; position:fixed; inset:0; pointer-events:none; z-index:0;
+      background:
+        repeating-linear-gradient(to right, rgba(255,255,255,0.035) 0 1px, transparent 1px 80px),
+        repeating-linear-gradient(to bottom, rgba(255,255,255,0.035) 0 1px, transparent 1px 80px);
+    }
+    body::after{
+      content:""; position:fixed; width:420px; height:420px; top:18%; right:10%; pointer-events:none; z-index:0;
+      background: radial-gradient(circle, rgba(91,208,255,0.15), transparent 70%);
+      filter: blur(65px); animation: floatGlow 10s ease-in-out infinite alternate;
+    }
+    @keyframes floatGlow{ from{transform:translateY(0) scale(1); opacity:.9;} to{transform:translateY(-36px) scale(1.05); opacity:.75;} }
+
+    /* ===== Sidebar ===== */
+    .menu-toggle,.theme-toggle{ display:none !important; }
+    .sidebar{ display:flex; flex-direction:column; padding-top:.25rem; }
+    @media (min-width:880px){
+      .sidebar{
+        position:fixed; top:0; left:0; width:240px; height:100vh;
+        background:rgba(10,16,32,0.65);
+        border-right:1px solid rgba(255,255,255,0.05);
+        backdrop-filter:blur(18px);
+        z-index:5;
+      }
+      main.console, footer{ margin-left:240px; }
+    }
+    @media (max-width:879px){
+      .sidebar{
+        position:fixed; left:-100%; top:0; width:70%; height:100vh;
+        background:rgba(10,16,32,0.95);
+        transition:transform .3s ease; z-index:20;
+      }
+      body.nav-open .sidebar{ transform:translateX(100%); }
+    }
+
+    .brand{ display:flex; align-items:center; gap:.75rem; padding:.6rem 1rem .05rem; }
+    .brand img{
+      width:72px; height:auto; aspect-ratio:1/1; object-fit:contain;
+      filter: drop-shadow(0 0 6px rgba(91,208,255,0.6));
+      transition: transform .25s ease, filter .25s ease;
+    }
+    .brand img:hover{ transform:scale(1.05); filter: drop-shadow(0 0 12px rgba(91,208,255,0.9)); }
+    .logo-text{
+      font-weight:700; font-size:1.35rem;
+      background:linear-gradient(90deg,var(--accent),var(--accent2));
+      -webkit-background-clip:text; background-clip:text; color:transparent;
+    }
+
+    .vnav{ list-style:none; padding:0; margin:.05rem 1rem 1rem; }
+    .vnav li{ margin-bottom:.42rem; }
+    .vnav a{
+      color:#cfd9ff; text-decoration:none; padding:.6rem 1rem;
+      border-radius:10px; transition:background .2s, color .2s;
+    }
+    .vnav a:hover,.vnav a.active-link{ background:rgba(91,208,255,0.15); color:var(--accent); }
+
+    .sidebar .cta-primary{
+      display:block; margin:1rem; margin-top:auto; width:calc(100% - 2rem);
+      background:linear-gradient(90deg,var(--accent),var(--accent2));
+      color:#fff; border:none; border-radius:10px; padding:.6rem; font-weight:600; cursor:pointer;
+    }
+
+    /* ===== Main ===== */
+    main.console{ position:relative; z-index:2; padding:3rem 3rem 5rem; animation: fadeRise 1s ease; }
+    @keyframes fadeRise{ from{opacity:0; transform:translateY(25px);} to{opacity:1; transform:translateY(0);} }
+
+    .page-title{
+      font-size:2.35rem; text-align:center; margin-bottom:.6rem;
+      background:linear-gradient(90deg,var(--accent),var(--accent2));
+      -webkit-background-clip:text; background-clip:text; color:transparent;
+    }
+    .muted{ color:var(--muted); text-align:center; margin:0 auto 2rem; max-width:760px; }
+
+    /* ===== Cards ===== */
+    section.card{
+      background:var(--panel); border:1px solid rgba(255,255,255,0.08);
+      border-radius:var(--radius); box-shadow:var(--glow);
+      margin-bottom:2rem; padding:1.6rem 1.8rem; backdrop-filter:blur(12px);
+      transition: transform .25s ease, box-shadow .25s ease;
+      display:block !important;
+    }
+    section.card:hover{ transform:translateY(-4px); box-shadow:0 0 40px rgba(91,208,255,.25); }
+    section.card h2{
+      font-size:1.28rem; margin-bottom:.8rem;
+      background:linear-gradient(90deg,var(--accent),var(--accent2));
+      -webkit-background-clip:text; background-clip:text; color:transparent;
+      text-align:left;
+    }
+
+    details{
+      background:rgba(255,255,255,.04); border:1px solid rgba(255,255,255,.1);
+      border-radius:10px; padding:.8rem 1rem; margin:.6rem 0; cursor:pointer; transition:all .25s ease;
+    }
+    details[open]{ background:rgba(255,255,255,.08); border-color:rgba(255,255,255,.2); }
+    summary{ font-weight:600; font-size:1rem; color:#fff; list-style:none; }
+    details p{ margin-top:.6rem; color:var(--muted); font-size:.95rem; line-height:1.6; }
+
+    footer{
+      text-align:left; padding:2rem 1rem; font-size:.9rem; color:#9aa7cc;
+      border-top:1px solid rgba(255,255,255,0.05); backdrop-filter:blur(10px);
+    }
+
+    @media (max-width:880px){
+      .brand{ padding:.5rem 1rem .04rem; }
+      .brand img{ width:60px; }
+      .logo-text{ font-size:1.2rem; }
+      .vnav{ margin:.02rem 1rem 1rem; }
+    }
+
+    .sr-only{
+      position:absolute;width:1px;height:1px;padding:0;margin:-1px;overflow:hidden;
+      clip:rect(0,0,0,0);white-space:nowrap;border:0;
+    }
+    .sr-only:focus{ position:static;width:auto;height:auto;margin:0;clip:auto;white-space:normal; }
+  </style>
+</head>
+
+<body class="page-enter" data-app="astra">
+  <a href="#content" class="sr-only">Skip to content</a>
+
+  <!-- ========== SIDEBAR ========== -->
+  <aside class="sidebar" id="sidebar" role="navigation" aria-label="Primary">
+    <div class="brand">
+      <img src="/static/assets/logo.png" alt="ASTRA Logo" />
+      <span class="logo-text">ASTRA</span>
+    </div>
+    <ul class="vnav">
+      <li><a href="/index.html">🏠 HIREX</a></li>
+      <li><a href="/preview.html">📄 HIREX Preview</a></li>
+      <li><a href="/coverletter.html">✉️ HIREX Letter</a></li>
+      <li><a href="/talk.html">💬 Talk to HIREX</a></li>
+      <li><a href="/mastermind.html">🧠 MasterMind</a></li>
+      <li><a href="/superhuman.html">✨ SuperHuman</a></li>
+      <li><a href="/dashboard.html">📊 Dashboard</a></li>
+      <li><a href="/genie.html" class="active-link" aria-current="page">🧞 Genie</a></li>
+    </ul>
+    <button class="cta-primary" onclick="window.location.href='mailto:sriakashkadali@gmail.com'">📧 Contact Support</button>
+  </aside>
+
+  <!-- ========== MAIN ========== -->
+  <main class="console" id="content" role="main">
+    <h1 class="page-title">🧞 Genie — Guide & FAQ</h1>
+    <p class="muted">
+      <strong>ASTRA</strong> is a suite of tools. <strong>HIREX</strong> is the resume optimizer; 
+      <strong>SuperHuman</strong> (standalone humanizer) and <strong>MasterMind</strong> (standalone assistant)
+      are independent apps with no resume dependency.
+    </p>
+
+    <!-- STATUS -->
+    <section class="card" id="status_card" aria-live="polite">
+      <h2>🟢 System Status</h2>
+      <p id="status_text">Checking FastAPI backend…</p>
+      <ul id="status_meta" class="muted" style="margin-top:.6rem;"></ul>
+    </section>
+
+    <!-- ABOUT -->
+    <section class="card">
+      <h2>ℹ️ About ASTRA</h2>
+      <p>Under the ASTRA umbrella:</p>
+      <ul>
+        <li><strong>HIREX — High Resume eXpert</strong>: AI-driven LaTeX resume optimization aligned to a given JD.</li>
+        <li><strong>SuperHuman — Humanizer</strong>: Standalone text polishing & tone refinement (not resume-specific).</li>
+        <li><strong>MasterMind</strong>: Standalone ChatGPT-class assistant for research, coding, writing, and more.</li>
+        <li><strong>Cover Letter</strong>: Personalized cover-letter generation powered by HIREX context.</li>
+      </ul>
+    </section>
+
+    <!-- QUICK START (HIREX) -->
+    <section class="card">
+      <h2>🚀 Quick Start (HIREX)</h2>
+      <ol>
+        <li>Open the <a class="special-link" href="/index.html">Home</a> page.</li>
+        <li>Paste your <strong>Job Description (JD)</strong>.</li>
+        <li>(Optional) Enable <strong>Humanize</strong> for tone refinement.</li>
+        <li>Click <em>“Optimize Resume”</em>.</li>
+        <li>View or download results via <a class="special-link" href="/preview.html">Preview</a>.</li>
+      </ol>
+    </section>
+
+    <!-- FAQ (HIREX) -->
+    <section class="card">
+      <h2>💡 Common Questions (HIREX)</h2>
+      <details open>
+        <summary>What file formats are supported?</summary>
+        <p>LaTeX (<code>.tex</code>) inputs with PDF outputs.</p>
+      </details>
+      <details>
+        <summary>Can I change the base resume?</summary>
+        <p>Yes. Replace <code>data/samples/base_resume.tex</code>; subsequent runs will use it.</p>
+      </details>
+      <details>
+        <summary>What does “Humanize” do?</summary>
+        <p>It refines fluency, tone, and clarity while keeping content truthful.</p>
+      </details>
+    </section>
+
+    <!-- ENDPOINT MAP (aligned with upgraded backend) -->
+    <section class="card">
+      <h2>🛰️ API Endpoints (v2.0.0)</h2>
+      <ul>
+        <li><code>GET /health</code> — Service heartbeat.</li>
+        <li><code>POST /api/optimize</code> — JD → Optimized resume (LaTeX/PDF). Optional <code>use_humanize</code>.</li>
+        <li><code>POST /api/coverletter</code> — JD + base CL + resume.tex → Cover Letter (LaTeX/PDF).</li>
+        <li><code>POST /api/superhuman</code> — Text rewrite (tone modes; LaTeX-safe option).</li>
+        <li><code>POST /api/mastermind</code> — Standalone assistant (persona/model/history).</li>
+        <li><code>POST /api/talk</code> — JD-aware Q&A (history + selected context).</li>
+        <li><code>POST /api/debug/log</code> — Frontend debug breadcrumbs.</li>
+        <li><code>GET /api/dashboard</code> — Summary, trend, history for analytics.</li>
+      </ul>
+    </section>
+
+    <!-- ARCHITECTURE -->
+    <section class="card">
+      <h2>🧩 Architecture & Technology</h2>
+      <ol>
+        <li><strong>Frontend:</strong> Modular Vanilla JS (v2.0.0) with state persistence.</li>
+        <li><strong>Backend:</strong> FastAPI microservices handling AI inference & LaTeX rendering.</li>
+        <li><strong>AI Core:</strong> GPT-4o / GPT-4o-mini for inference & rewriting.</li>
+        <li><strong>Data Layer:</strong> Local JSONL analytics + adaptive caching.</li>
+        <li><strong>Security:</strong> Sandboxed compilation + key isolation.</li>
+      </ol>
+    </section>
+
+    <!-- DATA & STORAGE -->
+    <section class="card">
+      <h2>💾 Data & Storage</h2>
+      <p class="muted">Client-side keys commonly used across pages:</p>
+      <ul>
+        <li><code>hirex_history</code> — chronological actions (type, company, role, timestamp).</li>
+        <li><code>hirex_tex</code>, <code>hirex_pdf</code>, <code>hirex_pdf_humanized</code>.</li>
+        <li><code>hirex_company</code>, <code>hirex_role</code>, <code>hirex_fit_score</code>, <code>hirex_jd_text</code>.</li>
+        <li><code>hirex-use-humanize</code> (legacy), <code>hirex_use_humanize</code> (boolean text).</li>
+        <li><code>hirex_version</code>, <code>hirex_timestamp</code>.</li>
+      </ul>
+    </section>
+
+    <!-- CREDITS -->
+    <section class="card">
+      <h2>💡 Credits & Development</h2>
+      <ul>
+        <li>👨‍💻 <strong>Developer:</strong> Sri Akash Kadali</li>
+        <li>🏫 <strong>Institution:</strong> University of Maryland, College Park</li>
+        <li>🧭 <strong>Vision:</strong> Merge AI automation with human creativity in career workflows.</li>
+        <li>⚙️ <strong>Stack:</strong> FastAPI · Python · LaTeX · OpenAI API · Vanilla JS · HTML · CSS</li>
+      </ul>
+    </section>
+
+    <!-- LICENSE -->
+    <section class="card">
+      <h2>📜 License & Usage</h2>
+      <p>
+        HIREX v2.0.0 is released under the <strong>MIT License</strong>.<br />
+        Free for academic and personal use. Attribution to <strong>Sri Akash Kadali</strong> is appreciated for derivative or commercial applications.
+      </p>
+    </section>
+  </main>
+
+  <!-- ========== FOOTER ========== -->
+  <footer>
+    &copy; 2025 <strong>ASTRA</strong> — Developed by <strong>Sri Akash Kadali</strong> |
+    Powered by <strong>FastAPI</strong> + <strong>LaTeX</strong>
+  </footer>
+
+  <div id="toast" role="status" aria-live="polite"></div>
+  <script src="/static/js/util.js?v=2.0.0" defer></script>
+  <script src="/static/js/ui.js?v=2.0.0" defer></script>
+  <script>
+    document.addEventListener("DOMContentLoaded", async () => {
+      const H = window.HIREX || {};
+      H.debugLog?.("GENIE PAGE LOADED", {version:"v2.0.0"});
+
+      // Live backend status (matches upgraded backend: /health)
+      const statusText = document.getElementById("status_text");
+      const statusMeta = document.getElementById("status_meta");
+      try {
+        const base = (H.getApiBase ? H.getApiBase() :
+                     (["127.0.0.1","localhost"].includes(location.hostname) ? "http://127.0.0.1:8000" : location.origin));
+        const res = await fetch(`${base}/health`, { cache: "no-store" });
+        const ok  = res.ok;
+        const json = ok ? await res.json() : {};
+        statusText.textContent = ok
+          ? `Backend OK — v${json.version || "2.0.0"}`
+          : "Backend unreachable.";
+        statusMeta.innerHTML = `
+          <li><strong>Status:</strong> ${json.status || (ok ? "ok" : "error")}</li>
+          <li><strong>Time:</strong> ${json.time || "—"}</li>
+          <li><strong>API Base:</strong> ${base}</li>
+        `;
+      } catch (e) {
+        statusText.textContent = "Backend check failed (offline or CORS).";
+        statusMeta.innerHTML = `<li><strong>Error:</strong> ${(e && e.message) || "Unknown"}</li>`;
+      }
+    });
+  </script>
+</body>
+</html>

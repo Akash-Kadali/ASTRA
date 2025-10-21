@@ -1,0 +1,1155 @@
+{"timestamp": "2025-10-19T22:49:19.711099", "event": "🧩 Router loaded: backend.api.optimize", "meta": {}}
+{"timestamp": "2025-10-19T22:49:19.754662", "event": "🧩 Router loaded: backend.api.coverletter", "meta": {}}
+{"timestamp": "2025-10-19T22:49:19.797059", "event": "🧩 Router loaded: backend.api.talk", "meta": {}}
+{"timestamp": "2025-10-19T22:49:19.830709", "event": "🧩 Router loaded: backend.api.superhuman", "meta": {}}
+{"timestamp": "2025-10-19T22:49:19.843438", "event": "🧩 Router loaded: backend.api.humanize", "meta": {}}
+{"timestamp": "2025-10-19T22:49:19.895576", "event": "🧩 Router loaded: backend.api.mastermind", "meta": {}}
+{"timestamp": "2025-10-19T22:49:19.906721", "event": "🧩 Router loaded: backend.api.dashboard", "meta": {}}
+{"timestamp": "2025-10-19T22:49:19.915620", "event": "🧩 Router loaded: backend.api.models_router", "meta": {}}
+{"timestamp": "2025-10-19T22:49:19.930960", "event": "🧩 Router loaded: backend.api.context_store", "meta": {}}
+{"timestamp": "2025-10-19T22:49:19.961125", "event": "🧩 Router loaded: backend.api.utils_router", "meta": {}}
+{"timestamp": "2025-10-19T22:49:19.970693", "event": "🧩 Router loaded: backend.api.debug", "meta": {}}
+{"timestamp": "2025-10-19T22:49:19.970693", "event": "📦 Static mounted → C:\\Users\\sriak\\OneDrive\\Desktop\\HIREX\\frontend\\static", "meta": {}}
+{"timestamp": "2025-10-19T22:49:57.476590", "event": "➡️ POST /api/debug/log", "meta": {}}
+{"timestamp": "2025-10-19T22:49:57.484670", "event": "➡️ POST /api/debug/log", "meta": {}}
+{"timestamp": "2025-10-19T22:49:57.486998", "event": "frontend_debug", "meta": {"msg": "UI LOADED", "version": "v2.0.0", "page": "index.html", "origin": "http://127.0.0.1:8000", "theme": "dark", "humanize": "on", "timestamp": "2025-10-19T22:49:57.457Z", "received_at": "2025-10-19T22:49:57.486998", "level": "debug", "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/141.0.0.0 Safari/537.36 Edg/141.0.0.0", "referer": "http://127.0.0.1:8000/index.html"}}
+{"timestamp": "2025-10-19T22:49:57.492019", "event": "frontend_debug", "meta": {"msg": "MAIN PAGE LOADED", "app": "ASTRA", "version": "v2.0.0", "apiBase": "http://127.0.0.1:8000", "hasHumanize": true, "origin": "http://127.0.0.1:8000", "timestamp": "2025-10-19T22:49:57.458Z", "page": "index.html", "received_at": "2025-10-19T22:49:57.491468", "level": "debug", "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/141.0.0.0 Safari/537.36 Edg/141.0.0.0", "referer": "http://127.0.0.1:8000/index.html"}}
+{"timestamp": "2025-10-19T22:49:57.494244", "event": "⬅️ POST /api/debug/log → 200 (17.7 ms)", "meta": {}}
+{"timestamp": "2025-10-19T22:49:57.496236", "event": "⬅️ POST /api/debug/log → 200 (11.6 ms)", "meta": {}}
+{"timestamp": "2025-10-19T22:49:59.306152", "event": "➡️ GET /index.html", "meta": {}}
+{"timestamp": "2025-10-19T22:49:59.442871", "event": "⬅️ GET /index.html → 200 (136.7 ms)", "meta": {}}
+{"timestamp": "2025-10-19T22:49:59.505903", "event": "➡️ GET /static/assets/logo.png", "meta": {}}
+{"timestamp": "2025-10-19T22:49:59.507418", "event": "➡️ GET /static/css/base.css", "meta": {}}
+{"timestamp": "2025-10-19T22:49:59.510952", "event": "➡️ GET /static/css/animations.css", "meta": {}}
+{"timestamp": "2025-10-19T22:49:59.513089", "event": "➡️ GET /static/css/app.css", "meta": {}}
+{"timestamp": "2025-10-19T22:49:59.523217", "event": "⬅️ GET /static/css/animations.css → 200 (12.3 ms)", "meta": {}}
+{"timestamp": "2025-10-19T22:49:59.527254", "event": "⬅️ GET /static/assets/logo.png → 200 (21.4 ms)", "meta": {}}
+{"timestamp": "2025-10-19T22:49:59.530016", "event": "⬅️ GET /static/css/base.css → 200 (22.6 ms)", "meta": {}}
+{"timestamp": "2025-10-19T22:49:59.532794", "event": "⬅️ GET /static/css/app.css → 200 (19.7 ms)", "meta": {}}
+{"timestamp": "2025-10-19T22:49:59.570789", "event": "➡️ GET /static/js/util.js", "meta": {}}
+{"timestamp": "2025-10-19T22:49:59.578765", "event": "➡️ GET /static/js/ui.js", "meta": {}}
+{"timestamp": "2025-10-19T22:49:59.582457", "event": "➡️ GET /static/js/main.js", "meta": {}}
+{"timestamp": "2025-10-19T22:49:59.586856", "event": "⬅️ GET /static/js/util.js → 200 (16.1 ms)", "meta": {}}
+{"timestamp": "2025-10-19T22:49:59.590976", "event": "⬅️ GET /static/js/ui.js → 200 (12.2 ms)", "meta": {}}
+{"timestamp": "2025-10-19T22:49:59.592878", "event": "⬅️ GET /static/js/main.js → 200 (10.4 ms)", "meta": {}}
+{"timestamp": "2025-10-19T22:49:59.612489", "event": "➡️ POST /api/debug/log", "meta": {}}
+{"timestamp": "2025-10-19T22:49:59.615612", "event": "➡️ POST /api/debug/log", "meta": {}}
+{"timestamp": "2025-10-19T22:49:59.620839", "event": "frontend_debug", "meta": {"msg": "UI LOADED", "version": "v2.0.0", "page": "index.html", "origin": "http://127.0.0.1:8000", "theme": "dark", "humanize": "on", "timestamp": "2025-10-19T22:49:59.609Z", "received_at": "2025-10-19T22:49:59.620839", "level": "debug", "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/141.0.0.0 Safari/537.36 Edg/141.0.0.0", "referer": "http://127.0.0.1:8000/index.html"}}
+{"timestamp": "2025-10-19T22:49:59.620839", "event": "⬅️ POST /api/debug/log → 200 (8.3 ms)", "meta": {}}
+{"timestamp": "2025-10-19T22:49:59.625681", "event": "frontend_debug", "meta": {"msg": "MAIN PAGE LOADED", "app": "ASTRA", "version": "v2.0.0", "apiBase": "http://127.0.0.1:8000", "hasHumanize": true, "origin": "http://127.0.0.1:8000", "timestamp": "2025-10-19T22:49:59.610Z", "page": "index.html", "received_at": "2025-10-19T22:49:59.625681", "level": "debug", "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/141.0.0.0 Safari/537.36 Edg/141.0.0.0", "referer": "http://127.0.0.1:8000/index.html"}}
+{"timestamp": "2025-10-19T22:49:59.625681", "event": "⬅️ POST /api/debug/log → 200 (10.1 ms)", "meta": {}}
+{"timestamp": "2025-10-19T22:49:59.648023", "event": "➡️ GET /static/assets/favicon.png", "meta": {}}
+{"timestamp": "2025-10-19T22:49:59.652941", "event": "⬅️ GET /static/assets/favicon.png → 200 (4.9 ms)", "meta": {}}
+{"timestamp": "2025-10-19T22:50:26.046868", "event": "🧩 Router loaded: backend.api.optimize", "meta": {}}
+{"timestamp": "2025-10-19T22:50:26.088367", "event": "🧩 Router loaded: backend.api.coverletter", "meta": {}}
+{"timestamp": "2025-10-19T22:50:26.121822", "event": "🧩 Router loaded: backend.api.talk", "meta": {}}
+{"timestamp": "2025-10-19T22:50:26.160918", "event": "🧩 Router loaded: backend.api.superhuman", "meta": {}}
+{"timestamp": "2025-10-19T22:50:26.172794", "event": "🧩 Router loaded: backend.api.humanize", "meta": {}}
+{"timestamp": "2025-10-19T22:50:26.227669", "event": "🧩 Router loaded: backend.api.mastermind", "meta": {}}
+{"timestamp": "2025-10-19T22:50:26.241169", "event": "🧩 Router loaded: backend.api.dashboard", "meta": {}}
+{"timestamp": "2025-10-19T22:50:26.250810", "event": "🧩 Router loaded: backend.api.models_router", "meta": {}}
+{"timestamp": "2025-10-19T22:50:26.267491", "event": "🧩 Router loaded: backend.api.context_store", "meta": {}}
+{"timestamp": "2025-10-19T22:50:26.292094", "event": "🧩 Router loaded: backend.api.utils_router", "meta": {}}
+{"timestamp": "2025-10-19T22:50:26.300907", "event": "🧩 Router loaded: backend.api.debug", "meta": {}}
+{"timestamp": "2025-10-19T22:50:26.300907", "event": "📦 Static mounted → C:\\Users\\sriak\\OneDrive\\Desktop\\HIREX\\frontend\\static", "meta": {}}
+{"timestamp": "2025-10-19T23:20:29.800272", "event": "🧩 Router loaded: backend.api.optimize", "meta": {}}
+{"timestamp": "2025-10-19T23:20:29.815593", "event": "🧩 Router loaded: backend.api.coverletter", "meta": {}}
+{"timestamp": "2025-10-19T23:20:29.841450", "event": "🧩 Router loaded: backend.api.talk", "meta": {}}
+{"timestamp": "2025-10-19T23:20:29.860985", "event": "🧩 Router loaded: backend.api.superhuman", "meta": {}}
+{"timestamp": "2025-10-19T23:20:29.867216", "event": "🧩 Router loaded: backend.api.humanize", "meta": {}}
+{"timestamp": "2025-10-19T23:20:29.900242", "event": "🧩 Router loaded: backend.api.mastermind", "meta": {}}
+{"timestamp": "2025-10-19T23:20:29.908015", "event": "🧩 Router loaded: backend.api.dashboard", "meta": {}}
+{"timestamp": "2025-10-19T23:20:29.910078", "event": "🧩 Router loaded: backend.api.models_router", "meta": {}}
+{"timestamp": "2025-10-19T23:20:29.915953", "event": "🧩 Router loaded: backend.api.context_store", "meta": {}}
+{"timestamp": "2025-10-19T23:20:29.924502", "event": "🧩 Router loaded: backend.api.utils_router", "meta": {}}
+{"timestamp": "2025-10-19T23:20:29.938067", "event": "🧩 Router loaded: backend.api.debug", "meta": {}}
+{"timestamp": "2025-10-19T23:20:29.939827", "event": "📦 Static mounted → C:\\Users\\sriak\\OneDrive\\Desktop\\HIREX\\frontend\\static", "meta": {}}
+{"timestamp": "2025-10-19T23:20:51.818659", "event": "➡️ POST /api/debug/log", "meta": {}}
+{"timestamp": "2025-10-19T23:20:51.825800", "event": "➡️ POST /api/debug/log", "meta": {}}
+{"timestamp": "2025-10-19T23:20:51.831362", "event": "frontend_debug", "meta": {"msg": "UI LOADED", "version": "v2.0.0", "page": "index.html", "origin": "http://127.0.0.1:8000", "theme": "dark", "humanize": "on", "timestamp": "2025-10-19T23:20:51.799Z", "received_at": "2025-10-19T23:20:51.830094", "level": "debug", "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/141.0.0.0 Safari/537.36 Edg/141.0.0.0", "referer": "http://127.0.0.1:8000/index.html"}}
+{"timestamp": "2025-10-19T23:20:51.833122", "event": "⬅️ POST /api/debug/log → 200 (14.5 ms)", "meta": {}}
+{"timestamp": "2025-10-19T23:20:51.836691", "event": "frontend_debug", "meta": {"msg": "MAIN PAGE LOADED", "app": "ASTRA", "version": "v2.0.0", "apiBase": "http://127.0.0.1:8000", "hasHumanize": true, "origin": "http://127.0.0.1:8000", "timestamp": "2025-10-19T23:20:51.801Z", "page": "index.html", "received_at": "2025-10-19T23:20:51.834580", "level": "debug", "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/141.0.0.0 Safari/537.36 Edg/141.0.0.0", "referer": "http://127.0.0.1:8000/index.html"}}
+{"timestamp": "2025-10-19T23:20:51.836691", "event": "⬅️ POST /api/debug/log → 200 (10.9 ms)", "meta": {}}
+{"timestamp": "2025-10-19T23:20:54.702715", "event": "➡️ POST /api/debug/log", "meta": {}}
+{"timestamp": "2025-10-19T23:20:54.705747", "event": "➡️ POST /api/debug/log", "meta": {}}
+{"timestamp": "2025-10-19T23:20:54.714131", "event": "frontend_debug", "meta": {"msg": "UI LOADED", "version": "v2.0.0", "page": "mastermind.html", "origin": "http://127.0.0.1:8000", "theme": "dark", "humanize": "on", "timestamp": "2025-10-19T23:20:54.698Z", "received_at": "2025-10-19T23:20:54.712617", "level": "debug", "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/141.0.0.0 Safari/537.36 Edg/141.0.0.0", "referer": "http://127.0.0.1:8000/mastermind.html"}}
+{"timestamp": "2025-10-19T23:20:54.716397", "event": "frontend_debug", "meta": {"msg": "MASTER MIND PAGE LOADED", "app": "ASTRA", "version": "v2.0.0", "apiBase": "http://127.0.0.1:8000", "sessions": 4, "currentId": "mgwwnoyt64b9d8", "timestamp": "2025-10-19T23:20:54.699Z", "page": "mastermind.html", "received_at": "2025-10-19T23:20:54.714131", "origin": "127.0.0.1", "level": "debug", "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/141.0.0.0 Safari/537.36 Edg/141.0.0.0", "referer": "http://127.0.0.1:8000/mastermind.html"}}
+{"timestamp": "2025-10-19T23:20:54.716397", "event": "⬅️ POST /api/debug/log → 200 (13.7 ms)", "meta": {}}
+{"timestamp": "2025-10-19T23:20:54.719653", "event": "⬅️ POST /api/debug/log → 200 (13.9 ms)", "meta": {}}
+{"timestamp": "2025-10-19T23:21:09.942001", "event": "➡️ POST /api/debug/log", "meta": {}}
+{"timestamp": "2025-10-19T23:21:09.946073", "event": "frontend_debug", "meta": {"msg": "MM_SEND", "persona": "General", "model": "gpt-4o-mini", "text": "who is india pm", "version": "v2.0.0", "timestamp": "2025-10-19T23:21:09.932Z", "page": "mastermind.html", "received_at": "2025-10-19T23:21:09.946073", "origin": "127.0.0.1", "level": "debug", "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/141.0.0.0 Safari/537.36 Edg/141.0.0.0", "referer": "http://127.0.0.1:8000/mastermind.html"}}
+{"timestamp": "2025-10-19T23:21:09.947739", "event": "⬅️ POST /api/debug/log → 200 (5.7 ms)", "meta": {}}
+{"timestamp": "2025-10-20T00:01:15.651775", "event": "🧩 Router loaded: backend.api.optimize", "meta": {}}
+{"timestamp": "2025-10-20T00:01:15.692143", "event": "🧩 Router loaded: backend.api.coverletter", "meta": {}}
+{"timestamp": "2025-10-20T00:01:15.736043", "event": "🧩 Router loaded: backend.api.talk", "meta": {}}
+{"timestamp": "2025-10-20T00:01:15.771052", "event": "🧩 Router loaded: backend.api.superhuman", "meta": {}}
+{"timestamp": "2025-10-20T00:01:15.783923", "event": "🧩 Router loaded: backend.api.humanize", "meta": {}}
+{"timestamp": "2025-10-20T00:01:15.839197", "event": "🧩 Router loaded: backend.api.mastermind", "meta": {}}
+{"timestamp": "2025-10-20T00:01:15.850764", "event": "🧩 Router loaded: backend.api.dashboard", "meta": {}}
+{"timestamp": "2025-10-20T00:01:15.858846", "event": "🧩 Router loaded: backend.api.models_router", "meta": {}}
+{"timestamp": "2025-10-20T00:01:15.870216", "event": "🧩 Router loaded: backend.api.context_store", "meta": {}}
+{"timestamp": "2025-10-20T00:01:15.894319", "event": "🧩 Router loaded: backend.api.utils_router", "meta": {}}
+{"timestamp": "2025-10-20T00:01:15.896153", "event": "🧩 Router loaded: backend.api.debug", "meta": {}}
+{"timestamp": "2025-10-20T00:01:15.900738", "event": "📦 Static mounted → C:\\Users\\sriak\\OneDrive\\Desktop\\HIREX\\frontend\\static", "meta": {}}
+{"timestamp": "2025-10-20T00:01:18.388439", "event": "➡️ GET /mastermind.html", "meta": {}}
+{"timestamp": "2025-10-20T00:01:18.517632", "event": "⬅️ GET /mastermind.html → 200 (129.2 ms)", "meta": {}}
+{"timestamp": "2025-10-20T00:01:18.816069", "event": "➡️ POST /api/debug/log", "meta": {}}
+{"timestamp": "2025-10-20T00:01:18.818558", "event": "➡️ POST /api/debug/log", "meta": {}}
+{"timestamp": "2025-10-20T00:01:18.821332", "event": "frontend_debug", "meta": {"msg": "UI LOADED", "version": "v2.0.0", "page": "mastermind.html", "origin": "http://127.0.0.1:8000", "theme": "dark", "humanize": "on", "timestamp": "2025-10-20T00:01:18.811Z", "received_at": "2025-10-20T00:01:18.821332", "level": "debug", "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/141.0.0.0 Safari/537.36 Edg/141.0.0.0", "referer": "http://127.0.0.1:8000/mastermind.html"}}
+{"timestamp": "2025-10-20T00:01:18.826179", "event": "⬅️ POST /api/debug/log → 200 (10.1 ms)", "meta": {}}
+{"timestamp": "2025-10-20T00:01:18.829781", "event": "frontend_debug", "meta": {"msg": "MASTER MIND PAGE LOADED", "app": "ASTRA", "version": "v2.0.0", "apiBase": "http://127.0.0.1:8000", "sessions": 4, "currentId": "mgwwnoyt64b9d8", "timestamp": "2025-10-20T00:01:18.812Z", "page": "mastermind.html", "received_at": "2025-10-20T00:01:18.829781", "origin": "127.0.0.1", "level": "debug", "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/141.0.0.0 Safari/537.36 Edg/141.0.0.0", "referer": "http://127.0.0.1:8000/mastermind.html"}}
+{"timestamp": "2025-10-20T00:01:18.831794", "event": "⬅️ POST /api/debug/log → 200 (13.2 ms)", "meta": {}}
+{"timestamp": "2025-10-20T00:01:19.754057", "event": "➡️ GET /mastermind.html", "meta": {}}
+{"timestamp": "2025-10-20T00:01:19.756073", "event": "⬅️ GET /mastermind.html → 200 (2.0 ms)", "meta": {}}
+{"timestamp": "2025-10-20T00:01:19.816080", "event": "➡️ GET /static/css/base.css", "meta": {}}
+{"timestamp": "2025-10-20T00:01:19.818471", "event": "➡️ GET /static/css/animations.css", "meta": {}}
+{"timestamp": "2025-10-20T00:01:19.824051", "event": "➡️ GET /static/assets/logo.png", "meta": {}}
+{"timestamp": "2025-10-20T00:01:19.826064", "event": "➡️ GET /static/js/util.js", "meta": {}}
+{"timestamp": "2025-10-20T00:01:19.826064", "event": "➡️ GET /static/css/app.css", "meta": {}}
+{"timestamp": "2025-10-20T00:01:19.826064", "event": "➡️ GET /static/js/ui.js", "meta": {}}
+{"timestamp": "2025-10-20T00:01:19.842427", "event": "⬅️ GET /static/css/base.css → 200 (26.3 ms)", "meta": {}}
+{"timestamp": "2025-10-20T00:01:19.845839", "event": "⬅️ GET /static/assets/logo.png → 200 (21.8 ms)", "meta": {}}
+{"timestamp": "2025-10-20T00:01:19.849639", "event": "⬅️ GET /static/js/util.js → 200 (23.6 ms)", "meta": {}}
+{"timestamp": "2025-10-20T00:01:19.852746", "event": "⬅️ GET /static/css/animations.css → 200 (34.3 ms)", "meta": {}}
+{"timestamp": "2025-10-20T00:01:19.852746", "event": "⬅️ GET /static/js/ui.js → 200 (26.7 ms)", "meta": {}}
+{"timestamp": "2025-10-20T00:01:19.856133", "event": "⬅️ GET /static/css/app.css → 200 (30.1 ms)", "meta": {}}
+{"timestamp": "2025-10-20T00:01:19.866504", "event": "➡️ GET /static/js/mastermind.js", "meta": {}}
+{"timestamp": "2025-10-20T00:01:19.876024", "event": "⬅️ GET /static/js/mastermind.js → 200 (9.5 ms)", "meta": {}}
+{"timestamp": "2025-10-20T00:01:20.111954", "event": "➡️ POST /api/debug/log", "meta": {}}
+{"timestamp": "2025-10-20T00:01:20.113969", "event": "➡️ GET /api/mastermind/sessions", "meta": {}}
+{"timestamp": "2025-10-20T00:01:20.115984", "event": "➡️ POST /api/debug/log", "meta": {}}
+{"timestamp": "2025-10-20T00:01:20.123516", "event": "frontend_debug", "meta": {"msg": "UI LOADED", "version": "v2.0.0", "page": "mastermind.html", "origin": "http://127.0.0.1:8000", "theme": "dark", "humanize": "on", "timestamp": "2025-10-20T00:01:20.106Z", "received_at": "2025-10-20T00:01:20.121502", "level": "debug", "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/141.0.0.0 Safari/537.36 Edg/141.0.0.0", "referer": "http://127.0.0.1:8000/mastermind.html"}}
+{"timestamp": "2025-10-20T00:01:20.123516", "event": "⬅️ GET /api/mastermind/sessions → 200 (9.5 ms)", "meta": {}}
+{"timestamp": "2025-10-20T00:01:20.126176", "event": "⬅️ POST /api/debug/log → 200 (14.2 ms)", "meta": {}}
+{"timestamp": "2025-10-20T00:01:20.128744", "event": "frontend_debug", "meta": {"msg": "MASTER MIND PAGE LOADED", "app": "ASTRA", "version": "v2.0.0", "apiBase": "http://127.0.0.1:8000", "sessions": 0, "currentId": "mgwwnoyt64b9d8", "timestamp": "2025-10-20T00:01:20.109Z", "page": "mastermind.html", "received_at": "2025-10-20T00:01:20.128744", "origin": "127.0.0.1", "level": "debug", "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/141.0.0.0 Safari/537.36 Edg/141.0.0.0", "referer": "http://127.0.0.1:8000/mastermind.html"}}
+{"timestamp": "2025-10-20T00:01:20.133208", "event": "⬅️ POST /api/debug/log → 200 (17.2 ms)", "meta": {}}
+{"timestamp": "2025-10-20T00:01:20.174357", "event": "➡️ POST /api/mastermind/start", "meta": {}}
+{"timestamp": "2025-10-20T00:01:20.176386", "event": "➡️ GET /static/assets/favicon.png", "meta": {}}
+{"timestamp": "2025-10-20T00:01:20.182908", "event": "mastermind_session_started", "meta": {"persona": "General", "model": "gpt-4o-mini"}}
+{"timestamp": "2025-10-20T00:01:20.186009", "event": "⬅️ POST /api/mastermind/start → 200 (11.7 ms)", "meta": {}}
+{"timestamp": "2025-10-20T00:01:20.188193", "event": "⬅️ GET /static/assets/favicon.png → 200 (11.8 ms)", "meta": {}}
+{"timestamp": "2025-10-20T00:01:20.195903", "event": "➡️ GET /api/mastermind/history", "meta": {}}
+{"timestamp": "2025-10-20T00:01:20.232802", "event": "⬅️ GET /api/mastermind/history → 200 (36.9 ms)", "meta": {}}
+{"timestamp": "2025-10-20T00:01:27.883044", "event": "➡️ POST /api/debug/log", "meta": {}}
+{"timestamp": "2025-10-20T00:01:27.889688", "event": "frontend_debug", "meta": {"msg": "MM_SEND", "persona": "General", "model": "gpt-4o-mini", "text": "who is india pm", "version": "v2.0.0", "timestamp": "2025-10-20T00:01:27.870Z", "page": "mastermind.html", "received_at": "2025-10-20T00:01:27.886013", "origin": "127.0.0.1", "level": "debug", "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/141.0.0.0 Safari/537.36 Edg/141.0.0.0", "referer": "http://127.0.0.1:8000/mastermind.html"}}
+{"timestamp": "2025-10-20T00:01:27.891489", "event": "⬅️ POST /api/debug/log → 200 (8.4 ms)", "meta": {}}
+{"timestamp": "2025-10-20T00:05:49.763866", "event": "🧩 Router loaded: backend.api.optimize", "meta": {}}
+{"timestamp": "2025-10-20T00:05:49.811504", "event": "🧩 Router loaded: backend.api.coverletter", "meta": {}}
+{"timestamp": "2025-10-20T00:05:49.856610", "event": "🧩 Router loaded: backend.api.talk", "meta": {}}
+{"timestamp": "2025-10-20T00:05:49.896089", "event": "🧩 Router loaded: backend.api.superhuman", "meta": {}}
+{"timestamp": "2025-10-20T00:05:49.911350", "event": "🧩 Router loaded: backend.api.humanize", "meta": {}}
+{"timestamp": "2025-10-20T00:05:49.962904", "event": "🧩 Router loaded: backend.api.mastermind", "meta": {}}
+{"timestamp": "2025-10-20T00:05:49.971237", "event": "🧩 Router loaded: backend.api.dashboard", "meta": {}}
+{"timestamp": "2025-10-20T00:05:49.979736", "event": "🧩 Router loaded: backend.api.models_router", "meta": {}}
+{"timestamp": "2025-10-20T00:05:49.992272", "event": "🧩 Router loaded: backend.api.context_store", "meta": {}}
+{"timestamp": "2025-10-20T00:05:50.019096", "event": "🧩 Router loaded: backend.api.utils_router", "meta": {}}
+{"timestamp": "2025-10-20T00:05:50.028817", "event": "🧩 Router loaded: backend.api.debug", "meta": {}}
+{"timestamp": "2025-10-20T00:05:50.030832", "event": "📦 Static mounted → C:\\Users\\sriak\\OneDrive\\Desktop\\HIREX\\frontend\\static", "meta": {}}
+{"timestamp": "2025-10-20T00:05:51.816699", "event": "➡️ GET /mastermind.html", "meta": {}}
+{"timestamp": "2025-10-20T00:05:51.932823", "event": "⬅️ GET /mastermind.html → 200 (116.1 ms)", "meta": {}}
+{"timestamp": "2025-10-20T00:05:51.994895", "event": "➡️ GET /static/css/base.css", "meta": {}}
+{"timestamp": "2025-10-20T00:05:51.996416", "event": "➡️ GET /static/css/animations.css", "meta": {}}
+{"timestamp": "2025-10-20T00:05:51.996416", "event": "➡️ GET /static/assets/logo.png", "meta": {}}
+{"timestamp": "2025-10-20T00:05:52.001713", "event": "➡️ GET /static/css/app.css", "meta": {}}
+{"timestamp": "2025-10-20T00:05:52.010349", "event": "⬅️ GET /static/css/base.css → 200 (15.5 ms)", "meta": {}}
+{"timestamp": "2025-10-20T00:05:52.010349", "event": "⬅️ GET /static/assets/logo.png → 200 (13.9 ms)", "meta": {}}
+{"timestamp": "2025-10-20T00:05:52.016521", "event": "⬅️ GET /static/css/app.css → 200 (14.8 ms)", "meta": {}}
+{"timestamp": "2025-10-20T00:05:52.021225", "event": "⬅️ GET /static/css/animations.css → 200 (24.8 ms)", "meta": {}}
+{"timestamp": "2025-10-20T00:05:52.051699", "event": "➡️ GET /static/js/util.js", "meta": {}}
+{"timestamp": "2025-10-20T00:05:52.057243", "event": "➡️ GET /static/js/mastermind.js", "meta": {}}
+{"timestamp": "2025-10-20T00:05:52.059262", "event": "➡️ GET /static/js/ui.js", "meta": {}}
+{"timestamp": "2025-10-20T00:05:52.060734", "event": "⬅️ GET /static/js/util.js → 200 (9.0 ms)", "meta": {}}
+{"timestamp": "2025-10-20T00:05:52.066418", "event": "⬅️ GET /static/js/ui.js → 200 (7.2 ms)", "meta": {}}
+{"timestamp": "2025-10-20T00:05:52.066418", "event": "⬅️ GET /static/js/mastermind.js → 200 (9.2 ms)", "meta": {}}
+{"timestamp": "2025-10-20T00:05:52.226949", "event": "➡️ POST /api/debug/log", "meta": {}}
+{"timestamp": "2025-10-20T00:05:52.228829", "event": "➡️ GET /api/mastermind/sessions", "meta": {}}
+{"timestamp": "2025-10-20T00:05:52.228829", "event": "➡️ POST /api/debug/log", "meta": {}}
+{"timestamp": "2025-10-20T00:05:52.237988", "event": "frontend_debug", "meta": {"msg": "UI LOADED", "version": "v2.0.0", "page": "mastermind.html", "origin": "http://127.0.0.1:8000", "theme": "dark", "humanize": "on", "timestamp": "2025-10-20T00:05:52.221Z", "received_at": "2025-10-20T00:05:52.236196", "level": "debug", "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/141.0.0.0 Safari/537.36 Edg/141.0.0.0", "referer": "http://127.0.0.1:8000/mastermind.html"}}
+{"timestamp": "2025-10-20T00:05:52.239994", "event": "⬅️ GET /api/mastermind/sessions → 200 (11.2 ms)", "meta": {}}
+{"timestamp": "2025-10-20T00:05:52.242002", "event": "⬅️ POST /api/debug/log → 200 (15.4 ms)", "meta": {}}
+{"timestamp": "2025-10-20T00:05:52.246427", "event": "frontend_debug", "meta": {"msg": "MASTER MIND PAGE LOADED", "app": "ASTRA", "version": "v2.0.0", "apiBase": "http://127.0.0.1:8000", "sessions": 1, "currentId": "mm_20251020-000120_df3df3", "timestamp": "2025-10-20T00:05:52.225Z", "page": "mastermind.html", "received_at": "2025-10-20T00:05:52.243840", "origin": "127.0.0.1", "level": "debug", "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/141.0.0.0 Safari/537.36 Edg/141.0.0.0", "referer": "http://127.0.0.1:8000/mastermind.html"}}
+{"timestamp": "2025-10-20T00:05:52.246427", "event": "⬅️ POST /api/debug/log → 200 (17.6 ms)", "meta": {}}
+{"timestamp": "2025-10-20T00:05:52.363211", "event": "➡️ GET /static/assets/favicon.png", "meta": {}}
+{"timestamp": "2025-10-20T00:05:52.364221", "event": "➡️ GET /api/mastermind/history", "meta": {}}
+{"timestamp": "2025-10-20T00:05:52.366227", "event": "⬅️ GET /api/mastermind/history → 200 (2.0 ms)", "meta": {}}
+{"timestamp": "2025-10-20T00:05:52.372436", "event": "⬅️ GET /static/assets/favicon.png → 200 (9.2 ms)", "meta": {}}
+{"timestamp": "2025-10-20T00:06:03.904395", "event": "➡️ POST /api/debug/log", "meta": {}}
+{"timestamp": "2025-10-20T00:06:03.912522", "event": "frontend_debug", "meta": {"msg": "MM_SEND", "persona": "General", "model": "gpt-4o-mini", "text": "who  is india pm", "version": "v2.0.0", "timestamp": "2025-10-20T00:06:03.896Z", "page": "mastermind.html", "received_at": "2025-10-20T00:06:03.912522", "origin": "127.0.0.1", "level": "debug", "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/141.0.0.0 Safari/537.36 Edg/141.0.0.0", "referer": "http://127.0.0.1:8000/mastermind.html"}}
+{"timestamp": "2025-10-20T00:06:03.916446", "event": "⬅️ POST /api/debug/log → 200 (12.1 ms)", "meta": {}}
+{"timestamp": "2025-10-20T00:07:12.741457", "event": "➡️ GET /mastermind.html", "meta": {}}
+{"timestamp": "2025-10-20T00:07:12.747492", "event": "⬅️ GET /mastermind.html → 200 (6.0 ms)", "meta": {}}
+{"timestamp": "2025-10-20T00:07:12.816487", "event": "➡️ GET /static/css/base.css", "meta": {}}
+{"timestamp": "2025-10-20T00:07:12.818537", "event": "➡️ GET /static/css/animations.css", "meta": {}}
+{"timestamp": "2025-10-20T00:07:12.826431", "event": "➡️ GET /static/assets/logo.png", "meta": {}}
+{"timestamp": "2025-10-20T00:07:12.826431", "event": "➡️ GET /static/css/app.css", "meta": {}}
+{"timestamp": "2025-10-20T00:07:12.826431", "event": "⬅️ GET /static/css/base.css → 200 (9.9 ms)", "meta": {}}
+{"timestamp": "2025-10-20T00:07:12.836620", "event": "➡️ GET /static/js/util.js", "meta": {}}
+{"timestamp": "2025-10-20T00:07:12.836620", "event": "➡️ GET /static/js/ui.js", "meta": {}}
+{"timestamp": "2025-10-20T00:07:12.836620", "event": "⬅️ GET /static/css/animations.css → 200 (18.1 ms)", "meta": {}}
+{"timestamp": "2025-10-20T00:07:12.846697", "event": "⬅️ GET /static/assets/logo.png → 200 (20.3 ms)", "meta": {}}
+{"timestamp": "2025-10-20T00:07:12.850333", "event": "⬅️ GET /static/css/app.css → 200 (23.9 ms)", "meta": {}}
+{"timestamp": "2025-10-20T00:07:12.850333", "event": "⬅️ GET /static/js/util.js → 200 (13.7 ms)", "meta": {}}
+{"timestamp": "2025-10-20T00:07:12.856453", "event": "⬅️ GET /static/js/ui.js → 200 (19.8 ms)", "meta": {}}
+{"timestamp": "2025-10-20T00:07:12.859177", "event": "➡️ GET /static/js/mastermind.js", "meta": {}}
+{"timestamp": "2025-10-20T00:07:12.870197", "event": "⬅️ GET /static/js/mastermind.js → 200 (11.0 ms)", "meta": {}}
+{"timestamp": "2025-10-20T00:07:13.078398", "event": "➡️ POST /api/debug/log", "meta": {}}
+{"timestamp": "2025-10-20T00:07:13.079530", "event": "➡️ GET /api/mastermind/sessions", "meta": {}}
+{"timestamp": "2025-10-20T00:07:13.079530", "event": "➡️ POST /api/debug/log", "meta": {}}
+{"timestamp": "2025-10-20T00:07:13.089156", "event": "frontend_debug", "meta": {"msg": "UI LOADED", "version": "v2.0.0", "page": "mastermind.html", "origin": "http://127.0.0.1:8000", "theme": "dark", "humanize": "on", "timestamp": "2025-10-20T00:07:13.073Z", "received_at": "2025-10-20T00:07:13.089156", "level": "debug", "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/141.0.0.0 Safari/537.36 Edg/141.0.0.0", "referer": "http://127.0.0.1:8000/mastermind.html"}}
+{"timestamp": "2025-10-20T00:07:13.091689", "event": "⬅️ GET /api/mastermind/sessions → 200 (12.2 ms)", "meta": {}}
+{"timestamp": "2025-10-20T00:07:13.093791", "event": "⬅️ POST /api/debug/log → 200 (15.4 ms)", "meta": {}}
+{"timestamp": "2025-10-20T00:07:13.099714", "event": "frontend_debug", "meta": {"msg": "MASTER MIND PAGE LOADED", "app": "ASTRA", "version": "v2.0.0", "apiBase": "http://127.0.0.1:8000", "sessions": 1, "currentId": "mm_20251020-000120_df3df3", "timestamp": "2025-10-20T00:07:13.075Z", "page": "mastermind.html", "received_at": "2025-10-20T00:07:13.096498", "origin": "127.0.0.1", "level": "debug", "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/141.0.0.0 Safari/537.36 Edg/141.0.0.0", "referer": "http://127.0.0.1:8000/mastermind.html"}}
+{"timestamp": "2025-10-20T00:07:13.100915", "event": "⬅️ POST /api/debug/log → 200 (21.4 ms)", "meta": {}}
+{"timestamp": "2025-10-20T00:07:13.139189", "event": "➡️ GET /api/mastermind/history", "meta": {}}
+{"timestamp": "2025-10-20T00:07:13.140522", "event": "➡️ GET /static/assets/favicon.png", "meta": {}}
+{"timestamp": "2025-10-20T00:07:13.143724", "event": "⬅️ GET /api/mastermind/history → 200 (4.5 ms)", "meta": {}}
+{"timestamp": "2025-10-20T00:07:13.149257", "event": "⬅️ GET /static/assets/favicon.png → 200 (8.7 ms)", "meta": {}}
+{"timestamp": "2025-10-20T00:09:41.879477", "event": "➡️ GET /mastermind.html", "meta": {}}
+{"timestamp": "2025-10-20T00:09:41.887481", "event": "⬅️ GET /mastermind.html → 200 (8.0 ms)", "meta": {}}
+{"timestamp": "2025-10-20T00:09:41.986783", "event": "➡️ GET /static/css/base.css", "meta": {}}
+{"timestamp": "2025-10-20T00:09:41.986783", "event": "➡️ GET /static/css/animations.css", "meta": {}}
+{"timestamp": "2025-10-20T00:09:41.992189", "event": "➡️ GET /static/assets/logo.png", "meta": {}}
+{"timestamp": "2025-10-20T00:09:41.994249", "event": "➡️ GET /static/css/app.css", "meta": {}}
+{"timestamp": "2025-10-20T00:09:42.004664", "event": "⬅️ GET /static/css/base.css → 200 (17.9 ms)", "meta": {}}
+{"timestamp": "2025-10-20T00:09:42.009439", "event": "⬅️ GET /static/css/animations.css → 200 (22.7 ms)", "meta": {}}
+{"timestamp": "2025-10-20T00:09:42.009439", "event": "⬅️ GET /static/assets/logo.png → 200 (17.2 ms)", "meta": {}}
+{"timestamp": "2025-10-20T00:09:42.009439", "event": "⬅️ GET /static/css/app.css → 200 (15.2 ms)", "meta": {}}
+{"timestamp": "2025-10-20T00:09:42.079390", "event": "➡️ GET /static/js/util.js", "meta": {}}
+{"timestamp": "2025-10-20T00:09:42.079390", "event": "➡️ GET /static/js/ui.js", "meta": {}}
+{"timestamp": "2025-10-20T00:09:42.084612", "event": "➡️ GET /static/js/mastermind.js", "meta": {}}
+{"timestamp": "2025-10-20T00:09:42.089679", "event": "⬅️ GET /static/js/util.js → 200 (10.3 ms)", "meta": {}}
+{"timestamp": "2025-10-20T00:09:42.089679", "event": "⬅️ GET /static/js/mastermind.js → 200 (5.1 ms)", "meta": {}}
+{"timestamp": "2025-10-20T00:09:42.096474", "event": "⬅️ GET /static/js/ui.js → 200 (17.1 ms)", "meta": {}}
+{"timestamp": "2025-10-20T00:09:42.229965", "event": "➡️ POST /api/debug/log", "meta": {}}
+{"timestamp": "2025-10-20T00:09:42.232975", "event": "➡️ GET /api/mastermind/sessions", "meta": {}}
+{"timestamp": "2025-10-20T00:09:42.235548", "event": "➡️ POST /api/debug/log", "meta": {}}
+{"timestamp": "2025-10-20T00:09:42.240973", "event": "frontend_debug", "meta": {"msg": "UI LOADED", "version": "v2.0.0", "page": "mastermind.html", "origin": "http://127.0.0.1:8000", "theme": "dark", "humanize": "on", "timestamp": "2025-10-20T00:09:42.226Z", "received_at": "2025-10-20T00:09:42.240973", "level": "debug", "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/141.0.0.0 Safari/537.36 Edg/141.0.0.0", "referer": "http://127.0.0.1:8000/mastermind.html"}}
+{"timestamp": "2025-10-20T00:09:42.240973", "event": "⬅️ GET /api/mastermind/sessions → 200 (8.0 ms)", "meta": {}}
+{"timestamp": "2025-10-20T00:09:42.247062", "event": "⬅️ POST /api/debug/log → 200 (17.1 ms)", "meta": {}}
+{"timestamp": "2025-10-20T00:09:42.250728", "event": "frontend_debug", "meta": {"msg": "MASTER MIND PAGE LOADED", "app": "ASTRA", "version": "v2.0.0", "apiBase": "http://127.0.0.1:8000", "sessions": 1, "currentId": "mm_20251020-000120_df3df3", "timestamp": "2025-10-20T00:09:42.229Z", "page": "mastermind.html", "received_at": "2025-10-20T00:09:42.250728", "origin": "127.0.0.1", "level": "debug", "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/141.0.0.0 Safari/537.36 Edg/141.0.0.0", "referer": "http://127.0.0.1:8000/mastermind.html"}}
+{"timestamp": "2025-10-20T00:09:42.253195", "event": "⬅️ POST /api/debug/log → 200 (17.6 ms)", "meta": {}}
+{"timestamp": "2025-10-20T00:09:42.384592", "event": "➡️ GET /api/mastermind/history", "meta": {}}
+{"timestamp": "2025-10-20T00:09:42.386498", "event": "➡️ GET /static/assets/favicon.png", "meta": {}}
+{"timestamp": "2025-10-20T00:09:42.386498", "event": "⬅️ GET /api/mastermind/history → 200 (1.9 ms)", "meta": {}}
+{"timestamp": "2025-10-20T00:09:42.394064", "event": "⬅️ GET /static/assets/favicon.png → 200 (7.6 ms)", "meta": {}}
+{"timestamp": "2025-10-20T00:09:52.761818", "event": "➡️ POST /api/debug/log", "meta": {}}
+{"timestamp": "2025-10-20T00:09:52.765763", "event": "➡️ POST /api/debug/log", "meta": {}}
+{"timestamp": "2025-10-20T00:09:52.771915", "event": "frontend_debug", "meta": {"msg": "MM_SEND", "persona": "General", "model": "gpt-4o-mini", "text": "who is us president", "version": "v2.0.0", "timestamp": "2025-10-20T00:09:52.756Z", "page": "mastermind.html", "received_at": "2025-10-20T00:09:52.770881", "origin": "127.0.0.1", "level": "debug", "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/141.0.0.0 Safari/537.36 Edg/141.0.0.0", "referer": "http://127.0.0.1:8000/mastermind.html"}}
+{"timestamp": "2025-10-20T00:09:52.775375", "event": "➡️ POST /api/mastermind/chat", "meta": {}}
+{"timestamp": "2025-10-20T00:09:52.776830", "event": "frontend_debug", "meta": {"msg": "MM_CHAT_POST", "session_id": "mm_20251020-000120_df3df3", "persona": "General", "model": "gpt-4o-mini", "tone": "balanced", "version": "v2.0.0", "timestamp": "2025-10-20T00:09:52.757Z", "page": "mastermind.html", "received_at": "2025-10-20T00:09:52.776830", "origin": "127.0.0.1", "level": "debug", "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/141.0.0.0 Safari/537.36 Edg/141.0.0.0", "referer": "http://127.0.0.1:8000/mastermind.html"}}
+{"timestamp": "2025-10-20T00:09:52.776830", "event": "⬅️ POST /api/debug/log → 200 (15.0 ms)", "meta": {}}
+{"timestamp": "2025-10-20T00:09:52.783930", "event": "⬅️ POST /api/debug/log → 200 (18.2 ms)", "meta": {}}
+{"timestamp": "2025-10-20T00:10:00.992630", "event": "mastermind_chat", "meta": {"session_id": "mm_20251020-000120_df3df3", "persona": "General", "tone": "balanced", "model": "gpt-4o-mini", "chars": 176}}
+{"timestamp": "2025-10-20T00:10:00.994639", "event": "⬅️ POST /api/mastermind/chat → 200 (8219.3 ms)", "meta": {}}
+{"timestamp": "2025-10-20T00:14:00.630921", "event": "➡️ POST /api/debug/log", "meta": {}}
+{"timestamp": "2025-10-20T00:14:00.633348", "event": "➡️ POST /api/debug/log", "meta": {}}
+{"timestamp": "2025-10-20T00:14:00.638247", "event": "frontend_debug", "meta": {"msg": "UI LOADED", "version": "v2.0.0", "page": "superhuman.html", "origin": "http://127.0.0.1:8000", "theme": "dark", "humanize": "on", "timestamp": "2025-10-20T00:14:00.625Z", "received_at": "2025-10-20T00:14:00.636698", "level": "debug", "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/141.0.0.0 Safari/537.36 Edg/141.0.0.0", "referer": "http://127.0.0.1:8000/superhuman.html"}}
+{"timestamp": "2025-10-20T00:14:00.638247", "event": "⬅️ POST /api/debug/log → 200 (7.3 ms)", "meta": {}}
+{"timestamp": "2025-10-20T00:14:00.641922", "event": "frontend_debug", "meta": {"msg": "SUPERHUMAN PAGE LOADED", "version": "v2.0.0", "apiBase": "http://127.0.0.1:8000", "restored": false, "tone": "balanced", "mode": "paragraph", "latexSafe": true, "humanizeOn": true, "timestamp": "2025-10-20T00:14:00.627Z", "page": "superhuman.html", "received_at": "2025-10-20T00:14:00.641922", "origin": "127.0.0.1", "level": "debug", "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/141.0.0.0 Safari/537.36 Edg/141.0.0.0", "referer": "http://127.0.0.1:8000/superhuman.html"}}
+{"timestamp": "2025-10-20T00:14:00.645051", "event": "⬅️ POST /api/debug/log → 200 (11.7 ms)", "meta": {}}
+{"timestamp": "2025-10-20T00:15:36.806706", "event": "➡️ GET /mastermind.html", "meta": {}}
+{"timestamp": "2025-10-20T00:15:36.812832", "event": "⬅️ GET /mastermind.html → 200 (6.1 ms)", "meta": {}}
+{"timestamp": "2025-10-20T00:15:36.926741", "event": "➡️ POST /api/debug/log", "meta": {}}
+{"timestamp": "2025-10-20T00:15:36.930624", "event": "➡️ POST /api/debug/log", "meta": {}}
+{"timestamp": "2025-10-20T00:15:36.930624", "event": "frontend_debug", "meta": {"msg": "UI LOADED", "version": "v2.0.0", "page": "mastermind.html", "origin": "http://127.0.0.1:8000", "theme": "dark", "humanize": "on", "timestamp": "2025-10-20T00:15:36.915Z", "received_at": "2025-10-20T00:15:36.930624", "level": "debug", "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/141.0.0.0 Safari/537.36 Edg/141.0.0.0", "referer": "http://127.0.0.1:8000/mastermind.html"}}
+{"timestamp": "2025-10-20T00:15:36.937827", "event": "➡️ GET /api/mastermind/sessions", "meta": {}}
+{"timestamp": "2025-10-20T00:15:36.940431", "event": "frontend_debug", "meta": {"msg": "MASTER MIND PAGE LOADED", "app": "ASTRA", "version": "v2.0.0", "apiBase": "http://127.0.0.1:8000", "sessions": 1, "currentId": "mm_20251020-000120_df3df3", "timestamp": "2025-10-20T00:15:36.916Z", "page": "mastermind.html", "received_at": "2025-10-20T00:15:36.939073", "origin": "127.0.0.1", "level": "debug", "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/141.0.0.0 Safari/537.36 Edg/141.0.0.0", "referer": "http://127.0.0.1:8000/mastermind.html"}}
+{"timestamp": "2025-10-20T00:15:36.972752", "event": "⬅️ POST /api/debug/log → 200 (46.0 ms)", "meta": {}}
+{"timestamp": "2025-10-20T00:15:36.976855", "event": "⬅️ POST /api/debug/log → 200 (46.2 ms)", "meta": {}}
+{"timestamp": "2025-10-20T00:15:36.978614", "event": "⬅️ GET /api/mastermind/sessions → 200 (40.8 ms)", "meta": {}}
+{"timestamp": "2025-10-20T00:15:36.990264", "event": "➡️ GET /api/mastermind/history", "meta": {}}
+{"timestamp": "2025-10-20T00:15:36.993518", "event": "⬅️ GET /api/mastermind/history → 200 (3.3 ms)", "meta": {}}
+{"timestamp": "2025-10-20T00:16:00.856745", "event": "➡️ POST /api/debug/log", "meta": {}}
+{"timestamp": "2025-10-20T00:16:00.859655", "event": "➡️ POST /api/debug/log", "meta": {}}
+{"timestamp": "2025-10-20T00:16:00.862072", "event": "➡️ POST /api/mastermind/chat", "meta": {}}
+{"timestamp": "2025-10-20T00:16:00.866982", "event": "frontend_debug", "meta": {"msg": "MM_SEND", "persona": "General", "model": "gpt-4o-mini", "text": "what is avg salary for ml engineer usa", "version": "v2.0.0", "timestamp": "2025-10-20T00:16:00.846Z", "page": "mastermind.html", "received_at": "2025-10-20T00:16:00.866982", "origin": "127.0.0.1", "level": "debug", "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/141.0.0.0 Safari/537.36 Edg/141.0.0.0", "referer": "http://127.0.0.1:8000/mastermind.html"}}
+{"timestamp": "2025-10-20T00:16:00.869424", "event": "⬅️ POST /api/debug/log → 200 (12.7 ms)", "meta": {}}
+{"timestamp": "2025-10-20T00:16:00.869424", "event": "frontend_debug", "meta": {"msg": "MM_CHAT_POST", "session_id": "mm_20251020-000120_df3df3", "persona": "General", "model": "gpt-4o-mini", "tone": "balanced", "version": "v2.0.0", "timestamp": "2025-10-20T00:16:00.847Z", "page": "mastermind.html", "received_at": "2025-10-20T00:16:00.869424", "origin": "127.0.0.1", "level": "debug", "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/141.0.0.0 Safari/537.36 Edg/141.0.0.0", "referer": "http://127.0.0.1:8000/mastermind.html"}}
+{"timestamp": "2025-10-20T00:16:00.886746", "event": "⬅️ POST /api/debug/log → 200 (27.1 ms)", "meta": {}}
+{"timestamp": "2025-10-20T00:16:03.513721", "event": "mastermind_chat", "meta": {"session_id": "mm_20251020-000120_df3df3", "persona": "General", "tone": "balanced", "model": "gpt-4o-mini", "chars": 344}}
+{"timestamp": "2025-10-20T00:16:03.513721", "event": "⬅️ POST /api/mastermind/chat → 200 (2651.6 ms)", "meta": {}}
+{"timestamp": "2025-10-20T00:17:20.542180", "event": "➡️ POST /api/debug/log", "meta": {}}
+{"timestamp": "2025-10-20T00:17:20.546248", "event": "➡️ POST /api/mastermind/chat", "meta": {}}
+{"timestamp": "2025-10-20T00:17:20.547266", "event": "➡️ POST /api/debug/log", "meta": {}}
+{"timestamp": "2025-10-20T00:17:20.551334", "event": "frontend_debug", "meta": {"msg": "MM_SEND", "persona": "CodeHelper", "model": "gpt-4o-mini", "text": "what is your name", "version": "v2.0.0", "timestamp": "2025-10-20T00:17:20.527Z", "page": "mastermind.html", "received_at": "2025-10-20T00:17:20.551334", "origin": "127.0.0.1", "level": "debug", "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/141.0.0.0 Safari/537.36 Edg/141.0.0.0", "referer": "http://127.0.0.1:8000/mastermind.html"}}
+{"timestamp": "2025-10-20T00:17:20.553350", "event": "⬅️ POST /api/debug/log → 200 (11.2 ms)", "meta": {}}
+{"timestamp": "2025-10-20T00:17:20.596820", "event": "frontend_debug", "meta": {"msg": "MM_CHAT_POST", "session_id": "mm_20251020-000120_df3df3", "persona": "CodeHelper", "model": "gpt-4o-mini", "tone": "balanced", "version": "v2.0.0", "timestamp": "2025-10-20T00:17:20.529Z", "page": "mastermind.html", "received_at": "2025-10-20T00:17:20.596820", "origin": "127.0.0.1", "level": "debug", "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/141.0.0.0 Safari/537.36 Edg/141.0.0.0", "referer": "http://127.0.0.1:8000/mastermind.html"}}
+{"timestamp": "2025-10-20T00:17:20.596820", "event": "⬅️ POST /api/debug/log → 200 (49.6 ms)", "meta": {}}
+{"timestamp": "2025-10-20T00:17:21.832022", "event": "mastermind_chat", "meta": {"session_id": "mm_20251020-000120_df3df3", "persona": "CodeHelper", "tone": "balanced", "model": "gpt-4o-mini", "chars": 50}}
+{"timestamp": "2025-10-20T00:17:21.837056", "event": "⬅️ POST /api/mastermind/chat → 200 (1290.8 ms)", "meta": {}}
+{"timestamp": "2025-10-20T00:17:34.192822", "event": "➡️ POST /api/debug/log", "meta": {}}
+{"timestamp": "2025-10-20T00:17:34.201302", "event": "frontend_debug", "meta": {"msg": "MM_SEND", "persona": "General", "model": "gpt-4o-mini", "text": "Who are you", "version": "v2.0.0", "timestamp": "2025-10-20T00:17:34.181Z", "page": "mastermind.html", "received_at": "2025-10-20T00:17:34.201302", "origin": "127.0.0.1", "level": "debug", "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/141.0.0.0 Safari/537.36 Edg/141.0.0.0", "referer": "http://127.0.0.1:8000/mastermind.html"}}
+{"timestamp": "2025-10-20T00:17:34.203264", "event": "➡️ POST /api/debug/log", "meta": {}}
+{"timestamp": "2025-10-20T00:17:34.205280", "event": "➡️ POST /api/mastermind/chat", "meta": {}}
+{"timestamp": "2025-10-20T00:17:34.209497", "event": "⬅️ POST /api/debug/log → 200 (16.7 ms)", "meta": {}}
+{"timestamp": "2025-10-20T00:17:34.211248", "event": "frontend_debug", "meta": {"msg": "MM_CHAT_POST", "session_id": "mm_20251020-000120_df3df3", "persona": "General", "model": "gpt-4o-mini", "tone": "balanced", "version": "v2.0.0", "timestamp": "2025-10-20T00:17:34.181Z", "page": "mastermind.html", "received_at": "2025-10-20T00:17:34.211248", "origin": "127.0.0.1", "level": "debug", "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/141.0.0.0 Safari/537.36 Edg/141.0.0.0", "referer": "http://127.0.0.1:8000/mastermind.html"}}
+{"timestamp": "2025-10-20T00:17:34.259333", "event": "⬅️ POST /api/debug/log → 200 (56.1 ms)", "meta": {}}
+{"timestamp": "2025-10-20T00:17:35.766854", "event": "mastermind_chat", "meta": {"session_id": "mm_20251020-000120_df3df3", "persona": "General", "tone": "balanced", "model": "gpt-4o-mini", "chars": 171}}
+{"timestamp": "2025-10-20T00:17:35.766854", "event": "⬅️ POST /api/mastermind/chat → 200 (1561.6 ms)", "meta": {}}
+{"timestamp": "2025-10-20T00:17:49.556894", "event": "➡️ POST /api/debug/log", "meta": {}}
+{"timestamp": "2025-10-20T00:17:49.560287", "event": "➡️ POST /api/debug/log", "meta": {}}
+{"timestamp": "2025-10-20T00:17:49.564664", "event": "frontend_debug", "meta": {"msg": "MM_SEND", "persona": "General", "model": "gpt-4o-mini", "text": "who developed you", "version": "v2.0.0", "timestamp": "2025-10-20T00:17:49.545Z", "page": "mastermind.html", "received_at": "2025-10-20T00:17:49.562304", "origin": "127.0.0.1", "level": "debug", "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/141.0.0.0 Safari/537.36 Edg/141.0.0.0", "referer": "http://127.0.0.1:8000/mastermind.html"}}
+{"timestamp": "2025-10-20T00:17:49.567179", "event": "➡️ POST /api/mastermind/chat", "meta": {}}
+{"timestamp": "2025-10-20T00:17:49.569235", "event": "frontend_debug", "meta": {"msg": "MM_CHAT_POST", "session_id": "mm_20251020-000120_df3df3", "persona": "General", "model": "gpt-4o-mini", "tone": "balanced", "version": "v2.0.0", "timestamp": "2025-10-20T00:17:49.546Z", "page": "mastermind.html", "received_at": "2025-10-20T00:17:49.569235", "origin": "127.0.0.1", "level": "debug", "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/141.0.0.0 Safari/537.36 Edg/141.0.0.0", "referer": "http://127.0.0.1:8000/mastermind.html"}}
+{"timestamp": "2025-10-20T00:17:49.570754", "event": "⬅️ POST /api/debug/log → 200 (13.9 ms)", "meta": {}}
+{"timestamp": "2025-10-20T00:17:49.570754", "event": "⬅️ POST /api/debug/log → 200 (10.5 ms)", "meta": {}}
+{"timestamp": "2025-10-20T00:17:52.253263", "event": "mastermind_chat", "meta": {"session_id": "mm_20251020-000120_df3df3", "persona": "General", "tone": "balanced", "model": "gpt-4o-mini", "chars": 115}}
+{"timestamp": "2025-10-20T00:17:52.255014", "event": "⬅️ POST /api/mastermind/chat → 200 (2687.8 ms)", "meta": {}}
+{"timestamp": "2025-10-20T00:18:03.417056", "event": "➡️ POST /api/debug/log", "meta": {}}
+{"timestamp": "2025-10-20T00:18:03.418374", "event": "➡️ POST /api/debug/log", "meta": {}}
+{"timestamp": "2025-10-20T00:18:03.426883", "event": "frontend_debug", "meta": {"msg": "MM_SEND", "persona": "General", "model": "gpt-4o-mini", "text": "what is ASTRA", "version": "v2.0.0", "timestamp": "2025-10-20T00:18:03.400Z", "page": "mastermind.html", "received_at": "2025-10-20T00:18:03.426883", "origin": "127.0.0.1", "level": "debug", "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/141.0.0.0 Safari/537.36 Edg/141.0.0.0", "referer": "http://127.0.0.1:8000/mastermind.html"}}
+{"timestamp": "2025-10-20T00:18:03.431590", "event": "➡️ POST /api/mastermind/chat", "meta": {}}
+{"timestamp": "2025-10-20T00:18:03.434582", "event": "⬅️ POST /api/debug/log → 200 (17.5 ms)", "meta": {}}
+{"timestamp": "2025-10-20T00:18:03.437237", "event": "frontend_debug", "meta": {"msg": "MM_CHAT_POST", "session_id": "mm_20251020-000120_df3df3", "persona": "General", "model": "gpt-4o-mini", "tone": "balanced", "version": "v2.0.0", "timestamp": "2025-10-20T00:18:03.401Z", "page": "mastermind.html", "received_at": "2025-10-20T00:18:03.437237", "origin": "127.0.0.1", "level": "debug", "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/141.0.0.0 Safari/537.36 Edg/141.0.0.0", "referer": "http://127.0.0.1:8000/mastermind.html"}}
+{"timestamp": "2025-10-20T00:18:03.440557", "event": "⬅️ POST /api/debug/log → 200 (22.2 ms)", "meta": {}}
+{"timestamp": "2025-10-20T00:18:05.536880", "event": "mastermind_chat", "meta": {"session_id": "mm_20251020-000120_df3df3", "persona": "General", "tone": "balanced", "model": "gpt-4o-mini", "chars": 496}}
+{"timestamp": "2025-10-20T00:18:05.542517", "event": "⬅️ POST /api/mastermind/chat → 200 (2110.9 ms)", "meta": {}}
+{"timestamp": "2025-10-20T00:18:24.930570", "event": "➡️ GET /talk.html", "meta": {}}
+{"timestamp": "2025-10-20T00:18:24.931330", "event": "⬅️ GET /talk.html → 200 (0.8 ms)", "meta": {}}
+{"timestamp": "2025-10-20T00:18:25.117276", "event": "➡️ POST /api/debug/log", "meta": {}}
+{"timestamp": "2025-10-20T00:18:25.122946", "event": "frontend_debug", "meta": {"msg": "UI LOADED", "version": "v2.0.0", "page": "talk.html", "origin": "http://127.0.0.1:8000", "theme": "dark", "humanize": "on", "timestamp": "2025-10-20T00:18:25.115Z", "received_at": "2025-10-20T00:18:25.122946", "level": "debug", "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/141.0.0.0 Safari/537.36 Edg/141.0.0.0", "referer": "http://127.0.0.1:8000/talk.html"}}
+{"timestamp": "2025-10-20T00:18:25.127688", "event": "⬅️ POST /api/debug/log → 200 (10.0 ms)", "meta": {}}
+{"timestamp": "2025-10-20T00:18:25.127688", "event": "➡️ POST /api/debug/log", "meta": {}}
+{"timestamp": "2025-10-20T00:18:25.130962", "event": "frontend_debug", "meta": {"msg": "TALK PAGE LOADED", "version": "v2.0.0", "historyCount": 0, "humanize": true, "hasContext": false, "apiBase": "http://127.0.0.1:8000", "timestamp": "2025-10-20T00:18:25.118Z", "page": "talk.html", "received_at": "2025-10-20T00:18:25.130962", "origin": "127.0.0.1", "level": "debug", "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/141.0.0.0 Safari/537.36 Edg/141.0.0.0", "referer": "http://127.0.0.1:8000/talk.html"}}
+{"timestamp": "2025-10-20T00:18:25.130962", "event": "⬅️ POST /api/debug/log → 200 (3.3 ms)", "meta": {}}
+{"timestamp": "2025-10-20T00:18:26.132905", "event": "➡️ GET /mastermind.html", "meta": {}}
+{"timestamp": "2025-10-20T00:18:26.136863", "event": "⬅️ GET /mastermind.html → 200 (4.0 ms)", "meta": {}}
+{"timestamp": "2025-10-20T00:18:26.393886", "event": "➡️ POST /api/debug/log", "meta": {}}
+{"timestamp": "2025-10-20T00:18:26.396972", "event": "➡️ POST /api/debug/log", "meta": {}}
+{"timestamp": "2025-10-20T00:18:26.403128", "event": "frontend_debug", "meta": {"msg": "UI LOADED", "version": "v2.0.0", "page": "mastermind.html", "origin": "http://127.0.0.1:8000", "theme": "dark", "humanize": "on", "timestamp": "2025-10-20T00:18:26.390Z", "received_at": "2025-10-20T00:18:26.403128", "level": "debug", "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/141.0.0.0 Safari/537.36 Edg/141.0.0.0", "referer": "http://127.0.0.1:8000/mastermind.html"}}
+{"timestamp": "2025-10-20T00:18:26.403128", "event": "➡️ GET /api/mastermind/sessions", "meta": {}}
+{"timestamp": "2025-10-20T00:18:26.406873", "event": "frontend_debug", "meta": {"msg": "MASTER MIND PAGE LOADED", "app": "ASTRA", "version": "v2.0.0", "apiBase": "http://127.0.0.1:8000", "sessions": 1, "currentId": "mm_20251020-000120_df3df3", "timestamp": "2025-10-20T00:18:26.391Z", "page": "mastermind.html", "received_at": "2025-10-20T00:18:26.406873", "origin": "127.0.0.1", "level": "debug", "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/141.0.0.0 Safari/537.36 Edg/141.0.0.0", "referer": "http://127.0.0.1:8000/mastermind.html"}}
+{"timestamp": "2025-10-20T00:18:26.446242", "event": "⬅️ POST /api/debug/log → 200 (52.4 ms)", "meta": {}}
+{"timestamp": "2025-10-20T00:18:26.449611", "event": "⬅️ POST /api/debug/log → 200 (52.6 ms)", "meta": {}}
+{"timestamp": "2025-10-20T00:18:26.452107", "event": "⬅️ GET /api/mastermind/sessions → 200 (49.0 ms)", "meta": {}}
+{"timestamp": "2025-10-20T00:18:26.462496", "event": "➡️ GET /api/mastermind/history", "meta": {}}
+{"timestamp": "2025-10-20T00:18:26.465253", "event": "⬅️ GET /api/mastermind/history → 200 (2.8 ms)", "meta": {}}
+{"timestamp": "2025-10-20T00:20:17.584184", "event": "➡️ POST /api/debug/log", "meta": {}}
+{"timestamp": "2025-10-20T00:20:17.587212", "event": "➡️ POST /api/debug/log", "meta": {}}
+{"timestamp": "2025-10-20T00:20:17.590915", "event": "frontend_debug", "meta": {"msg": "UI LOADED", "version": "v2.0.0", "page": "superhuman.html", "origin": "http://127.0.0.1:8000", "theme": "dark", "humanize": "on", "timestamp": "2025-10-20T00:20:17.579Z", "received_at": "2025-10-20T00:20:17.590915", "level": "debug", "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/141.0.0.0 Safari/537.36 Edg/141.0.0.0", "referer": "http://127.0.0.1:8000/superhuman.html"}}
+{"timestamp": "2025-10-20T00:20:17.592755", "event": "⬅️ POST /api/debug/log → 200 (8.6 ms)", "meta": {}}
+{"timestamp": "2025-10-20T00:20:17.595288", "event": "frontend_debug", "meta": {"msg": "SUPERHUMAN PAGE LOADED", "version": "v2.0.0", "apiBase": "http://127.0.0.1:8000", "restored": false, "tone": "balanced", "mode": "paragraph", "latexSafe": true, "humanizeOn": true, "timestamp": "2025-10-20T00:20:17.581Z", "page": "superhuman.html", "received_at": "2025-10-20T00:20:17.595288", "origin": "127.0.0.1", "level": "debug", "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/141.0.0.0 Safari/537.36 Edg/141.0.0.0", "referer": "http://127.0.0.1:8000/superhuman.html"}}
+{"timestamp": "2025-10-20T00:20:17.597754", "event": "⬅️ POST /api/debug/log → 200 (10.5 ms)", "meta": {}}
+{"timestamp": "2025-10-20T00:20:20.033096", "event": "➡️ GET /superhuman.html", "meta": {}}
+{"timestamp": "2025-10-20T00:20:20.038502", "event": "⬅️ GET /superhuman.html → 200 (5.4 ms)", "meta": {}}
+{"timestamp": "2025-10-20T00:20:20.109118", "event": "➡️ GET /static/css/base.css", "meta": {}}
+{"timestamp": "2025-10-20T00:20:20.111139", "event": "➡️ GET /static/css/animations.css", "meta": {}}
+{"timestamp": "2025-10-20T00:20:20.114762", "event": "➡️ GET /static/css/app.css", "meta": {}}
+{"timestamp": "2025-10-20T00:20:20.117253", "event": "➡️ GET /static/assets/logo.png", "meta": {}}
+{"timestamp": "2025-10-20T00:20:20.121715", "event": "⬅️ GET /static/css/base.css → 200 (12.6 ms)", "meta": {}}
+{"timestamp": "2025-10-20T00:20:20.131836", "event": "⬅️ GET /static/css/animations.css → 200 (20.7 ms)", "meta": {}}
+{"timestamp": "2025-10-20T00:20:20.132995", "event": "⬅️ GET /static/css/app.css → 200 (19.5 ms)", "meta": {}}
+{"timestamp": "2025-10-20T00:20:20.137037", "event": "⬅️ GET /static/assets/logo.png → 200 (19.8 ms)", "meta": {}}
+{"timestamp": "2025-10-20T00:20:20.138301", "event": "➡️ GET /static/js/ui.js", "meta": {}}
+{"timestamp": "2025-10-20T00:20:20.140681", "event": "➡️ GET /static/js/util.js", "meta": {}}
+{"timestamp": "2025-10-20T00:20:20.151680", "event": "⬅️ GET /static/js/util.js → 200 (11.0 ms)", "meta": {}}
+{"timestamp": "2025-10-20T00:20:20.157406", "event": "➡️ GET /static/js/superhuman.js", "meta": {}}
+{"timestamp": "2025-10-20T00:20:20.158682", "event": "⬅️ GET /static/js/ui.js → 200 (20.4 ms)", "meta": {}}
+{"timestamp": "2025-10-20T00:20:20.169834", "event": "⬅️ GET /static/js/superhuman.js → 200 (18.2 ms)", "meta": {}}
+{"timestamp": "2025-10-20T00:20:20.396360", "event": "➡️ POST /api/debug/log", "meta": {}}
+{"timestamp": "2025-10-20T00:20:20.400720", "event": "➡️ POST /api/debug/log", "meta": {}}
+{"timestamp": "2025-10-20T00:20:20.403540", "event": "frontend_debug", "meta": {"msg": "UI LOADED", "version": "v2.0.0", "page": "superhuman.html", "origin": "http://127.0.0.1:8000", "theme": "dark", "humanize": "on", "timestamp": "2025-10-20T00:20:20.390Z", "received_at": "2025-10-20T00:20:20.403540", "level": "debug", "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/141.0.0.0 Safari/537.36 Edg/141.0.0.0", "referer": "http://127.0.0.1:8000/superhuman.html"}}
+{"timestamp": "2025-10-20T00:20:20.407111", "event": "frontend_debug", "meta": {"msg": "SUPERHUMAN PAGE LOADED", "version": "v2.0.0", "apiBase": "http://127.0.0.1:8000", "restored": false, "tone": "balanced", "mode": "paragraph", "latexSafe": true, "humanizeOn": true, "timestamp": "2025-10-20T00:20:20.392Z", "page": "superhuman.html", "received_at": "2025-10-20T00:20:20.406080", "origin": "127.0.0.1", "level": "debug", "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/141.0.0.0 Safari/537.36 Edg/141.0.0.0", "referer": "http://127.0.0.1:8000/superhuman.html"}}
+{"timestamp": "2025-10-20T00:20:20.407111", "event": "⬅️ POST /api/debug/log → 200 (10.8 ms)", "meta": {}}
+{"timestamp": "2025-10-20T00:20:20.410064", "event": "⬅️ POST /api/debug/log → 200 (9.3 ms)", "meta": {}}
+{"timestamp": "2025-10-20T00:20:20.467216", "event": "➡️ GET /static/assets/favicon.png", "meta": {}}
+{"timestamp": "2025-10-20T00:20:20.473097", "event": "⬅️ GET /static/assets/favicon.png → 200 (5.9 ms)", "meta": {}}
+{"timestamp": "2025-10-20T00:24:55.468761", "event": "➡️ GET /coverletter.html", "meta": {}}
+{"timestamp": "2025-10-20T00:24:55.474088", "event": "⬅️ GET /coverletter.html → 200 (5.3 ms)", "meta": {}}
+{"timestamp": "2025-10-20T00:24:55.689634", "event": "➡️ POST /api/debug/log", "meta": {}}
+{"timestamp": "2025-10-20T00:24:55.693304", "event": "➡️ POST /api/debug/log", "meta": {}}
+{"timestamp": "2025-10-20T00:24:55.694421", "event": "frontend_debug", "meta": {"msg": "UI LOADED", "version": "v2.0.0", "page": "coverletter.html", "origin": "http://127.0.0.1:8000", "theme": "dark", "humanize": "on", "timestamp": "2025-10-20T00:24:55.685Z", "received_at": "2025-10-20T00:24:55.694421", "level": "debug", "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/141.0.0.0 Safari/537.36 Edg/141.0.0.0", "referer": "http://127.0.0.1:8000/coverletter.html"}}
+{"timestamp": "2025-10-20T00:24:55.697591", "event": "⬅️ POST /api/debug/log → 200 (8.0 ms)", "meta": {}}
+{"timestamp": "2025-10-20T00:24:55.699680", "event": "frontend_debug", "meta": {"msg": "COVER LETTER PAGE LOADED", "version": "v2.0.0", "apiBase": "http://127.0.0.1:8000", "hasCachedResume": true, "timestamp": "2025-10-20T00:24:55.686Z", "page": "coverletter.html", "received_at": "2025-10-20T00:24:55.699680", "origin": "127.0.0.1", "level": "debug", "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/141.0.0.0 Safari/537.36 Edg/141.0.0.0", "referer": "http://127.0.0.1:8000/coverletter.html"}}
+{"timestamp": "2025-10-20T00:24:55.702225", "event": "⬅️ POST /api/debug/log → 200 (8.9 ms)", "meta": {}}
+{"timestamp": "2025-10-20T00:24:57.107177", "event": "➡️ POST /api/debug/log", "meta": {}}
+{"timestamp": "2025-10-20T00:24:57.110862", "event": "➡️ POST /api/debug/log", "meta": {}}
+{"timestamp": "2025-10-20T00:24:57.114968", "event": "frontend_debug", "meta": {"msg": "UI LOADED", "version": "v2.0.0", "page": "talk.html", "origin": "http://127.0.0.1:8000", "theme": "dark", "humanize": "on", "timestamp": "2025-10-20T00:24:57.103Z", "received_at": "2025-10-20T00:24:57.114401", "level": "debug", "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/141.0.0.0 Safari/537.36 Edg/141.0.0.0", "referer": "http://127.0.0.1:8000/talk.html"}}
+{"timestamp": "2025-10-20T00:24:57.117506", "event": "⬅️ POST /api/debug/log → 200 (10.3 ms)", "meta": {}}
+{"timestamp": "2025-10-20T00:24:57.121050", "event": "frontend_debug", "meta": {"msg": "TALK PAGE LOADED", "version": "v2.0.0", "historyCount": 0, "humanize": true, "hasContext": false, "apiBase": "http://127.0.0.1:8000", "timestamp": "2025-10-20T00:24:57.108Z", "page": "talk.html", "received_at": "2025-10-20T00:24:57.121050", "origin": "127.0.0.1", "level": "debug", "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/141.0.0.0 Safari/537.36 Edg/141.0.0.0", "referer": "http://127.0.0.1:8000/talk.html"}}
+{"timestamp": "2025-10-20T00:24:57.123883", "event": "⬅️ POST /api/debug/log → 200 (13.0 ms)", "meta": {}}
+{"timestamp": "2025-10-20T00:24:59.698943", "event": "➡️ GET /mastermind.html", "meta": {}}
+{"timestamp": "2025-10-20T00:24:59.699790", "event": "⬅️ GET /mastermind.html → 200 (1.8 ms)", "meta": {}}
+{"timestamp": "2025-10-20T00:24:59.793236", "event": "➡️ POST /api/debug/log", "meta": {}}
+{"timestamp": "2025-10-20T00:24:59.797900", "event": "➡️ GET /api/mastermind/sessions", "meta": {}}
+{"timestamp": "2025-10-20T00:24:59.801815", "event": "frontend_debug", "meta": {"msg": "UI LOADED", "version": "v2.0.0", "page": "mastermind.html", "origin": "http://127.0.0.1:8000", "theme": "dark", "humanize": "on", "timestamp": "2025-10-20T00:24:59.790Z", "received_at": "2025-10-20T00:24:59.801815", "level": "debug", "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/141.0.0.0 Safari/537.36 Edg/141.0.0.0", "referer": "http://127.0.0.1:8000/mastermind.html"}}
+{"timestamp": "2025-10-20T00:24:59.801815", "event": "⬅️ GET /api/mastermind/sessions → 200 (3.9 ms)", "meta": {}}
+{"timestamp": "2025-10-20T00:24:59.807331", "event": "➡️ POST /api/debug/log", "meta": {}}
+{"timestamp": "2025-10-20T00:24:59.809390", "event": "⬅️ POST /api/debug/log → 200 (16.2 ms)", "meta": {}}
+{"timestamp": "2025-10-20T00:24:59.811907", "event": "frontend_debug", "meta": {"msg": "MASTER MIND PAGE LOADED", "app": "ASTRA", "version": "v2.0.0", "apiBase": "http://127.0.0.1:8000", "sessions": 1, "currentId": "mm_20251020-000120_df3df3", "timestamp": "2025-10-20T00:24:59.792Z", "page": "mastermind.html", "received_at": "2025-10-20T00:24:59.811907", "origin": "127.0.0.1", "level": "debug", "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/141.0.0.0 Safari/537.36 Edg/141.0.0.0", "referer": "http://127.0.0.1:8000/mastermind.html"}}
+{"timestamp": "2025-10-20T00:24:59.813971", "event": "⬅️ POST /api/debug/log → 200 (6.6 ms)", "meta": {}}
+{"timestamp": "2025-10-20T00:24:59.823847", "event": "➡️ GET /api/mastermind/history", "meta": {}}
+{"timestamp": "2025-10-20T00:24:59.827528", "event": "⬅️ GET /api/mastermind/history → 200 (3.7 ms)", "meta": {}}
+{"timestamp": "2025-10-20T00:27:10.032065", "event": "➡️ GET /mastermind.html", "meta": {}}
+{"timestamp": "2025-10-20T00:27:10.038758", "event": "⬅️ GET /mastermind.html → 200 (6.7 ms)", "meta": {}}
+{"timestamp": "2025-10-20T00:27:10.102508", "event": "➡️ GET /static/css/base.css", "meta": {}}
+{"timestamp": "2025-10-20T00:27:10.103728", "event": "➡️ GET /static/css/animations.css", "meta": {}}
+{"timestamp": "2025-10-20T00:27:10.111577", "event": "➡️ GET /static/assets/logo.png", "meta": {}}
+{"timestamp": "2025-10-20T00:27:10.112089", "event": "➡️ GET /static/js/ui.js", "meta": {}}
+{"timestamp": "2025-10-20T00:27:10.114246", "event": "➡️ GET /static/css/app.css", "meta": {}}
+{"timestamp": "2025-10-20T00:27:10.114246", "event": "➡️ GET /static/js/util.js", "meta": {}}
+{"timestamp": "2025-10-20T00:27:10.124107", "event": "⬅️ GET /static/css/base.css → 200 (21.6 ms)", "meta": {}}
+{"timestamp": "2025-10-20T00:27:10.125030", "event": "⬅️ GET /static/css/animations.css → 200 (21.3 ms)", "meta": {}}
+{"timestamp": "2025-10-20T00:27:10.129962", "event": "⬅️ GET /static/assets/logo.png → 200 (18.4 ms)", "meta": {}}
+{"timestamp": "2025-10-20T00:27:10.129962", "event": "⬅️ GET /static/js/ui.js → 200 (17.9 ms)", "meta": {}}
+{"timestamp": "2025-10-20T00:27:10.129962", "event": "⬅️ GET /static/js/util.js → 200 (15.7 ms)", "meta": {}}
+{"timestamp": "2025-10-20T00:27:10.129962", "event": "⬅️ GET /static/css/app.css → 200 (15.7 ms)", "meta": {}}
+{"timestamp": "2025-10-20T00:27:10.149348", "event": "➡️ GET /static/js/mastermind.js", "meta": {}}
+{"timestamp": "2025-10-20T00:27:10.153239", "event": "⬅️ GET /static/js/mastermind.js → 200 (3.9 ms)", "meta": {}}
+{"timestamp": "2025-10-20T00:27:10.274788", "event": "➡️ POST /api/debug/log", "meta": {}}
+{"timestamp": "2025-10-20T00:27:10.278638", "event": "➡️ POST /api/debug/log", "meta": {}}
+{"timestamp": "2025-10-20T00:27:10.280654", "event": "➡️ GET /api/mastermind/sessions", "meta": {}}
+{"timestamp": "2025-10-20T00:27:10.289221", "event": "frontend_debug", "meta": {"msg": "UI LOADED", "version": "v2.0.0", "page": "mastermind.html", "origin": "http://127.0.0.1:8000", "theme": "dark", "humanize": "on", "timestamp": "2025-10-20T00:27:10.269Z", "received_at": "2025-10-20T00:27:10.287697", "level": "debug", "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/141.0.0.0 Safari/537.36 Edg/141.0.0.0", "referer": "http://127.0.0.1:8000/mastermind.html"}}
+{"timestamp": "2025-10-20T00:27:10.290748", "event": "⬅️ GET /api/mastermind/sessions → 200 (10.1 ms)", "meta": {}}
+{"timestamp": "2025-10-20T00:27:10.290748", "event": "⬅️ POST /api/debug/log → 200 (16.0 ms)", "meta": {}}
+{"timestamp": "2025-10-20T00:27:10.290748", "event": "frontend_debug", "meta": {"msg": "MASTER MIND PAGE LOADED", "app": "ASTRA", "version": "v2.0.0", "apiBase": "http://127.0.0.1:8000", "sessions": 1, "currentId": "mm_20251020-000120_df3df3", "timestamp": "2025-10-20T00:27:10.270Z", "page": "mastermind.html", "received_at": "2025-10-20T00:27:10.290748", "origin": "127.0.0.1", "level": "debug", "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/141.0.0.0 Safari/537.36 Edg/141.0.0.0", "referer": "http://127.0.0.1:8000/mastermind.html"}}
+{"timestamp": "2025-10-20T00:27:10.298889", "event": "⬅️ POST /api/debug/log → 200 (20.3 ms)", "meta": {}}
+{"timestamp": "2025-10-20T00:27:10.315466", "event": "➡️ GET /api/mastermind/history", "meta": {}}
+{"timestamp": "2025-10-20T00:27:10.323788", "event": "⬅️ GET /api/mastermind/history → 200 (8.3 ms)", "meta": {}}
+{"timestamp": "2025-10-20T00:27:10.534017", "event": "➡️ GET /static/assets/favicon.png", "meta": {}}
+{"timestamp": "2025-10-20T00:27:10.539848", "event": "⬅️ GET /static/assets/favicon.png → 200 (5.8 ms)", "meta": {}}
+{"timestamp": "2025-10-20T00:27:12.456740", "event": "➡️ GET /superhuman.html", "meta": {}}
+{"timestamp": "2025-10-20T00:27:12.456740", "event": "⬅️ GET /superhuman.html → 200 (0.0 ms)", "meta": {}}
+{"timestamp": "2025-10-20T00:27:12.575409", "event": "➡️ POST /api/debug/log", "meta": {}}
+{"timestamp": "2025-10-20T00:27:12.578903", "event": "➡️ POST /api/debug/log", "meta": {}}
+{"timestamp": "2025-10-20T00:27:12.583500", "event": "frontend_debug", "meta": {"msg": "UI LOADED", "version": "v2.0.0", "page": "superhuman.html", "origin": "http://127.0.0.1:8000", "theme": "dark", "humanize": "on", "timestamp": "2025-10-20T00:27:12.572Z", "received_at": "2025-10-20T00:27:12.578903", "level": "debug", "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/141.0.0.0 Safari/537.36 Edg/141.0.0.0", "referer": "http://127.0.0.1:8000/superhuman.html"}}
+{"timestamp": "2025-10-20T00:27:12.583500", "event": "⬅️ POST /api/debug/log → 200 (8.1 ms)", "meta": {}}
+{"timestamp": "2025-10-20T00:27:12.588048", "event": "frontend_debug", "meta": {"msg": "SUPERHUMAN PAGE LOADED", "version": "v2.0.0", "apiBase": "http://127.0.0.1:8000", "restored": false, "tone": "balanced", "mode": "paragraph", "latexSafe": true, "humanizeOn": true, "timestamp": "2025-10-20T00:27:12.573Z", "page": "superhuman.html", "received_at": "2025-10-20T00:27:12.583500", "origin": "127.0.0.1", "level": "debug", "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/141.0.0.0 Safari/537.36 Edg/141.0.0.0", "referer": "http://127.0.0.1:8000/superhuman.html"}}
+{"timestamp": "2025-10-20T00:27:12.588048", "event": "⬅️ POST /api/debug/log → 200 (9.1 ms)", "meta": {}}
+{"timestamp": "2025-10-20T00:27:15.502848", "event": "➡️ GET /superhuman.html", "meta": {}}
+{"timestamp": "2025-10-20T00:27:15.508559", "event": "⬅️ GET /superhuman.html → 200 (5.7 ms)", "meta": {}}
+{"timestamp": "2025-10-20T00:27:15.570429", "event": "➡️ GET /static/css/animations.css", "meta": {}}
+{"timestamp": "2025-10-20T00:27:15.571336", "event": "➡️ GET /static/css/base.css", "meta": {}}
+{"timestamp": "2025-10-20T00:27:15.575871", "event": "➡️ GET /static/css/app.css", "meta": {}}
+{"timestamp": "2025-10-20T00:27:15.577884", "event": "➡️ GET /static/assets/logo.png", "meta": {}}
+{"timestamp": "2025-10-20T00:27:15.577884", "event": "➡️ GET /static/js/ui.js", "meta": {}}
+{"timestamp": "2025-10-20T00:27:15.582209", "event": "➡️ GET /static/js/util.js", "meta": {}}
+{"timestamp": "2025-10-20T00:27:15.590416", "event": "⬅️ GET /static/css/base.css → 200 (19.1 ms)", "meta": {}}
+{"timestamp": "2025-10-20T00:27:15.590416", "event": "⬅️ GET /static/css/animations.css → 200 (22.1 ms)", "meta": {}}
+{"timestamp": "2025-10-20T00:27:15.598467", "event": "⬅️ GET /static/js/util.js → 200 (16.3 ms)", "meta": {}}
+{"timestamp": "2025-10-20T00:27:15.598467", "event": "⬅️ GET /static/css/app.css → 200 (22.6 ms)", "meta": {}}
+{"timestamp": "2025-10-20T00:27:15.598467", "event": "⬅️ GET /static/assets/logo.png → 200 (20.6 ms)", "meta": {}}
+{"timestamp": "2025-10-20T00:27:15.604664", "event": "⬅️ GET /static/js/ui.js → 200 (26.8 ms)", "meta": {}}
+{"timestamp": "2025-10-20T00:27:15.614978", "event": "➡️ GET /static/js/superhuman.js", "meta": {}}
+{"timestamp": "2025-10-20T00:27:15.624480", "event": "⬅️ GET /static/js/superhuman.js → 200 (9.5 ms)", "meta": {}}
+{"timestamp": "2025-10-20T00:27:15.721546", "event": "➡️ POST /api/debug/log", "meta": {}}
+{"timestamp": "2025-10-20T00:27:15.725276", "event": "➡️ POST /api/debug/log", "meta": {}}
+{"timestamp": "2025-10-20T00:27:15.725276", "event": "frontend_debug", "meta": {"msg": "UI LOADED", "version": "v2.0.0", "page": "superhuman.html", "origin": "http://127.0.0.1:8000", "theme": "dark", "humanize": "on", "timestamp": "2025-10-20T00:27:15.715Z", "received_at": "2025-10-20T00:27:15.725276", "level": "debug", "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/141.0.0.0 Safari/537.36 Edg/141.0.0.0", "referer": "http://127.0.0.1:8000/superhuman.html"}}
+{"timestamp": "2025-10-20T00:27:15.725276", "event": "⬅️ POST /api/debug/log → 200 (4.5 ms)", "meta": {}}
+{"timestamp": "2025-10-20T00:27:15.733730", "event": "frontend_debug", "meta": {"msg": "SUPERHUMAN PAGE LOADED", "version": "v2.0.0", "apiBase": "http://127.0.0.1:8000", "restored": false, "tone": "balanced", "mode": "paragraph", "latexSafe": true, "humanizeOn": true, "timestamp": "2025-10-20T00:27:15.716Z", "page": "superhuman.html", "received_at": "2025-10-20T00:27:15.731634", "origin": "127.0.0.1", "level": "debug", "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/141.0.0.0 Safari/537.36 Edg/141.0.0.0", "referer": "http://127.0.0.1:8000/superhuman.html"}}
+{"timestamp": "2025-10-20T00:27:15.735163", "event": "⬅️ POST /api/debug/log → 200 (9.9 ms)", "meta": {}}
+{"timestamp": "2025-10-20T00:27:15.970422", "event": "➡️ GET /static/assets/favicon.png", "meta": {}}
+{"timestamp": "2025-10-20T00:27:15.975612", "event": "⬅️ GET /static/assets/favicon.png → 200 (5.2 ms)", "meta": {}}
+{"timestamp": "2025-10-20T00:27:40.239993", "event": "➡️ GET /superhuman.html", "meta": {}}
+{"timestamp": "2025-10-20T00:27:40.244060", "event": "⬅️ GET /superhuman.html → 200 (4.1 ms)", "meta": {}}
+{"timestamp": "2025-10-20T00:27:40.304602", "event": "➡️ GET /static/css/base.css", "meta": {}}
+{"timestamp": "2025-10-20T00:27:40.309078", "event": "➡️ GET /static/css/animations.css", "meta": {}}
+{"timestamp": "2025-10-20T00:27:40.312108", "event": "➡️ GET /static/assets/logo.png", "meta": {}}
+{"timestamp": "2025-10-20T00:27:40.314570", "event": "➡️ GET /static/css/app.css", "meta": {}}
+{"timestamp": "2025-10-20T00:27:40.319046", "event": "⬅️ GET /static/css/base.css → 200 (14.4 ms)", "meta": {}}
+{"timestamp": "2025-10-20T00:27:40.324985", "event": "⬅️ GET /static/css/animations.css → 200 (15.9 ms)", "meta": {}}
+{"timestamp": "2025-10-20T00:27:40.326997", "event": "⬅️ GET /static/css/app.css → 200 (12.4 ms)", "meta": {}}
+{"timestamp": "2025-10-20T00:27:40.328755", "event": "⬅️ GET /static/assets/logo.png → 200 (16.6 ms)", "meta": {}}
+{"timestamp": "2025-10-20T00:27:40.337258", "event": "➡️ GET /static/js/ui.js", "meta": {}}
+{"timestamp": "2025-10-20T00:27:40.339079", "event": "➡️ GET /static/js/util.js", "meta": {}}
+{"timestamp": "2025-10-20T00:27:40.348697", "event": "➡️ GET /static/js/superhuman.js", "meta": {}}
+{"timestamp": "2025-10-20T00:27:40.350706", "event": "⬅️ GET /static/js/util.js → 200 (11.6 ms)", "meta": {}}
+{"timestamp": "2025-10-20T00:27:40.354733", "event": "⬅️ GET /static/js/ui.js → 200 (17.5 ms)", "meta": {}}
+{"timestamp": "2025-10-20T00:27:40.356749", "event": "⬅️ GET /static/js/superhuman.js → 200 (8.1 ms)", "meta": {}}
+{"timestamp": "2025-10-20T00:27:40.502077", "event": "➡️ POST /api/debug/log", "meta": {}}
+{"timestamp": "2025-10-20T00:27:40.506830", "event": "➡️ POST /api/debug/log", "meta": {}}
+{"timestamp": "2025-10-20T00:27:40.515645", "event": "frontend_debug", "meta": {"msg": "UI LOADED", "version": "v2.0.0", "page": "superhuman.html", "origin": "http://127.0.0.1:8000", "theme": "dark", "humanize": "on", "timestamp": "2025-10-20T00:27:40.495Z", "received_at": "2025-10-20T00:27:40.509938", "level": "debug", "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/141.0.0.0 Safari/537.36 Edg/141.0.0.0", "referer": "http://127.0.0.1:8000/superhuman.html"}}
+{"timestamp": "2025-10-20T00:27:40.518803", "event": "frontend_debug", "meta": {"msg": "SUPERHUMAN PAGE LOADED", "version": "v2.0.0", "apiBase": "http://127.0.0.1:8000", "restored": false, "tone": "balanced", "mode": "paragraph", "latexSafe": true, "humanizeOn": true, "timestamp": "2025-10-20T00:27:40.497Z", "page": "superhuman.html", "received_at": "2025-10-20T00:27:40.518290", "origin": "127.0.0.1", "level": "debug", "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/141.0.0.0 Safari/537.36 Edg/141.0.0.0", "referer": "http://127.0.0.1:8000/superhuman.html"}}
+{"timestamp": "2025-10-20T00:27:40.520327", "event": "⬅️ POST /api/debug/log → 200 (18.2 ms)", "meta": {}}
+{"timestamp": "2025-10-20T00:27:40.525765", "event": "⬅️ POST /api/debug/log → 200 (18.9 ms)", "meta": {}}
+{"timestamp": "2025-10-20T00:27:40.743401", "event": "➡️ GET /static/assets/favicon.png", "meta": {}}
+{"timestamp": "2025-10-20T00:27:40.748946", "event": "⬅️ GET /static/assets/favicon.png → 200 (5.5 ms)", "meta": {}}
+{"timestamp": "2025-10-20T00:28:54.384672", "event": "➡️ GET /superhuman.html", "meta": {}}
+{"timestamp": "2025-10-20T00:28:54.395449", "event": "⬅️ GET /superhuman.html → 200 (10.8 ms)", "meta": {}}
+{"timestamp": "2025-10-20T00:28:54.481233", "event": "➡️ GET /static/css/base.css", "meta": {}}
+{"timestamp": "2025-10-20T00:28:54.486530", "event": "➡️ GET /static/assets/logo.png", "meta": {}}
+{"timestamp": "2025-10-20T00:28:54.487546", "event": "➡️ GET /static/css/app.css", "meta": {}}
+{"timestamp": "2025-10-20T00:28:54.487546", "event": "➡️ GET /static/css/animations.css", "meta": {}}
+{"timestamp": "2025-10-20T00:28:54.490503", "event": "➡️ GET /static/js/ui.js", "meta": {}}
+{"timestamp": "2025-10-20T00:28:54.495148", "event": "➡️ GET /static/js/util.js", "meta": {}}
+{"timestamp": "2025-10-20T00:28:54.504639", "event": "⬅️ GET /static/css/base.css → 200 (23.4 ms)", "meta": {}}
+{"timestamp": "2025-10-20T00:28:54.507830", "event": "⬅️ GET /static/assets/logo.png → 200 (21.3 ms)", "meta": {}}
+{"timestamp": "2025-10-20T00:28:54.513657", "event": "⬅️ GET /static/css/animations.css → 200 (26.1 ms)", "meta": {}}
+{"timestamp": "2025-10-20T00:28:54.515811", "event": "⬅️ GET /static/css/app.css → 200 (28.3 ms)", "meta": {}}
+{"timestamp": "2025-10-20T00:28:54.518493", "event": "⬅️ GET /static/js/ui.js → 200 (28.0 ms)", "meta": {}}
+{"timestamp": "2025-10-20T00:28:54.520383", "event": "⬅️ GET /static/js/util.js → 200 (25.2 ms)", "meta": {}}
+{"timestamp": "2025-10-20T00:28:54.534598", "event": "➡️ GET /static/js/superhuman.js", "meta": {}}
+{"timestamp": "2025-10-20T00:28:54.545106", "event": "⬅️ GET /static/js/superhuman.js → 200 (10.5 ms)", "meta": {}}
+{"timestamp": "2025-10-20T00:28:54.738606", "event": "➡️ POST /api/debug/log", "meta": {}}
+{"timestamp": "2025-10-20T00:28:54.741809", "event": "➡️ POST /api/debug/log", "meta": {}}
+{"timestamp": "2025-10-20T00:28:54.746894", "event": "frontend_debug", "meta": {"msg": "UI LOADED", "version": "v2.0.0", "page": "superhuman.html", "origin": "http://127.0.0.1:8000", "theme": "dark", "humanize": "on", "timestamp": "2025-10-20T00:28:54.734Z", "received_at": "2025-10-20T00:28:54.744849", "level": "debug", "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/141.0.0.0 Safari/537.36 Edg/141.0.0.0", "referer": "http://127.0.0.1:8000/superhuman.html"}}
+{"timestamp": "2025-10-20T00:28:54.749125", "event": "⬅️ POST /api/debug/log → 200 (10.5 ms)", "meta": {}}
+{"timestamp": "2025-10-20T00:28:54.751460", "event": "frontend_debug", "meta": {"msg": "SUPERHUMAN PAGE LOADED", "version": "v2.0.0", "apiBase": "http://127.0.0.1:8000", "restored": false, "tone": "balanced", "mode": "paragraph", "latexSafe": true, "humanizeOn": true, "timestamp": "2025-10-20T00:28:54.736Z", "page": "superhuman.html", "received_at": "2025-10-20T00:28:54.751460", "origin": "127.0.0.1", "level": "debug", "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/141.0.0.0 Safari/537.36 Edg/141.0.0.0", "referer": "http://127.0.0.1:8000/superhuman.html"}}
+{"timestamp": "2025-10-20T00:28:54.754485", "event": "⬅️ POST /api/debug/log → 200 (12.7 ms)", "meta": {}}
+{"timestamp": "2025-10-20T00:28:54.840253", "event": "➡️ GET /static/assets/favicon.png", "meta": {}}
+{"timestamp": "2025-10-20T00:28:54.845907", "event": "⬅️ GET /static/assets/favicon.png → 200 (5.7 ms)", "meta": {}}
+{"timestamp": "2025-10-20T00:29:02.736731", "event": "➡️ GET /dashboard.html", "meta": {}}
+{"timestamp": "2025-10-20T00:29:02.743496", "event": "⬅️ GET /dashboard.html → 200 (6.8 ms)", "meta": {}}
+{"timestamp": "2025-10-20T00:29:03.043056", "event": "➡️ POST /api/debug/log", "meta": {}}
+{"timestamp": "2025-10-20T00:29:03.046098", "event": "➡️ GET /api/dashboard", "meta": {}}
+{"timestamp": "2025-10-20T00:29:03.104602", "event": "frontend_debug", "meta": {"msg": "UI LOADED", "version": "v2.0.0", "page": "dashboard.html", "origin": "http://127.0.0.1:8000", "theme": "dark", "humanize": "on", "timestamp": "2025-10-20T00:29:03.039Z", "received_at": "2025-10-20T00:29:03.104602", "level": "debug", "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/141.0.0.0 Safari/537.36 Edg/141.0.0.0", "referer": "http://127.0.0.1:8000/dashboard.html"}}
+{"timestamp": "2025-10-20T00:29:03.104602", "event": "⬅️ GET /api/dashboard → 200 (58.5 ms)", "meta": {}}
+{"timestamp": "2025-10-20T00:29:03.110934", "event": "➡️ POST /api/debug/log", "meta": {}}
+{"timestamp": "2025-10-20T00:29:03.114459", "event": "⬅️ POST /api/debug/log → 200 (73.4 ms)", "meta": {}}
+{"timestamp": "2025-10-20T00:29:03.120020", "event": "frontend_debug", "meta": {"msg": "DASHBOARD PAGE LOADED", "version": "v2.0.0", "apiBase": "http://127.0.0.1:8000", "timestamp": "2025-10-20T00:29:03.040Z", "page": "dashboard.html", "received_at": "2025-10-20T00:29:03.120020", "origin": "127.0.0.1", "level": "debug", "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/141.0.0.0 Safari/537.36 Edg/141.0.0.0", "referer": "http://127.0.0.1:8000/dashboard.html"}}
+{"timestamp": "2025-10-20T00:29:03.123149", "event": "➡️ POST /api/debug/log", "meta": {}}
+{"timestamp": "2025-10-20T00:29:03.127085", "event": "⬅️ POST /api/debug/log → 200 (16.2 ms)", "meta": {}}
+{"timestamp": "2025-10-20T00:29:03.131395", "event": "frontend_debug", "meta": {"msg": "Dashboard fetch OK", "count": 100, "version": "v2.0.0", "timestamp": "2025-10-20T00:29:03.117Z", "page": "dashboard.html", "received_at": "2025-10-20T00:29:03.129377", "origin": "127.0.0.1", "level": "debug", "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/141.0.0.0 Safari/537.36 Edg/141.0.0.0", "referer": "http://127.0.0.1:8000/dashboard.html"}}
+{"timestamp": "2025-10-20T00:29:03.133153", "event": "⬅️ POST /api/debug/log → 200 (10.0 ms)", "meta": {}}
+{"timestamp": "2025-10-20T00:29:05.393610", "event": "➡️ GET /dashboard.html", "meta": {}}
+{"timestamp": "2025-10-20T00:29:05.394626", "event": "⬅️ GET /dashboard.html → 200 (1.0 ms)", "meta": {}}
+{"timestamp": "2025-10-20T00:29:05.471959", "event": "➡️ GET /static/css/base.css", "meta": {}}
+{"timestamp": "2025-10-20T00:29:05.477170", "event": "➡️ GET /static/assets/logo.png", "meta": {}}
+{"timestamp": "2025-10-20T00:29:05.477170", "event": "➡️ GET /static/css/app.css", "meta": {}}
+{"timestamp": "2025-10-20T00:29:05.477170", "event": "➡️ GET /static/css/animations.css", "meta": {}}
+{"timestamp": "2025-10-20T00:29:05.483100", "event": "➡️ GET /static/js/util.js", "meta": {}}
+{"timestamp": "2025-10-20T00:29:05.488228", "event": "➡️ GET /static/js/ui.js", "meta": {}}
+{"timestamp": "2025-10-20T00:29:05.494389", "event": "⬅️ GET /static/css/base.css → 200 (22.4 ms)", "meta": {}}
+{"timestamp": "2025-10-20T00:29:05.499706", "event": "⬅️ GET /static/assets/logo.png → 200 (22.5 ms)", "meta": {}}
+{"timestamp": "2025-10-20T00:29:05.501219", "event": "⬅️ GET /static/css/app.css → 200 (24.0 ms)", "meta": {}}
+{"timestamp": "2025-10-20T00:29:05.504677", "event": "⬅️ GET /static/js/util.js → 200 (21.6 ms)", "meta": {}}
+{"timestamp": "2025-10-20T00:29:05.509012", "event": "⬅️ GET /static/css/animations.css → 200 (31.8 ms)", "meta": {}}
+{"timestamp": "2025-10-20T00:29:05.510503", "event": "⬅️ GET /static/js/ui.js → 200 (22.3 ms)", "meta": {}}
+{"timestamp": "2025-10-20T00:29:05.521353", "event": "➡️ GET /static/js/dashboard.js", "meta": {}}
+{"timestamp": "2025-10-20T00:29:05.531431", "event": "⬅️ GET /static/js/dashboard.js → 200 (10.1 ms)", "meta": {}}
+{"timestamp": "2025-10-20T00:29:05.679347", "event": "➡️ POST /api/debug/log", "meta": {}}
+{"timestamp": "2025-10-20T00:29:05.684807", "event": "frontend_debug", "meta": {"msg": "UI LOADED", "version": "v2.0.0", "page": "dashboard.html", "origin": "http://127.0.0.1:8000", "theme": "dark", "humanize": "on", "timestamp": "2025-10-20T00:29:05.678Z", "received_at": "2025-10-20T00:29:05.684807", "level": "debug", "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/141.0.0.0 Safari/537.36 Edg/141.0.0.0", "referer": "http://127.0.0.1:8000/dashboard.html"}}
+{"timestamp": "2025-10-20T00:29:05.684807", "event": "⬅️ POST /api/debug/log → 200 (5.5 ms)", "meta": {}}
+{"timestamp": "2025-10-20T00:29:05.730055", "event": "➡️ POST /api/debug/log", "meta": {}}
+{"timestamp": "2025-10-20T00:29:05.733064", "event": "➡️ GET /api/dashboard", "meta": {}}
+{"timestamp": "2025-10-20T00:29:05.778817", "event": "frontend_debug", "meta": {"msg": "DASHBOARD PAGE LOADED", "app": "ASTRA", "version": "v2.0.0", "apiBase": "http://127.0.0.1:8000", "timestamp": "2025-10-20T00:29:05.723Z", "page": "dashboard.html", "received_at": "2025-10-20T00:29:05.778817", "origin": "127.0.0.1", "level": "debug", "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/141.0.0.0 Safari/537.36 Edg/141.0.0.0", "referer": "http://127.0.0.1:8000/dashboard.html"}}
+{"timestamp": "2025-10-20T00:29:05.778817", "event": "⬅️ GET /api/dashboard → 200 (45.8 ms)", "meta": {}}
+{"timestamp": "2025-10-20T00:29:05.786683", "event": "⬅️ POST /api/debug/log → 200 (56.6 ms)", "meta": {}}
+{"timestamp": "2025-10-20T00:29:05.814563", "event": "➡️ POST /api/debug/log", "meta": {}}
+{"timestamp": "2025-10-20T00:29:05.819247", "event": "frontend_debug", "meta": {"msg": "Dashboard fetch OK", "history": 100, "version": "v2.0.0", "timestamp": "2025-10-20T00:29:05.812Z", "page": "dashboard.html", "received_at": "2025-10-20T00:29:05.819247", "origin": "127.0.0.1", "level": "debug", "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/141.0.0.0 Safari/537.36 Edg/141.0.0.0", "referer": "http://127.0.0.1:8000/dashboard.html"}}
+{"timestamp": "2025-10-20T00:29:05.823748", "event": "⬅️ POST /api/debug/log → 200 (9.2 ms)", "meta": {}}
+{"timestamp": "2025-10-20T00:29:05.837663", "event": "➡️ GET /static/assets/favicon.png", "meta": {}}
+{"timestamp": "2025-10-20T00:29:05.843459", "event": "⬅️ GET /static/assets/favicon.png → 200 (5.8 ms)", "meta": {}}
+{"timestamp": "2025-10-20T00:29:35.520725", "event": "➡️ POST /api/debug/log", "meta": {}}
+{"timestamp": "2025-10-20T00:29:35.524631", "event": "➡️ POST /api/debug/log", "meta": {}}
+{"timestamp": "2025-10-20T00:29:35.528782", "event": "frontend_debug", "meta": {"msg": "UI LOADED", "version": "v2.0.0", "page": "talk.html", "origin": "http://127.0.0.1:8000", "theme": "dark", "humanize": "on", "timestamp": "2025-10-20T00:29:35.514Z", "received_at": "2025-10-20T00:29:35.528782", "level": "debug", "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/141.0.0.0 Safari/537.36 Edg/141.0.0.0", "referer": "http://127.0.0.1:8000/talk.html"}}
+{"timestamp": "2025-10-20T00:29:35.528782", "event": "⬅️ POST /api/debug/log → 200 (8.1 ms)", "meta": {}}
+{"timestamp": "2025-10-20T00:29:35.534897", "event": "frontend_debug", "meta": {"msg": "TALK PAGE LOADED", "version": "v2.0.0", "historyCount": 0, "humanize": true, "hasContext": false, "apiBase": "http://127.0.0.1:8000", "timestamp": "2025-10-20T00:29:35.520Z", "page": "talk.html", "received_at": "2025-10-20T00:29:35.533068", "origin": "127.0.0.1", "level": "debug", "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/141.0.0.0 Safari/537.36 Edg/141.0.0.0", "referer": "http://127.0.0.1:8000/talk.html"}}
+{"timestamp": "2025-10-20T00:29:35.534897", "event": "⬅️ POST /api/debug/log → 200 (10.3 ms)", "meta": {}}
+{"timestamp": "2025-10-20T00:29:39.027035", "event": "➡️ GET /preview.html", "meta": {}}
+{"timestamp": "2025-10-20T00:29:39.036011", "event": "⬅️ GET /preview.html → 200 (9.0 ms)", "meta": {}}
+{"timestamp": "2025-10-20T00:29:39.124692", "event": "➡️ POST /api/debug/log", "meta": {}}
+{"timestamp": "2025-10-20T00:29:39.134487", "event": "frontend_debug", "meta": {"msg": "UI LOADED", "version": "v2.0.0", "page": "preview.html", "origin": "http://127.0.0.1:8000", "theme": "dark", "humanize": "on", "timestamp": "2025-10-20T00:29:39.124Z", "received_at": "2025-10-20T00:29:39.132975", "level": "debug", "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/141.0.0.0 Safari/537.36 Edg/141.0.0.0", "referer": "http://127.0.0.1:8000/preview.html"}}
+{"timestamp": "2025-10-20T00:29:39.134487", "event": "⬅️ POST /api/debug/log → 200 (9.8 ms)", "meta": {}}
+{"timestamp": "2025-10-20T00:29:39.176069", "event": "➡️ POST /api/debug/log", "meta": {}}
+{"timestamp": "2025-10-20T00:29:39.182548", "event": "frontend_debug", "meta": {"msg": "PREVIEW PAGE LOADED", "version": "v2.0.0", "company": "Microsoft", "role": "AI/ML Engineer", "ratingScore": 100, "ratingRounds": 1, "historyCount": 0, "hasTex": true, "hasPdf": true, "hasPdfHumanized": true, "timestamp": "2025-10-20T00:29:39.166Z", "page": "preview.html", "received_at": "2025-10-20T00:29:39.181459", "origin": "127.0.0.1", "level": "debug", "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/141.0.0.0 Safari/537.36 Edg/141.0.0.0", "referer": "http://127.0.0.1:8000/preview.html"}}
+{"timestamp": "2025-10-20T00:29:39.184627", "event": "⬅️ POST /api/debug/log → 200 (8.6 ms)", "meta": {}}
+{"timestamp": "2025-10-20T00:29:41.442467", "event": "➡️ POST /api/debug/log", "meta": {}}
+{"timestamp": "2025-10-20T00:29:41.446503", "event": "➡️ POST /api/debug/log", "meta": {}}
+{"timestamp": "2025-10-20T00:29:41.449450", "event": "frontend_debug", "meta": {"msg": "UI LOADED", "version": "v2.0.0", "page": "index.html", "origin": "http://127.0.0.1:8000", "theme": "dark", "humanize": "on", "timestamp": "2025-10-20T00:29:41.436Z", "received_at": "2025-10-20T00:29:41.449450", "level": "debug", "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/141.0.0.0 Safari/537.36 Edg/141.0.0.0", "referer": "http://127.0.0.1:8000/index.html"}}
+{"timestamp": "2025-10-20T00:29:41.451458", "event": "⬅️ POST /api/debug/log → 200 (9.0 ms)", "meta": {}}
+{"timestamp": "2025-10-20T00:29:41.455854", "event": "frontend_debug", "meta": {"msg": "MAIN PAGE LOADED", "app": "ASTRA", "version": "v2.0.0", "apiBase": "http://127.0.0.1:8000", "hasHumanize": true, "origin": "http://127.0.0.1:8000", "timestamp": "2025-10-20T00:29:41.437Z", "page": "index.html", "received_at": "2025-10-20T00:29:41.455854", "level": "debug", "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/141.0.0.0 Safari/537.36 Edg/141.0.0.0", "referer": "http://127.0.0.1:8000/index.html"}}
+{"timestamp": "2025-10-20T00:29:41.459364", "event": "⬅️ POST /api/debug/log → 200 (12.9 ms)", "meta": {}}
+{"timestamp": "2025-10-20T00:30:31.749381", "event": "➡️ POST /api/debug/log", "meta": {}}
+{"timestamp": "2025-10-20T00:30:31.756018", "event": "frontend_debug", "meta": {"msg": "Submitting optimization", "useHumanize": true, "version": "v2.0.0", "timestamp": "2025-10-20T00:30:31.724Z", "page": "index.html", "received_at": "2025-10-20T00:30:31.754976", "origin": "127.0.0.1", "level": "debug", "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/141.0.0.0 Safari/537.36 Edg/141.0.0.0", "referer": "http://127.0.0.1:8000/index.html"}}
+{"timestamp": "2025-10-20T00:30:31.756018", "event": "➡️ POST /api/optimize", "meta": {}}
+{"timestamp": "2025-10-20T00:30:31.756018", "event": "⬅️ POST /api/debug/log → 200 (6.6 ms)", "meta": {}}
+{"timestamp": "2025-10-20T00:30:31.756018", "event": "⬅️ POST /api/optimize → 404 (0.0 ms)", "meta": {}}
+{"timestamp": "2025-10-20T00:31:17.739847", "event": "🧩 Router loaded: backend.api.optimize", "meta": {}}
+{"timestamp": "2025-10-20T00:31:17.774738", "event": "🧩 Router loaded: backend.api.coverletter", "meta": {}}
+{"timestamp": "2025-10-20T00:31:17.814697", "event": "🧩 Router loaded: backend.api.talk", "meta": {}}
+{"timestamp": "2025-10-20T00:31:17.856524", "event": "🧩 Router loaded: backend.api.superhuman", "meta": {}}
+{"timestamp": "2025-10-20T00:31:17.864814", "event": "🧩 Router loaded: backend.api.humanize", "meta": {}}
+{"timestamp": "2025-10-20T00:31:17.923378", "event": "🧩 Router loaded: backend.api.mastermind", "meta": {}}
+{"timestamp": "2025-10-20T00:31:17.936072", "event": "🧩 Router loaded: backend.api.dashboard", "meta": {}}
+{"timestamp": "2025-10-20T00:31:17.944667", "event": "🧩 Router loaded: backend.api.models_router", "meta": {}}
+{"timestamp": "2025-10-20T00:31:17.956686", "event": "🧩 Router loaded: backend.api.context_store", "meta": {}}
+{"timestamp": "2025-10-20T00:31:17.991028", "event": "🧩 Router loaded: backend.api.utils_router", "meta": {}}
+{"timestamp": "2025-10-20T00:31:17.994873", "event": "🧩 Router loaded: backend.api.debug", "meta": {}}
+{"timestamp": "2025-10-20T00:31:17.994873", "event": "📦 Static mounted → C:\\Users\\sriak\\OneDrive\\Desktop\\HIREX\\frontend\\static", "meta": {}}
+{"timestamp": "2025-10-20T00:31:30.137467", "event": "➡️ POST /api/debug/log", "meta": {}}
+{"timestamp": "2025-10-20T00:31:30.144969", "event": "➡️ POST /api/optimize", "meta": {}}
+{"timestamp": "2025-10-20T00:31:30.147120", "event": "frontend_debug", "meta": {"msg": "Submitting optimization", "useHumanize": true, "version": "v2.0.0", "timestamp": "2025-10-20T00:31:30.109Z", "page": "index.html", "received_at": "2025-10-20T00:31:30.147120", "origin": "127.0.0.1", "level": "debug", "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/141.0.0.0 Safari/537.36 Edg/141.0.0.0", "referer": "http://127.0.0.1:8000/index.html"}}
+{"timestamp": "2025-10-20T00:31:30.148872", "event": "⬅️ POST /api/optimize → 404 (3.9 ms)", "meta": {}}
+{"timestamp": "2025-10-20T00:31:30.148872", "event": "⬅️ POST /api/debug/log → 200 (11.4 ms)", "meta": {}}
+{"timestamp": "2025-10-20T00:35:02.005099", "event": "🧩 Router loaded: backend.api.optimize", "meta": {}}
+{"timestamp": "2025-10-20T00:35:02.044989", "event": "🧩 Router loaded: backend.api.coverletter", "meta": {}}
+{"timestamp": "2025-10-20T00:35:02.076749", "event": "🧩 Router loaded: backend.api.talk", "meta": {}}
+{"timestamp": "2025-10-20T00:35:02.115639", "event": "🧩 Router loaded: backend.api.superhuman", "meta": {}}
+{"timestamp": "2025-10-20T00:35:02.124719", "event": "🧩 Router loaded: backend.api.humanize", "meta": {}}
+{"timestamp": "2025-10-20T00:35:02.174984", "event": "🧩 Router loaded: backend.api.mastermind", "meta": {}}
+{"timestamp": "2025-10-20T00:35:02.189870", "event": "🧩 Router loaded: backend.api.dashboard", "meta": {}}
+{"timestamp": "2025-10-20T00:35:02.194675", "event": "🧩 Router loaded: backend.api.models_router", "meta": {}}
+{"timestamp": "2025-10-20T00:35:02.209876", "event": "🧩 Router loaded: backend.api.context_store", "meta": {}}
+{"timestamp": "2025-10-20T00:35:02.235090", "event": "🧩 Router loaded: backend.api.utils_router", "meta": {}}
+{"timestamp": "2025-10-20T00:35:02.235090", "event": "🧩 Router loaded: backend.api.debug", "meta": {}}
+{"timestamp": "2025-10-20T00:35:02.235090", "event": "📦 Static mounted → C:\\Users\\sriak\\OneDrive\\Desktop\\HIREX\\frontend\\static", "meta": {}}
+{"timestamp": "2025-10-20T00:35:09.462101", "event": "➡️ GET /index.html", "meta": {}}
+{"timestamp": "2025-10-20T00:35:09.576100", "event": "⬅️ GET /index.html → 200 (114.0 ms)", "meta": {}}
+{"timestamp": "2025-10-20T00:35:09.815669", "event": "➡️ GET /static/assets/logo.png", "meta": {}}
+{"timestamp": "2025-10-20T00:35:09.824330", "event": "➡️ GET /static/css/base.css", "meta": {}}
+{"timestamp": "2025-10-20T00:35:09.829305", "event": "➡️ GET /static/css/animations.css", "meta": {}}
+{"timestamp": "2025-10-20T00:35:09.832112", "event": "➡️ GET /static/css/app.css", "meta": {}}
+{"timestamp": "2025-10-20T00:35:09.834129", "event": "➡️ GET /static/js/ui.js", "meta": {}}
+{"timestamp": "2025-10-20T00:35:09.835145", "event": "➡️ GET /static/js/util.js", "meta": {}}
+{"timestamp": "2025-10-20T00:35:09.846486", "event": "⬅️ GET /static/assets/logo.png → 200 (30.8 ms)", "meta": {}}
+{"timestamp": "2025-10-20T00:35:09.850815", "event": "⬅️ GET /static/css/animations.css → 200 (21.9 ms)", "meta": {}}
+{"timestamp": "2025-10-20T00:35:09.852065", "event": "⬅️ GET /static/css/base.css → 200 (27.7 ms)", "meta": {}}
+{"timestamp": "2025-10-20T00:35:09.855093", "event": "⬅️ GET /static/css/app.css → 200 (23.0 ms)", "meta": {}}
+{"timestamp": "2025-10-20T00:35:09.857305", "event": "⬅️ GET /static/js/util.js → 200 (22.2 ms)", "meta": {}}
+{"timestamp": "2025-10-20T00:35:09.862179", "event": "⬅️ GET /static/js/ui.js → 200 (28.1 ms)", "meta": {}}
+{"timestamp": "2025-10-20T00:35:09.873118", "event": "➡️ GET /static/js/main.js", "meta": {}}
+{"timestamp": "2025-10-20T00:35:09.881720", "event": "⬅️ GET /static/js/main.js → 200 (8.6 ms)", "meta": {}}
+{"timestamp": "2025-10-20T00:35:09.937821", "event": "➡️ POST /api/debug/log", "meta": {}}
+{"timestamp": "2025-10-20T00:35:09.940505", "event": "➡️ POST /api/debug/log", "meta": {}}
+{"timestamp": "2025-10-20T00:35:09.944913", "event": "frontend_debug", "meta": {"msg": "UI LOADED", "version": "v2.0.0", "page": "index.html", "origin": "http://127.0.0.1:8000", "theme": "dark", "humanize": "on", "timestamp": "2025-10-20T00:35:09.936Z", "received_at": "2025-10-20T00:35:09.943544", "level": "debug", "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/141.0.0.0 Safari/537.36 Edg/141.0.0.0", "referer": "http://127.0.0.1:8000/index.html"}}
+{"timestamp": "2025-10-20T00:35:09.946457", "event": "⬅️ POST /api/debug/log → 200 (8.6 ms)", "meta": {}}
+{"timestamp": "2025-10-20T00:35:09.946457", "event": "frontend_debug", "meta": {"msg": "MAIN PAGE LOADED", "app": "ASTRA", "version": "v2.0.0", "apiBase": "http://127.0.0.1:8000", "hasHumanize": false, "model": "gpt-4o-mini", "origin": "http://127.0.0.1:8000", "timestamp": "2025-10-20T00:35:09.937Z", "page": "index.html", "received_at": "2025-10-20T00:35:09.946457", "level": "debug", "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/141.0.0.0 Safari/537.36 Edg/141.0.0.0", "referer": "http://127.0.0.1:8000/index.html"}}
+{"timestamp": "2025-10-20T00:35:09.951955", "event": "⬅️ POST /api/debug/log → 200 (11.5 ms)", "meta": {}}
+{"timestamp": "2025-10-20T00:35:10.052379", "event": "➡️ GET /static/assets/favicon.png", "meta": {}}
+{"timestamp": "2025-10-20T00:35:10.056968", "event": "⬅️ GET /static/assets/favicon.png → 200 (4.6 ms)", "meta": {}}
+{"timestamp": "2025-10-20T00:35:13.604709", "event": "➡️ POST /api/debug/log", "meta": {}}
+{"timestamp": "2025-10-20T00:35:13.608636", "event": "➡️ POST /api/optimize/run", "meta": {}}
+{"timestamp": "2025-10-20T00:35:13.614219", "event": "frontend_debug", "meta": {"msg": "Submitting optimization", "useHumanize": false, "version": "v2.0.0", "timestamp": "2025-10-20T00:35:13.583Z", "page": "index.html", "received_at": "2025-10-20T00:35:13.613454", "origin": "127.0.0.1", "level": "debug", "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/141.0.0.0 Safari/537.36 Edg/141.0.0.0", "referer": "http://127.0.0.1:8000/index.html"}}
+{"timestamp": "2025-10-20T00:35:13.616235", "event": "⬅️ POST /api/optimize/run → 404 (7.6 ms)", "meta": {}}
+{"timestamp": "2025-10-20T00:35:13.616235", "event": "⬅️ POST /api/debug/log → 200 (11.5 ms)", "meta": {}}
+{"timestamp": "2025-10-20T00:35:13.627863", "event": "➡️ POST /api/debug/log", "meta": {}}
+{"timestamp": "2025-10-20T00:35:13.631747", "event": "➡️ POST /api/optimize", "meta": {}}
+{"timestamp": "2025-10-20T00:35:13.634973", "event": "⬅️ POST /api/optimize → 404 (3.2 ms)", "meta": {}}
+{"timestamp": "2025-10-20T00:35:13.634973", "event": "frontend_debug", "meta": {"msg": "Optimize path 404 — trying next", "path": "/api/optimize/run", "version": "v2.0.0", "timestamp": "2025-10-20T00:35:13.621Z", "page": "index.html", "received_at": "2025-10-20T00:35:13.634973", "origin": "127.0.0.1", "level": "debug", "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/141.0.0.0 Safari/537.36 Edg/141.0.0.0", "referer": "http://127.0.0.1:8000/index.html"}}
+{"timestamp": "2025-10-20T00:35:13.634973", "event": "⬅️ POST /api/debug/log → 200 (7.1 ms)", "meta": {}}
+{"timestamp": "2025-10-20T00:35:13.644986", "event": "➡️ POST /api/debug/log", "meta": {}}
+{"timestamp": "2025-10-20T00:35:13.647053", "event": "➡️ POST /api/optimize/submit", "meta": {}}
+{"timestamp": "2025-10-20T00:35:13.649068", "event": "frontend_debug", "meta": {"msg": "Optimize path 404 — trying next", "path": "/api/optimize", "version": "v2.0.0", "timestamp": "2025-10-20T00:35:13.640Z", "page": "index.html", "received_at": "2025-10-20T00:35:13.649068", "origin": "127.0.0.1", "level": "debug", "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/141.0.0.0 Safari/537.36 Edg/141.0.0.0", "referer": "http://127.0.0.1:8000/index.html"}}
+{"timestamp": "2025-10-20T00:35:13.651579", "event": "⬅️ POST /api/optimize/submit → 404 (4.5 ms)", "meta": {}}
+{"timestamp": "2025-10-20T00:35:13.653628", "event": "⬅️ POST /api/debug/log → 200 (8.6 ms)", "meta": {}}
+{"timestamp": "2025-10-20T00:35:13.658494", "event": "➡️ POST /api/debug/log", "meta": {}}
+{"timestamp": "2025-10-20T00:35:13.658494", "event": "frontend_debug", "meta": {"msg": "Optimize path 404 — trying next", "path": "/api/optimize/submit", "version": "v2.0.0", "timestamp": "2025-10-20T00:35:13.656Z", "page": "index.html", "received_at": "2025-10-20T00:35:13.658494", "origin": "127.0.0.1", "level": "debug", "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/141.0.0.0 Safari/537.36 Edg/141.0.0.0", "referer": "http://127.0.0.1:8000/index.html"}}
+{"timestamp": "2025-10-20T00:35:13.658494", "event": "⬅️ POST /api/debug/log → 200 (0.0 ms)", "meta": {}}
+{"timestamp": "2025-10-20T00:35:28.786665", "event": "🧩 Router loaded: backend.api.optimize", "meta": {}}
+{"timestamp": "2025-10-20T00:35:28.827131", "event": "🧩 Router loaded: backend.api.coverletter", "meta": {}}
+{"timestamp": "2025-10-20T00:35:28.865234", "event": "🧩 Router loaded: backend.api.talk", "meta": {}}
+{"timestamp": "2025-10-20T00:35:28.909846", "event": "🧩 Router loaded: backend.api.superhuman", "meta": {}}
+{"timestamp": "2025-10-20T00:35:28.919575", "event": "🧩 Router loaded: backend.api.humanize", "meta": {}}
+{"timestamp": "2025-10-20T00:35:28.974976", "event": "🧩 Router loaded: backend.api.mastermind", "meta": {}}
+{"timestamp": "2025-10-20T00:35:28.990064", "event": "🧩 Router loaded: backend.api.dashboard", "meta": {}}
+{"timestamp": "2025-10-20T00:35:28.994944", "event": "🧩 Router loaded: backend.api.models_router", "meta": {}}
+{"timestamp": "2025-10-20T00:35:29.015017", "event": "🧩 Router loaded: backend.api.context_store", "meta": {}}
+{"timestamp": "2025-10-20T00:35:29.045152", "event": "🧩 Router loaded: backend.api.utils_router", "meta": {}}
+{"timestamp": "2025-10-20T00:35:29.045152", "event": "🧩 Router loaded: backend.api.debug", "meta": {}}
+{"timestamp": "2025-10-20T00:35:29.045152", "event": "📦 Static mounted → C:\\Users\\sriak\\OneDrive\\Desktop\\HIREX\\frontend\\static", "meta": {}}
+{"timestamp": "2025-10-20T00:35:29.244925", "event": "➡️ GET /index.html", "meta": {}}
+{"timestamp": "2025-10-20T00:35:29.351854", "event": "⬅️ GET /index.html → 200 (106.9 ms)", "meta": {}}
+{"timestamp": "2025-10-20T00:35:29.431521", "event": "➡️ GET /static/assets/logo.png", "meta": {}}
+{"timestamp": "2025-10-20T00:35:29.434971", "event": "➡️ GET /static/css/base.css", "meta": {}}
+{"timestamp": "2025-10-20T00:35:29.434971", "event": "➡️ GET /static/css/animations.css", "meta": {}}
+{"timestamp": "2025-10-20T00:35:29.440284", "event": "➡️ GET /static/css/app.css", "meta": {}}
+{"timestamp": "2025-10-20T00:35:29.440284", "event": "➡️ GET /static/js/util.js", "meta": {}}
+{"timestamp": "2025-10-20T00:35:29.448606", "event": "⬅️ GET /static/assets/logo.png → 200 (17.1 ms)", "meta": {}}
+{"timestamp": "2025-10-20T00:35:29.456007", "event": "⬅️ GET /static/css/base.css → 200 (21.0 ms)", "meta": {}}
+{"timestamp": "2025-10-20T00:35:29.460027", "event": "⬅️ GET /static/js/util.js → 200 (19.7 ms)", "meta": {}}
+{"timestamp": "2025-10-20T00:35:29.465076", "event": "⬅️ GET /static/css/animations.css → 200 (30.1 ms)", "meta": {}}
+{"timestamp": "2025-10-20T00:35:29.466608", "event": "⬅️ GET /static/css/app.css → 200 (26.3 ms)", "meta": {}}
+{"timestamp": "2025-10-20T00:35:29.484796", "event": "➡️ GET /static/js/ui.js", "meta": {}}
+{"timestamp": "2025-10-20T00:35:29.491351", "event": "➡️ GET /static/js/main.js", "meta": {}}
+{"timestamp": "2025-10-20T00:35:29.502778", "event": "⬅️ GET /static/js/ui.js → 200 (18.0 ms)", "meta": {}}
+{"timestamp": "2025-10-20T00:35:29.509584", "event": "⬅️ GET /static/js/main.js → 200 (18.2 ms)", "meta": {}}
+{"timestamp": "2025-10-20T00:35:29.526686", "event": "➡️ POST /api/debug/log", "meta": {}}
+{"timestamp": "2025-10-20T00:35:29.529394", "event": "➡️ POST /api/debug/log", "meta": {}}
+{"timestamp": "2025-10-20T00:35:29.534944", "event": "frontend_debug", "meta": {"msg": "UI LOADED", "version": "v2.0.0", "page": "index.html", "origin": "http://127.0.0.1:8000", "theme": "dark", "humanize": "on", "timestamp": "2025-10-20T00:35:29.522Z", "received_at": "2025-10-20T00:35:29.534944", "level": "debug", "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/141.0.0.0 Safari/537.36 Edg/141.0.0.0", "referer": "http://127.0.0.1:8000/index.html"}}
+{"timestamp": "2025-10-20T00:35:29.536697", "event": "⬅️ POST /api/debug/log → 200 (10.0 ms)", "meta": {}}
+{"timestamp": "2025-10-20T00:35:29.542394", "event": "frontend_debug", "meta": {"msg": "MAIN PAGE LOADED", "app": "ASTRA", "version": "v2.0.0", "apiBase": "http://127.0.0.1:8000", "hasHumanize": false, "model": "gpt-4o-mini", "origin": "http://127.0.0.1:8000", "timestamp": "2025-10-20T00:35:29.523Z", "page": "index.html", "received_at": "2025-10-20T00:35:29.541839", "level": "debug", "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/141.0.0.0 Safari/537.36 Edg/141.0.0.0", "referer": "http://127.0.0.1:8000/index.html"}}
+{"timestamp": "2025-10-20T00:35:29.545046", "event": "⬅️ POST /api/debug/log → 200 (15.7 ms)", "meta": {}}
+{"timestamp": "2025-10-20T00:35:29.565041", "event": "➡️ GET /static/assets/favicon.png", "meta": {}}
+{"timestamp": "2025-10-20T00:35:29.565041", "event": "⬅️ GET /static/assets/favicon.png → 200 (0.0 ms)", "meta": {}}
+{"timestamp": "2025-10-20T00:35:36.457644", "event": "➡️ GET /index.html", "meta": {}}
+{"timestamp": "2025-10-20T00:35:36.463005", "event": "⬅️ GET /index.html → 200 (5.4 ms)", "meta": {}}
+{"timestamp": "2025-10-20T00:35:36.525033", "event": "➡️ POST /api/debug/log", "meta": {}}
+{"timestamp": "2025-10-20T00:35:36.530129", "event": "➡️ POST /api/debug/log", "meta": {}}
+{"timestamp": "2025-10-20T00:35:36.535158", "event": "frontend_debug", "meta": {"msg": "UI LOADED", "version": "v2.0.0", "page": "index.html", "origin": "http://127.0.0.1:8000", "theme": "dark", "humanize": "on", "timestamp": "2025-10-20T00:35:36.524Z", "received_at": "2025-10-20T00:35:36.530129", "level": "debug", "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/141.0.0.0 Safari/537.36 Edg/141.0.0.0", "referer": "http://127.0.0.1:8000/index.html"}}
+{"timestamp": "2025-10-20T00:35:36.541330", "event": "frontend_debug", "meta": {"msg": "MAIN PAGE LOADED", "app": "ASTRA", "version": "v2.0.0", "apiBase": "http://127.0.0.1:8000", "hasHumanize": false, "model": "gpt-4o-mini", "origin": "http://127.0.0.1:8000", "timestamp": "2025-10-20T00:35:36.525Z", "page": "index.html", "received_at": "2025-10-20T00:35:36.538379", "level": "debug", "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/141.0.0.0 Safari/537.36 Edg/141.0.0.0", "referer": "http://127.0.0.1:8000/index.html"}}
+{"timestamp": "2025-10-20T00:35:36.541330", "event": "⬅️ POST /api/debug/log → 200 (16.3 ms)", "meta": {}}
+{"timestamp": "2025-10-20T00:35:36.546323", "event": "⬅️ POST /api/debug/log → 200 (16.2 ms)", "meta": {}}
+{"timestamp": "2025-10-20T00:35:49.765121", "event": "➡️ POST /api/debug/log", "meta": {}}
+{"timestamp": "2025-10-20T00:35:49.772649", "event": "➡️ POST /api/optimize/run", "meta": {}}
+{"timestamp": "2025-10-20T00:35:49.775162", "event": "frontend_debug", "meta": {"msg": "Submitting optimization", "useHumanize": false, "version": "v2.0.0", "timestamp": "2025-10-20T00:35:49.723Z", "page": "index.html", "received_at": "2025-10-20T00:35:49.775162", "origin": "127.0.0.1", "level": "debug", "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/141.0.0.0 Safari/537.36 Edg/141.0.0.0", "referer": "http://127.0.0.1:8000/index.html"}}
+{"timestamp": "2025-10-20T00:35:49.775162", "event": "⬅️ POST /api/optimize/run → 404 (2.5 ms)", "meta": {}}
+{"timestamp": "2025-10-20T00:35:49.780371", "event": "⬅️ POST /api/debug/log → 200 (15.2 ms)", "meta": {}}
+{"timestamp": "2025-10-20T00:35:49.789770", "event": "➡️ POST /api/debug/log", "meta": {}}
+{"timestamp": "2025-10-20T00:35:49.796713", "event": "➡️ POST /api/optimize", "meta": {}}
+{"timestamp": "2025-10-20T00:35:49.801136", "event": "frontend_debug", "meta": {"msg": "Optimize path 404 — trying next", "path": "/api/optimize/run", "version": "v2.0.0", "timestamp": "2025-10-20T00:35:49.789Z", "page": "index.html", "received_at": "2025-10-20T00:35:49.796713", "origin": "127.0.0.1", "level": "debug", "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/141.0.0.0 Safari/537.36 Edg/141.0.0.0", "referer": "http://127.0.0.1:8000/index.html"}}
+{"timestamp": "2025-10-20T00:35:49.801136", "event": "⬅️ POST /api/optimize → 404 (4.4 ms)", "meta": {}}
+{"timestamp": "2025-10-20T00:35:49.804762", "event": "⬅️ POST /api/debug/log → 200 (15.0 ms)", "meta": {}}
+{"timestamp": "2025-10-20T00:35:49.812361", "event": "➡️ POST /api/debug/log", "meta": {}}
+{"timestamp": "2025-10-20T00:35:49.814770", "event": "➡️ POST /api/optimize/submit", "meta": {}}
+{"timestamp": "2025-10-20T00:35:49.814770", "event": "⬅️ POST /api/optimize/submit → 404 (0.0 ms)", "meta": {}}
+{"timestamp": "2025-10-20T00:35:49.820236", "event": "frontend_debug", "meta": {"msg": "Optimize path 404 — trying next", "path": "/api/optimize", "version": "v2.0.0", "timestamp": "2025-10-20T00:35:49.808Z", "page": "index.html", "received_at": "2025-10-20T00:35:49.820236", "origin": "127.0.0.1", "level": "debug", "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/141.0.0.0 Safari/537.36 Edg/141.0.0.0", "referer": "http://127.0.0.1:8000/index.html"}}
+{"timestamp": "2025-10-20T00:35:49.824914", "event": "⬅️ POST /api/debug/log → 200 (12.6 ms)", "meta": {}}
+{"timestamp": "2025-10-20T00:35:49.828218", "event": "➡️ POST /api/debug/log", "meta": {}}
+{"timestamp": "2025-10-20T00:35:49.829087", "event": "frontend_debug", "meta": {"msg": "Optimize path 404 — trying next", "path": "/api/optimize/submit", "version": "v2.0.0", "timestamp": "2025-10-20T00:35:49.825Z", "page": "index.html", "received_at": "2025-10-20T00:35:49.829087", "origin": "127.0.0.1", "level": "debug", "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/141.0.0.0 Safari/537.36 Edg/141.0.0.0", "referer": "http://127.0.0.1:8000/index.html"}}
+{"timestamp": "2025-10-20T00:35:49.829087", "event": "⬅️ POST /api/debug/log → 200 (0.9 ms)", "meta": {}}
+{"timestamp": "2025-10-20T00:40:47.309383", "event": "🧩 Router loaded: backend.api.optimize", "meta": {}}
+{"timestamp": "2025-10-20T00:40:47.342556", "event": "🧩 Router loaded: backend.api.coverletter", "meta": {}}
+{"timestamp": "2025-10-20T00:40:47.380124", "event": "🧩 Router loaded: backend.api.talk", "meta": {}}
+{"timestamp": "2025-10-20T00:40:47.419614", "event": "🧩 Router loaded: backend.api.superhuman", "meta": {}}
+{"timestamp": "2025-10-20T00:40:47.429996", "event": "🧩 Router loaded: backend.api.humanize", "meta": {}}
+{"timestamp": "2025-10-20T00:40:47.484921", "event": "🧩 Router loaded: backend.api.mastermind", "meta": {}}
+{"timestamp": "2025-10-20T00:40:47.495243", "event": "🧩 Router loaded: backend.api.dashboard", "meta": {}}
+{"timestamp": "2025-10-20T00:40:47.505443", "event": "🧩 Router loaded: backend.api.models_router", "meta": {}}
+{"timestamp": "2025-10-20T00:40:47.515096", "event": "🧩 Router loaded: backend.api.context_store", "meta": {}}
+{"timestamp": "2025-10-20T00:40:47.545339", "event": "🧩 Router loaded: backend.api.utils_router", "meta": {}}
+{"timestamp": "2025-10-20T00:40:47.552323", "event": "🧩 Router loaded: backend.api.debug", "meta": {}}
+{"timestamp": "2025-10-20T00:40:47.554062", "event": "📦 Static mounted → C:\\Users\\sriak\\OneDrive\\Desktop\\HIREX\\frontend\\static", "meta": {}}
+{"timestamp": "2025-10-20T00:40:47.858132", "event": "➡️ GET /index.html", "meta": {}}
+{"timestamp": "2025-10-20T00:40:47.958348", "event": "⬅️ GET /index.html → 200 (100.2 ms)", "meta": {}}
+{"timestamp": "2025-10-20T00:40:48.109098", "event": "➡️ GET /static/assets/logo.png", "meta": {}}
+{"timestamp": "2025-10-20T00:40:48.109098", "event": "➡️ GET /static/css/base.css", "meta": {}}
+{"timestamp": "2025-10-20T00:40:48.109098", "event": "➡️ GET /static/css/animations.css", "meta": {}}
+{"timestamp": "2025-10-20T00:40:48.115052", "event": "➡️ GET /static/css/app.css", "meta": {}}
+{"timestamp": "2025-10-20T00:40:48.122185", "event": "➡️ GET /static/js/ui.js", "meta": {}}
+{"timestamp": "2025-10-20T00:40:48.124365", "event": "➡️ GET /static/js/util.js", "meta": {}}
+{"timestamp": "2025-10-20T00:40:48.125379", "event": "⬅️ GET /static/css/base.css → 200 (16.3 ms)", "meta": {}}
+{"timestamp": "2025-10-20T00:40:48.135162", "event": "⬅️ GET /static/assets/logo.png → 200 (26.1 ms)", "meta": {}}
+{"timestamp": "2025-10-20T00:40:48.138774", "event": "⬅️ GET /static/js/ui.js → 200 (23.7 ms)", "meta": {}}
+{"timestamp": "2025-10-20T00:40:48.143222", "event": "⬅️ GET /static/css/animations.css → 200 (34.1 ms)", "meta": {}}
+{"timestamp": "2025-10-20T00:40:48.145244", "event": "⬅️ GET /static/js/util.js → 200 (20.9 ms)", "meta": {}}
+{"timestamp": "2025-10-20T00:40:48.145244", "event": "⬅️ GET /static/css/app.css → 200 (30.2 ms)", "meta": {}}
+{"timestamp": "2025-10-20T00:40:48.158208", "event": "➡️ GET /static/js/main.js", "meta": {}}
+{"timestamp": "2025-10-20T00:40:48.169558", "event": "⬅️ GET /static/js/main.js → 200 (11.3 ms)", "meta": {}}
+{"timestamp": "2025-10-20T00:40:48.258266", "event": "➡️ POST /api/debug/log", "meta": {}}
+{"timestamp": "2025-10-20T00:40:48.267686", "event": "➡️ POST /api/debug/log", "meta": {}}
+{"timestamp": "2025-10-20T00:40:48.271969", "event": "frontend_debug", "meta": {"msg": "UI LOADED", "version": "v2.0.0", "page": "index.html", "origin": "http://127.0.0.1:8000", "theme": "dark", "humanize": "on", "timestamp": "2025-10-20T00:40:48.261Z", "received_at": "2025-10-20T00:40:48.271969", "level": "debug", "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/141.0.0.0 Safari/537.36 Edg/141.0.0.0", "referer": "http://127.0.0.1:8000/index.html"}}
+{"timestamp": "2025-10-20T00:40:48.275111", "event": "⬅️ POST /api/debug/log → 200 (16.8 ms)", "meta": {}}
+{"timestamp": "2025-10-20T00:40:48.276873", "event": "frontend_debug", "meta": {"msg": "MAIN PAGE LOADED", "app": "ASTRA", "version": "v2.0.0", "apiBase": "http://127.0.0.1:8000", "hasHumanize": false, "model": "gpt-4o-mini", "origin": "http://127.0.0.1:8000", "timestamp": "2025-10-20T00:40:48.263Z", "page": "index.html", "received_at": "2025-10-20T00:40:48.276873", "level": "debug", "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/141.0.0.0 Safari/537.36 Edg/141.0.0.0", "referer": "http://127.0.0.1:8000/index.html"}}
+{"timestamp": "2025-10-20T00:40:48.276873", "event": "⬅️ POST /api/debug/log → 200 (9.2 ms)", "meta": {}}
+{"timestamp": "2025-10-20T00:40:48.306553", "event": "➡️ GET /static/assets/favicon.png", "meta": {}}
+{"timestamp": "2025-10-20T00:40:48.311388", "event": "⬅️ GET /static/assets/favicon.png → 200 (4.8 ms)", "meta": {}}
+{"timestamp": "2025-10-20T00:41:00.131008", "event": "➡️ POST /api/debug/log", "meta": {}}
+{"timestamp": "2025-10-20T00:41:00.137178", "event": "frontend_debug", "meta": {"msg": "Submitting optimization", "useHumanize": false, "version": "v2.0.0", "timestamp": "2025-10-20T00:41:00.097Z", "page": "index.html", "received_at": "2025-10-20T00:41:00.135745", "origin": "127.0.0.1", "level": "debug", "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/141.0.0.0 Safari/537.36 Edg/141.0.0.0", "referer": "http://127.0.0.1:8000/index.html"}}
+{"timestamp": "2025-10-20T00:41:00.139349", "event": "➡️ GET /openapi.json", "meta": {}}
+{"timestamp": "2025-10-20T00:41:00.203583", "event": "⬅️ POST /api/debug/log → 200 (72.6 ms)", "meta": {}}
+{"timestamp": "2025-10-20T00:41:00.205998", "event": "⬅️ GET /openapi.json → 200 (66.6 ms)", "meta": {}}
+{"timestamp": "2025-10-20T00:41:00.215467", "event": "➡️ POST /optimize", "meta": {}}
+{"timestamp": "2025-10-20T00:41:00.222604", "event": "💥 [PIPELINE] Optimization failed: 500: Default base resume not found at None", "meta": {}}
+{"timestamp": "2025-10-20T00:41:00.222604", "event": "⬅️ POST /optimize → 500 (7.1 ms)", "meta": {}}
+{"timestamp": "2025-10-20T00:42:20.421549", "event": "➡️ GET /index.html", "meta": {}}
+{"timestamp": "2025-10-20T00:42:20.427644", "event": "⬅️ GET /index.html → 200 (6.1 ms)", "meta": {}}
+{"timestamp": "2025-10-20T00:42:20.585711", "event": "➡️ GET /static/assets/logo.png", "meta": {}}
+{"timestamp": "2025-10-20T00:42:20.587322", "event": "➡️ GET /static/css/base.css", "meta": {}}
+{"timestamp": "2025-10-20T00:42:20.591078", "event": "➡️ GET /static/css/app.css", "meta": {}}
+{"timestamp": "2025-10-20T00:42:20.593221", "event": "➡️ GET /static/js/ui.js", "meta": {}}
+{"timestamp": "2025-10-20T00:42:20.595728", "event": "➡️ GET /static/js/util.js", "meta": {}}
+{"timestamp": "2025-10-20T00:42:20.599238", "event": "➡️ GET /static/css/animations.css", "meta": {}}
+{"timestamp": "2025-10-20T00:42:20.609987", "event": "⬅️ GET /static/assets/logo.png → 200 (24.3 ms)", "meta": {}}
+{"timestamp": "2025-10-20T00:42:20.612469", "event": "⬅️ GET /static/css/base.css → 200 (25.1 ms)", "meta": {}}
+{"timestamp": "2025-10-20T00:42:20.619944", "event": "⬅️ GET /static/js/ui.js → 200 (26.7 ms)", "meta": {}}
+{"timestamp": "2025-10-20T00:42:20.622191", "event": "⬅️ GET /static/css/app.css → 200 (31.1 ms)", "meta": {}}
+{"timestamp": "2025-10-20T00:42:20.623671", "event": "⬅️ GET /static/js/util.js → 200 (27.9 ms)", "meta": {}}
+{"timestamp": "2025-10-20T00:42:20.627338", "event": "⬅️ GET /static/css/animations.css → 200 (26.3 ms)", "meta": {}}
+{"timestamp": "2025-10-20T00:42:20.639581", "event": "➡️ GET /static/js/main.js", "meta": {}}
+{"timestamp": "2025-10-20T00:42:20.659017", "event": "⬅️ GET /static/js/main.js → 200 (19.4 ms)", "meta": {}}
+{"timestamp": "2025-10-20T00:42:20.714734", "event": "➡️ POST /api/debug/log", "meta": {}}
+{"timestamp": "2025-10-20T00:42:20.717265", "event": "➡️ POST /api/debug/log", "meta": {}}
+{"timestamp": "2025-10-20T00:42:20.721275", "event": "frontend_debug", "meta": {"msg": "UI LOADED", "version": "v2.0.0", "page": "index.html", "origin": "http://127.0.0.1:8000", "theme": "dark", "humanize": "on", "timestamp": "2025-10-20T00:42:20.710Z", "received_at": "2025-10-20T00:42:20.721275", "level": "debug", "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/141.0.0.0 Safari/537.36 Edg/141.0.0.0", "referer": "http://127.0.0.1:8000/index.html"}}
+{"timestamp": "2025-10-20T00:42:20.721275", "event": "frontend_debug", "meta": {"msg": "MAIN PAGE LOADED", "app": "ASTRA", "version": "v2.0.0", "apiBase": "http://127.0.0.1:8000", "hasHumanize": false, "model": "gpt-4o-mini", "origin": "http://127.0.0.1:8000", "timestamp": "2025-10-20T00:42:20.710Z", "page": "index.html", "received_at": "2025-10-20T00:42:20.721275", "level": "debug", "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/141.0.0.0 Safari/537.36 Edg/141.0.0.0", "referer": "http://127.0.0.1:8000/index.html"}}
+{"timestamp": "2025-10-20T00:42:20.721275", "event": "⬅️ POST /api/debug/log → 200 (6.5 ms)", "meta": {}}
+{"timestamp": "2025-10-20T00:42:20.727278", "event": "⬅️ POST /api/debug/log → 200 (10.0 ms)", "meta": {}}
+{"timestamp": "2025-10-20T00:42:20.772228", "event": "➡️ GET /static/assets/favicon.png", "meta": {}}
+{"timestamp": "2025-10-20T00:42:20.776306", "event": "⬅️ GET /static/assets/favicon.png → 200 (4.1 ms)", "meta": {}}
+{"timestamp": "2025-10-20T00:42:39.251359", "event": "🧩 Router loaded: backend.api.optimize", "meta": {}}
+{"timestamp": "2025-10-20T00:42:39.293299", "event": "🧩 Router loaded: backend.api.coverletter", "meta": {}}
+{"timestamp": "2025-10-20T00:42:39.331184", "event": "🧩 Router loaded: backend.api.talk", "meta": {}}
+{"timestamp": "2025-10-20T00:42:39.371542", "event": "🧩 Router loaded: backend.api.superhuman", "meta": {}}
+{"timestamp": "2025-10-20T00:42:39.381316", "event": "🧩 Router loaded: backend.api.humanize", "meta": {}}
+{"timestamp": "2025-10-20T00:42:39.438806", "event": "🧩 Router loaded: backend.api.mastermind", "meta": {}}
+{"timestamp": "2025-10-20T00:42:39.451184", "event": "🧩 Router loaded: backend.api.dashboard", "meta": {}}
+{"timestamp": "2025-10-20T00:42:39.461231", "event": "🧩 Router loaded: backend.api.models_router", "meta": {}}
+{"timestamp": "2025-10-20T00:42:39.475976", "event": "🧩 Router loaded: backend.api.context_store", "meta": {}}
+{"timestamp": "2025-10-20T00:42:39.506357", "event": "🧩 Router loaded: backend.api.utils_router", "meta": {}}
+{"timestamp": "2025-10-20T00:42:39.513750", "event": "🧩 Router loaded: backend.api.debug", "meta": {}}
+{"timestamp": "2025-10-20T00:42:39.515765", "event": "📦 Static mounted → C:\\Users\\sriak\\OneDrive\\Desktop\\HIREX\\frontend\\static", "meta": {}}
+{"timestamp": "2025-10-20T00:42:39.773604", "event": "➡️ GET /index.html", "meta": {}}
+{"timestamp": "2025-10-20T00:42:39.883466", "event": "⬅️ GET /index.html → 200 (109.9 ms)", "meta": {}}
+{"timestamp": "2025-10-20T00:42:39.961255", "event": "➡️ GET /static/assets/logo.png", "meta": {}}
+{"timestamp": "2025-10-20T00:42:39.961255", "event": "➡️ GET /static/css/base.css", "meta": {}}
+{"timestamp": "2025-10-20T00:42:39.961255", "event": "➡️ GET /static/css/animations.css", "meta": {}}
+{"timestamp": "2025-10-20T00:42:39.961255", "event": "➡️ GET /static/css/app.css", "meta": {}}
+{"timestamp": "2025-10-20T00:42:39.974863", "event": "➡️ GET /static/js/util.js", "meta": {}}
+{"timestamp": "2025-10-20T00:42:39.985002", "event": "⬅️ GET /static/assets/logo.png → 200 (23.7 ms)", "meta": {}}
+{"timestamp": "2025-10-20T00:42:39.985002", "event": "⬅️ GET /static/css/animations.css → 200 (23.7 ms)", "meta": {}}
+{"timestamp": "2025-10-20T00:42:39.992530", "event": "⬅️ GET /static/css/base.css → 200 (31.3 ms)", "meta": {}}
+{"timestamp": "2025-10-20T00:42:39.993805", "event": "⬅️ GET /static/js/util.js → 200 (18.9 ms)", "meta": {}}
+{"timestamp": "2025-10-20T00:42:39.998910", "event": "⬅️ GET /static/css/app.css → 200 (37.7 ms)", "meta": {}}
+{"timestamp": "2025-10-20T00:42:40.001423", "event": "➡️ GET /static/js/ui.js", "meta": {}}
+{"timestamp": "2025-10-20T00:42:40.011468", "event": "➡️ GET /static/js/main.js", "meta": {}}
+{"timestamp": "2025-10-20T00:42:40.011468", "event": "⬅️ GET /static/js/ui.js → 200 (10.0 ms)", "meta": {}}
+{"timestamp": "2025-10-20T00:42:40.025980", "event": "⬅️ GET /static/js/main.js → 200 (14.5 ms)", "meta": {}}
+{"timestamp": "2025-10-20T00:42:40.067010", "event": "➡️ POST /api/debug/log", "meta": {}}
+{"timestamp": "2025-10-20T00:42:40.071374", "event": "➡️ POST /api/debug/log", "meta": {}}
+{"timestamp": "2025-10-20T00:42:40.075759", "event": "frontend_debug", "meta": {"msg": "UI LOADED", "version": "v2.0.0", "page": "index.html", "origin": "http://127.0.0.1:8000", "theme": "dark", "humanize": "on", "timestamp": "2025-10-20T00:42:40.055Z", "received_at": "2025-10-20T00:42:40.075759", "level": "debug", "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/141.0.0.0 Safari/537.36 Edg/141.0.0.0", "referer": "http://127.0.0.1:8000/index.html"}}
+{"timestamp": "2025-10-20T00:42:40.075759", "event": "⬅️ POST /api/debug/log → 200 (8.7 ms)", "meta": {}}
+{"timestamp": "2025-10-20T00:42:40.081201", "event": "frontend_debug", "meta": {"msg": "MAIN PAGE LOADED", "app": "ASTRA", "version": "v2.0.0", "apiBase": "http://127.0.0.1:8000", "hasHumanize": false, "model": "gpt-4o-mini", "origin": "http://127.0.0.1:8000", "timestamp": "2025-10-20T00:42:40.056Z", "page": "index.html", "received_at": "2025-10-20T00:42:40.075759", "level": "debug", "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/141.0.0.0 Safari/537.36 Edg/141.0.0.0", "referer": "http://127.0.0.1:8000/index.html"}}
+{"timestamp": "2025-10-20T00:42:40.083550", "event": "⬅️ POST /api/debug/log → 200 (12.2 ms)", "meta": {}}
+{"timestamp": "2025-10-20T00:42:40.108990", "event": "➡️ GET /static/assets/favicon.png", "meta": {}}
+{"timestamp": "2025-10-20T00:42:40.114146", "event": "⬅️ GET /static/assets/favicon.png → 200 (5.2 ms)", "meta": {}}
+{"timestamp": "2025-10-20T00:42:44.830061", "event": "➡️ POST /api/debug/log", "meta": {}}
+{"timestamp": "2025-10-20T00:42:44.833354", "event": "➡️ GET /openapi.json", "meta": {}}
+{"timestamp": "2025-10-20T00:42:44.881305", "event": "frontend_debug", "meta": {"msg": "Submitting optimization", "useHumanize": false, "version": "v2.0.0", "timestamp": "2025-10-20T00:42:44.797Z", "page": "index.html", "received_at": "2025-10-20T00:42:44.881305", "origin": "127.0.0.1", "level": "debug", "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/141.0.0.0 Safari/537.36 Edg/141.0.0.0", "referer": "http://127.0.0.1:8000/index.html"}}
+{"timestamp": "2025-10-20T00:42:44.881305", "event": "⬅️ GET /openapi.json → 200 (48.0 ms)", "meta": {}}
+{"timestamp": "2025-10-20T00:42:44.891155", "event": "⬅️ POST /api/debug/log → 200 (62.0 ms)", "meta": {}}
+{"timestamp": "2025-10-20T00:42:44.896478", "event": "➡️ POST /optimize", "meta": {}}
+{"timestamp": "2025-10-20T00:42:44.904812", "event": "💥 [PIPELINE] Optimization failed: 500: Default base resume not found at None", "meta": {}}
+{"timestamp": "2025-10-20T00:42:44.904812", "event": "⬅️ POST /optimize → 500 (8.3 ms)", "meta": {}}
+{"timestamp": "2025-10-20T00:45:03.411699", "event": "🧩 Router loaded: backend.api.optimize", "meta": {}}
+{"timestamp": "2025-10-20T00:45:03.450654", "event": "🧩 Router loaded: backend.api.coverletter", "meta": {}}
+{"timestamp": "2025-10-20T00:45:03.481566", "event": "🧩 Router loaded: backend.api.talk", "meta": {}}
+{"timestamp": "2025-10-20T00:45:03.528913", "event": "🧩 Router loaded: backend.api.superhuman", "meta": {}}
+{"timestamp": "2025-10-20T00:45:03.542848", "event": "🧩 Router loaded: backend.api.humanize", "meta": {}}
+{"timestamp": "2025-10-20T00:45:03.591608", "event": "🧩 Router loaded: backend.api.mastermind", "meta": {}}
+{"timestamp": "2025-10-20T00:45:03.611548", "event": "🧩 Router loaded: backend.api.dashboard", "meta": {}}
+{"timestamp": "2025-10-20T00:45:03.611548", "event": "🧩 Router loaded: backend.api.models_router", "meta": {}}
+{"timestamp": "2025-10-20T00:45:03.631266", "event": "🧩 Router loaded: backend.api.context_store", "meta": {}}
+{"timestamp": "2025-10-20T00:45:03.654586", "event": "🧩 Router loaded: backend.api.utils_router", "meta": {}}
+{"timestamp": "2025-10-20T00:45:03.661342", "event": "🧩 Router loaded: backend.api.debug", "meta": {}}
+{"timestamp": "2025-10-20T00:45:03.661342", "event": "📦 Static mounted → C:\\Users\\sriak\\OneDrive\\Desktop\\HIREX\\frontend\\static", "meta": {}}
+{"timestamp": "2025-10-20T00:45:05.611386", "event": "➡️ GET /index.html", "meta": {}}
+{"timestamp": "2025-10-20T00:45:05.717291", "event": "⬅️ GET /index.html → 200 (105.9 ms)", "meta": {}}
+{"timestamp": "2025-10-20T00:45:05.893609", "event": "➡️ GET /static/assets/logo.png", "meta": {}}
+{"timestamp": "2025-10-20T00:45:05.893609", "event": "➡️ GET /static/css/animations.css", "meta": {}}
+{"timestamp": "2025-10-20T00:45:05.901424", "event": "➡️ GET /static/css/base.css", "meta": {}}
+{"timestamp": "2025-10-20T00:45:05.904236", "event": "➡️ GET /static/css/app.css", "meta": {}}
+{"timestamp": "2025-10-20T00:45:05.907018", "event": "➡️ GET /static/js/ui.js", "meta": {}}
+{"timestamp": "2025-10-20T00:45:05.911666", "event": "➡️ GET /static/js/util.js", "meta": {}}
+{"timestamp": "2025-10-20T00:45:05.928484", "event": "⬅️ GET /static/css/animations.css → 200 (34.9 ms)", "meta": {}}
+{"timestamp": "2025-10-20T00:45:05.931506", "event": "⬅️ GET /static/js/ui.js → 200 (24.5 ms)", "meta": {}}
+{"timestamp": "2025-10-20T00:45:05.941361", "event": "⬅️ GET /static/assets/logo.png → 200 (47.8 ms)", "meta": {}}
+{"timestamp": "2025-10-20T00:45:05.943412", "event": "⬅️ GET /static/js/util.js → 200 (31.7 ms)", "meta": {}}
+{"timestamp": "2025-10-20T00:45:05.943412", "event": "⬅️ GET /static/css/base.css → 200 (42.0 ms)", "meta": {}}
+{"timestamp": "2025-10-20T00:45:05.954242", "event": "⬅️ GET /static/css/app.css → 200 (50.0 ms)", "meta": {}}
+{"timestamp": "2025-10-20T00:45:05.975816", "event": "➡️ GET /static/js/main.js", "meta": {}}
+{"timestamp": "2025-10-20T00:45:05.976328", "event": "⬅️ GET /static/js/main.js → 200 (0.5 ms)", "meta": {}}
+{"timestamp": "2025-10-20T00:45:06.067398", "event": "➡️ POST /api/debug/log", "meta": {}}
+{"timestamp": "2025-10-20T00:45:06.071700", "event": "frontend_debug", "meta": {"msg": "UI LOADED", "version": "v2.0.0", "page": "index.html", "origin": "http://127.0.0.1:8000", "theme": "dark", "humanize": "on", "timestamp": "2025-10-20T00:45:06.062Z", "received_at": "2025-10-20T00:45:06.071700", "level": "debug", "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/141.0.0.0 Safari/537.36 Edg/141.0.0.0", "referer": "http://127.0.0.1:8000/index.html"}}
+{"timestamp": "2025-10-20T00:45:06.076911", "event": "⬅️ POST /api/debug/log → 200 (9.5 ms)", "meta": {}}
+{"timestamp": "2025-10-20T00:45:06.079302", "event": "➡️ POST /api/debug/log", "meta": {}}
+{"timestamp": "2025-10-20T00:45:06.083008", "event": "frontend_debug", "meta": {"msg": "MAIN PAGE LOADED", "app": "ASTRA", "version": "v2.0.0", "apiBase": "http://127.0.0.1:8000", "hasHumanize": false, "model": "gpt-4o-mini", "origin": "http://127.0.0.1:8000", "timestamp": "2025-10-20T00:45:06.064Z", "page": "index.html", "received_at": "2025-10-20T00:45:06.083008", "level": "debug", "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/141.0.0.0 Safari/537.36 Edg/141.0.0.0", "referer": "http://127.0.0.1:8000/index.html"}}
+{"timestamp": "2025-10-20T00:45:06.087313", "event": "⬅️ POST /api/debug/log → 200 (8.0 ms)", "meta": {}}
+{"timestamp": "2025-10-20T00:45:06.114429", "event": "➡️ GET /static/assets/favicon.png", "meta": {}}
+{"timestamp": "2025-10-20T00:45:06.116687", "event": "⬅️ GET /static/assets/favicon.png → 200 (2.3 ms)", "meta": {}}
+{"timestamp": "2025-10-20T00:45:25.591395", "event": "➡️ POST /api/debug/log", "meta": {}}
+{"timestamp": "2025-10-20T00:45:25.594028", "event": "frontend_debug", "meta": {"msg": "Submitting optimization", "useHumanize": false, "version": "v2.0.0", "timestamp": "2025-10-20T00:45:25.550Z", "page": "index.html", "received_at": "2025-10-20T00:45:25.594028", "origin": "127.0.0.1", "level": "debug", "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/141.0.0.0 Safari/537.36 Edg/141.0.0.0", "referer": "http://127.0.0.1:8000/index.html"}}
+{"timestamp": "2025-10-20T00:45:25.596034", "event": "➡️ GET /openapi.json", "meta": {}}
+{"timestamp": "2025-10-20T00:45:25.651167", "event": "⬅️ POST /api/debug/log → 200 (59.8 ms)", "meta": {}}
+{"timestamp": "2025-10-20T00:45:25.654508", "event": "⬅️ GET /openapi.json → 200 (58.5 ms)", "meta": {}}
+{"timestamp": "2025-10-20T00:45:25.665385", "event": "➡️ POST /optimize", "meta": {}}
+{"timestamp": "2025-10-20T00:45:25.671162", "event": "💥 [PIPELINE] Optimization failed: 500: Default base resume not found at None", "meta": {}}
+{"timestamp": "2025-10-20T00:45:25.673003", "event": "⬅️ POST /optimize → 500 (8.3 ms)", "meta": {}}
+{"timestamp": "2025-10-20T00:45:25.680247", "event": "➡️ POST /api/debug/log", "meta": {}}
+{"timestamp": "2025-10-20T00:45:25.683572", "event": "frontend_debug", "meta": {"msg": "500 default base missing — retrying with provided base", "path": "/optimize", "version": "v2.0.0", "timestamp": "2025-10-20T00:45:25.677Z", "page": "index.html", "received_at": "2025-10-20T00:45:25.682884", "origin": "127.0.0.1", "level": "debug", "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/141.0.0.0 Safari/537.36 Edg/141.0.0.0", "referer": "http://127.0.0.1:8000/index.html"}}
+{"timestamp": "2025-10-20T00:45:25.685227", "event": "⬅️ POST /api/debug/log → 200 (5.0 ms)", "meta": {}}
+{"timestamp": "2025-10-20T00:48:15.443232", "event": "➡️ GET /index.html", "meta": {}}
+{"timestamp": "2025-10-20T00:48:15.449344", "event": "⬅️ GET /index.html → 200 (6.1 ms)", "meta": {}}
+{"timestamp": "2025-10-20T00:48:15.654359", "event": "➡️ GET /static/assets/logo.png", "meta": {}}
+{"timestamp": "2025-10-20T00:48:15.654359", "event": "➡️ GET /static/css/animations.css", "meta": {}}
+{"timestamp": "2025-10-20T00:48:15.654359", "event": "➡️ GET /static/css/base.css", "meta": {}}
+{"timestamp": "2025-10-20T00:48:15.661702", "event": "➡️ GET /static/css/app.css", "meta": {}}
+{"timestamp": "2025-10-20T00:48:15.664549", "event": "⬅️ GET /static/assets/logo.png → 200 (10.2 ms)", "meta": {}}
+{"timestamp": "2025-10-20T00:48:15.671449", "event": "⬅️ GET /static/css/animations.css → 200 (17.1 ms)", "meta": {}}
+{"timestamp": "2025-10-20T00:48:15.672349", "event": "⬅️ GET /static/css/base.css → 200 (18.0 ms)", "meta": {}}
+{"timestamp": "2025-10-20T00:48:15.672349", "event": "⬅️ GET /static/css/app.css → 200 (10.6 ms)", "meta": {}}
+{"timestamp": "2025-10-20T00:48:15.711710", "event": "➡️ GET /static/js/util.js", "meta": {}}
+{"timestamp": "2025-10-20T00:48:15.711710", "event": "➡️ GET /static/js/ui.js", "meta": {}}
+{"timestamp": "2025-10-20T00:48:15.711710", "event": "➡️ GET /static/js/main.js", "meta": {}}
+{"timestamp": "2025-10-20T00:48:15.720412", "event": "⬅️ GET /static/js/util.js → 200 (8.7 ms)", "meta": {}}
+{"timestamp": "2025-10-20T00:48:15.721539", "event": "⬅️ GET /static/js/ui.js → 200 (9.8 ms)", "meta": {}}
+{"timestamp": "2025-10-20T00:48:15.725061", "event": "⬅️ GET /static/js/main.js → 200 (13.4 ms)", "meta": {}}
+{"timestamp": "2025-10-20T00:48:15.749259", "event": "➡️ POST /api/debug/log", "meta": {}}
+{"timestamp": "2025-10-20T00:48:15.754961", "event": "➡️ POST /api/debug/log", "meta": {}}
+{"timestamp": "2025-10-20T00:48:15.759683", "event": "frontend_debug", "meta": {"msg": "UI LOADED", "version": "v2.0.0", "page": "index.html", "origin": "http://127.0.0.1:8000", "theme": "dark", "humanize": "on", "timestamp": "2025-10-20T00:48:15.747Z", "received_at": "2025-10-20T00:48:15.757670", "level": "debug", "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/141.0.0.0 Safari/537.36 Edg/141.0.0.0", "referer": "http://127.0.0.1:8000/index.html"}}
+{"timestamp": "2025-10-20T00:48:15.762016", "event": "⬅️ POST /api/debug/log → 200 (11.6 ms)", "meta": {}}
+{"timestamp": "2025-10-20T00:48:15.762016", "event": "frontend_debug", "meta": {"msg": "MAIN PAGE LOADED", "app": "ASTRA", "version": "v2.0.0", "apiBase": "http://127.0.0.1:8000", "hasHumanize": false, "model": "gpt-4o-mini", "origin": "http://127.0.0.1:8000", "timestamp": "2025-10-20T00:48:15.748Z", "page": "index.html", "received_at": "2025-10-20T00:48:15.762016", "level": "debug", "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/141.0.0.0 Safari/537.36 Edg/141.0.0.0", "referer": "http://127.0.0.1:8000/index.html"}}
+{"timestamp": "2025-10-20T00:48:15.765900", "event": "⬅️ POST /api/debug/log → 200 (10.9 ms)", "meta": {}}
+{"timestamp": "2025-10-20T00:48:15.793140", "event": "➡️ GET /static/assets/favicon.png", "meta": {}}
+{"timestamp": "2025-10-20T00:48:15.799051", "event": "⬅️ GET /static/assets/favicon.png → 200 (5.9 ms)", "meta": {}}
+{"timestamp": "2025-10-20T00:49:59.135599", "event": "➡️ GET /index.html", "meta": {}}
+{"timestamp": "2025-10-20T00:49:59.146321", "event": "⬅️ GET /index.html → 200 (10.7 ms)", "meta": {}}
+{"timestamp": "2025-10-20T00:49:59.300448", "event": "➡️ GET /static/assets/logo.png", "meta": {}}
+{"timestamp": "2025-10-20T00:49:59.301964", "event": "➡️ GET /static/css/base.css", "meta": {}}
+{"timestamp": "2025-10-20T00:49:59.305038", "event": "➡️ GET /static/css/app.css", "meta": {}}
+{"timestamp": "2025-10-20T00:49:59.305038", "event": "➡️ GET /static/css/animations.css", "meta": {}}
+{"timestamp": "2025-10-20T00:49:59.312888", "event": "➡️ GET /static/js/util.js", "meta": {}}
+{"timestamp": "2025-10-20T00:49:59.317293", "event": "➡️ GET /static/js/ui.js", "meta": {}}
+{"timestamp": "2025-10-20T00:49:59.321831", "event": "⬅️ GET /static/assets/logo.png → 200 (21.4 ms)", "meta": {}}
+{"timestamp": "2025-10-20T00:49:59.326216", "event": "⬅️ GET /static/css/base.css → 200 (22.0 ms)", "meta": {}}
+{"timestamp": "2025-10-20T00:49:59.326890", "event": "⬅️ GET /static/css/app.css → 200 (21.9 ms)", "meta": {}}
+{"timestamp": "2025-10-20T00:49:59.329697", "event": "⬅️ GET /static/css/animations.css → 200 (24.7 ms)", "meta": {}}
+{"timestamp": "2025-10-20T00:49:59.331835", "event": "⬅️ GET /static/js/util.js → 200 (18.9 ms)", "meta": {}}
+{"timestamp": "2025-10-20T00:49:59.336101", "event": "⬅️ GET /static/js/ui.js → 200 (18.8 ms)", "meta": {}}
+{"timestamp": "2025-10-20T00:49:59.349956", "event": "➡️ GET /static/js/main.js", "meta": {}}
+{"timestamp": "2025-10-20T00:49:59.351978", "event": "⬅️ GET /static/js/main.js → 200 (2.0 ms)", "meta": {}}
+{"timestamp": "2025-10-20T00:49:59.476538", "event": "➡️ POST /api/debug/log", "meta": {}}
+{"timestamp": "2025-10-20T00:49:59.479554", "event": "➡️ POST /api/debug/log", "meta": {}}
+{"timestamp": "2025-10-20T00:49:59.483958", "event": "frontend_debug", "meta": {"msg": "UI LOADED", "version": "v2.0.0", "page": "index.html", "origin": "http://127.0.0.1:8000", "theme": "dark", "humanize": "on", "timestamp": "2025-10-20T00:49:59.471Z", "received_at": "2025-10-20T00:49:59.482940", "level": "debug", "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/141.0.0.0 Safari/537.36 Edg/141.0.0.0", "referer": "http://127.0.0.1:8000/index.html"}}
+{"timestamp": "2025-10-20T00:49:59.483958", "event": "⬅️ POST /api/debug/log → 200 (7.4 ms)", "meta": {}}
+{"timestamp": "2025-10-20T00:49:59.487767", "event": "frontend_debug", "meta": {"msg": "MAIN PAGE LOADED", "app": "ASTRA", "version": "v2.0.0", "apiBase": "http://127.0.0.1:8000", "hasHumanize": false, "model": "gpt-4o-mini", "origin": "http://127.0.0.1:8000", "timestamp": "2025-10-20T00:49:59.472Z", "page": "index.html", "received_at": "2025-10-20T00:49:59.487767", "level": "debug", "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/141.0.0.0 Safari/537.36 Edg/141.0.0.0", "referer": "http://127.0.0.1:8000/index.html"}}
+{"timestamp": "2025-10-20T00:49:59.490669", "event": "⬅️ POST /api/debug/log → 200 (11.1 ms)", "meta": {}}
+{"timestamp": "2025-10-20T00:49:59.517628", "event": "➡️ GET /static/assets/favicon.png", "meta": {}}
+{"timestamp": "2025-10-20T00:49:59.522030", "event": "⬅️ GET /static/assets/favicon.png → 200 (4.4 ms)", "meta": {}}
+{"timestamp": "2025-10-20T00:50:11.739715", "event": "🧩 Router loaded: backend.api.optimize", "meta": {}}
+{"timestamp": "2025-10-20T00:50:11.779198", "event": "🧩 Router loaded: backend.api.coverletter", "meta": {}}
+{"timestamp": "2025-10-20T00:50:11.811626", "event": "🧩 Router loaded: backend.api.talk", "meta": {}}
+{"timestamp": "2025-10-20T00:50:11.851606", "event": "🧩 Router loaded: backend.api.superhuman", "meta": {}}
+{"timestamp": "2025-10-20T00:50:11.861615", "event": "🧩 Router loaded: backend.api.humanize", "meta": {}}
+{"timestamp": "2025-10-20T00:50:11.912776", "event": "🧩 Router loaded: backend.api.mastermind", "meta": {}}
+{"timestamp": "2025-10-20T00:50:11.923498", "event": "🧩 Router loaded: backend.api.dashboard", "meta": {}}
+{"timestamp": "2025-10-20T00:50:11.925509", "event": "🧩 Router loaded: backend.api.models_router", "meta": {}}
+{"timestamp": "2025-10-20T00:50:11.942439", "event": "🧩 Router loaded: backend.api.context_store", "meta": {}}
+{"timestamp": "2025-10-20T00:50:11.967775", "event": "🧩 Router loaded: backend.api.utils_router", "meta": {}}
+{"timestamp": "2025-10-20T00:50:11.973027", "event": "🧩 Router loaded: backend.api.debug", "meta": {}}
+{"timestamp": "2025-10-20T00:50:11.973027", "event": "📦 Static mounted → C:\\Users\\sriak\\OneDrive\\Desktop\\HIREX\\frontend\\static", "meta": {}}
+{"timestamp": "2025-10-20T00:50:12.354772", "event": "➡️ GET /index.html", "meta": {}}
+{"timestamp": "2025-10-20T00:50:12.451874", "event": "⬅️ GET /index.html → 200 (97.1 ms)", "meta": {}}
+{"timestamp": "2025-10-20T00:50:12.523374", "event": "➡️ GET /static/assets/logo.png", "meta": {}}
+{"timestamp": "2025-10-20T00:50:12.523374", "event": "➡️ GET /static/css/animations.css", "meta": {}}
+{"timestamp": "2025-10-20T00:50:12.523374", "event": "➡️ GET /static/css/app.css", "meta": {}}
+{"timestamp": "2025-10-20T00:50:12.531627", "event": "➡️ GET /static/css/base.css", "meta": {}}
+{"timestamp": "2025-10-20T00:50:12.541958", "event": "⬅️ GET /static/css/animations.css → 200 (18.6 ms)", "meta": {}}
+{"timestamp": "2025-10-20T00:50:12.541958", "event": "⬅️ GET /static/css/base.css → 200 (10.3 ms)", "meta": {}}
+{"timestamp": "2025-10-20T00:50:12.541958", "event": "⬅️ GET /static/assets/logo.png → 200 (18.6 ms)", "meta": {}}
+{"timestamp": "2025-10-20T00:50:12.551788", "event": "⬅️ GET /static/css/app.css → 200 (28.4 ms)", "meta": {}}
+{"timestamp": "2025-10-20T00:50:12.560497", "event": "➡️ GET /static/js/util.js", "meta": {}}
+{"timestamp": "2025-10-20T00:50:12.563147", "event": "➡️ GET /static/js/ui.js", "meta": {}}
+{"timestamp": "2025-10-20T00:50:12.563147", "event": "➡️ GET /static/js/main.js", "meta": {}}
+{"timestamp": "2025-10-20T00:50:12.563147", "event": "⬅️ GET /static/js/util.js → 200 (2.7 ms)", "meta": {}}
+{"timestamp": "2025-10-20T00:50:12.575594", "event": "⬅️ GET /static/js/ui.js → 200 (13.6 ms)", "meta": {}}
+{"timestamp": "2025-10-20T00:50:12.578908", "event": "⬅️ GET /static/js/main.js → 200 (15.8 ms)", "meta": {}}
+{"timestamp": "2025-10-20T00:50:12.604942", "event": "➡️ POST /api/debug/log", "meta": {}}
+{"timestamp": "2025-10-20T00:50:12.609669", "event": "➡️ POST /api/debug/log", "meta": {}}
+{"timestamp": "2025-10-20T00:50:12.613358", "event": "frontend_debug", "meta": {"msg": "UI LOADED", "version": "v2.0.0", "page": "index.html", "origin": "http://127.0.0.1:8000", "theme": "dark", "humanize": "on", "timestamp": "2025-10-20T00:50:12.600Z", "received_at": "2025-10-20T00:50:12.613358", "level": "debug", "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/141.0.0.0 Safari/537.36 Edg/141.0.0.0", "referer": "http://127.0.0.1:8000/index.html"}}
+{"timestamp": "2025-10-20T00:50:12.613358", "event": "frontend_debug", "meta": {"msg": "MAIN PAGE LOADED", "app": "ASTRA", "version": "v2.0.0", "apiBase": "http://127.0.0.1:8000", "hasHumanize": false, "model": "gpt-4o-mini", "origin": "http://127.0.0.1:8000", "timestamp": "2025-10-20T00:50:12.601Z", "page": "index.html", "received_at": "2025-10-20T00:50:12.613358", "level": "debug", "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/141.0.0.0 Safari/537.36 Edg/141.0.0.0", "referer": "http://127.0.0.1:8000/index.html"}}
+{"timestamp": "2025-10-20T00:50:12.613358", "event": "⬅️ POST /api/debug/log → 200 (8.4 ms)", "meta": {}}
+{"timestamp": "2025-10-20T00:50:12.613358", "event": "⬅️ POST /api/debug/log → 200 (3.7 ms)", "meta": {}}
+{"timestamp": "2025-10-20T00:50:12.652358", "event": "➡️ GET /static/assets/favicon.png", "meta": {}}
+{"timestamp": "2025-10-20T00:50:12.656757", "event": "⬅️ GET /static/assets/favicon.png → 200 (4.4 ms)", "meta": {}}
+{"timestamp": "2025-10-20T00:54:07.312310", "event": "🧩 Router loaded: backend.api.optimize", "meta": {}}
+{"timestamp": "2025-10-20T00:54:07.352149", "event": "🧩 Router loaded: backend.api.coverletter", "meta": {}}
+{"timestamp": "2025-10-20T00:54:07.383755", "event": "🧩 Router loaded: backend.api.talk", "meta": {}}
+{"timestamp": "2025-10-20T00:54:07.428087", "event": "🧩 Router loaded: backend.api.superhuman", "meta": {}}
+{"timestamp": "2025-10-20T00:54:07.433350", "event": "🧩 Router loaded: backend.api.humanize", "meta": {}}
+{"timestamp": "2025-10-20T00:54:07.486602", "event": "🧩 Router loaded: backend.api.mastermind", "meta": {}}
+{"timestamp": "2025-10-20T00:54:07.495372", "event": "🧩 Router loaded: backend.api.dashboard", "meta": {}}
+{"timestamp": "2025-10-20T00:54:07.507199", "event": "🧩 Router loaded: backend.api.models_router", "meta": {}}
+{"timestamp": "2025-10-20T00:54:07.521837", "event": "🧩 Router loaded: backend.api.context_store", "meta": {}}
+{"timestamp": "2025-10-20T00:54:07.550944", "event": "🧩 Router loaded: backend.api.utils_router", "meta": {}}
+{"timestamp": "2025-10-20T00:54:07.557258", "event": "🧩 Router loaded: backend.api.debug", "meta": {}}
+{"timestamp": "2025-10-20T00:54:07.559033", "event": "📦 Static mounted → C:\\Users\\sriak\\OneDrive\\Desktop\\HIREX\\frontend\\static", "meta": {}}
+{"timestamp": "2025-10-20T00:54:07.829994", "event": "➡️ GET /index.html", "meta": {}}
+{"timestamp": "2025-10-20T00:54:07.934748", "event": "⬅️ GET /index.html → 200 (104.8 ms)", "meta": {}}
+{"timestamp": "2025-10-20T00:54:08.052431", "event": "➡️ GET /static/assets/logo.png", "meta": {}}
+{"timestamp": "2025-10-20T00:54:08.057081", "event": "➡️ GET /static/css/base.css", "meta": {}}
+{"timestamp": "2025-10-20T00:54:08.062000", "event": "➡️ GET /static/css/animations.css", "meta": {}}
+{"timestamp": "2025-10-20T00:54:08.063885", "event": "➡️ GET /static/css/app.css", "meta": {}}
+{"timestamp": "2025-10-20T00:54:08.072092", "event": "➡️ GET /static/js/util.js", "meta": {}}
+{"timestamp": "2025-10-20T00:54:08.077077", "event": "➡️ GET /static/js/ui.js", "meta": {}}
+{"timestamp": "2025-10-20T00:54:08.080090", "event": "⬅️ GET /static/css/app.css → 200 (16.2 ms)", "meta": {}}
+{"timestamp": "2025-10-20T00:54:08.082190", "event": "⬅️ GET /static/css/animations.css → 200 (22.0 ms)", "meta": {}}
+{"timestamp": "2025-10-20T00:54:08.082190", "event": "⬅️ GET /static/assets/logo.png → 200 (29.8 ms)", "meta": {}}
+{"timestamp": "2025-10-20T00:54:08.086009", "event": "⬅️ GET /static/css/base.css → 200 (28.9 ms)", "meta": {}}
+{"timestamp": "2025-10-20T00:54:08.092525", "event": "⬅️ GET /static/js/util.js → 200 (20.4 ms)", "meta": {}}
+{"timestamp": "2025-10-20T00:54:08.095050", "event": "⬅️ GET /static/js/ui.js → 200 (18.0 ms)", "meta": {}}
+{"timestamp": "2025-10-20T00:54:08.102120", "event": "➡️ GET /static/js/main.js", "meta": {}}
+{"timestamp": "2025-10-20T00:54:08.111657", "event": "⬅️ GET /static/js/main.js → 200 (9.5 ms)", "meta": {}}
+{"timestamp": "2025-10-20T00:54:08.187251", "event": "➡️ POST /api/debug/log", "meta": {}}
+{"timestamp": "2025-10-20T00:54:08.187251", "event": "➡️ POST /api/debug/log", "meta": {}}
+{"timestamp": "2025-10-20T00:54:08.193903", "event": "frontend_debug", "meta": {"msg": "UI LOADED", "version": "v2.0.0", "page": "index.html", "origin": "http://127.0.0.1:8000", "theme": "dark", "humanize": "on", "timestamp": "2025-10-20T00:54:08.185Z", "received_at": "2025-10-20T00:54:08.193903", "level": "debug", "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/141.0.0.0 Safari/537.36 Edg/141.0.0.0", "referer": "http://127.0.0.1:8000/index.html"}}
+{"timestamp": "2025-10-20T00:54:08.195666", "event": "⬅️ POST /api/debug/log → 200 (8.4 ms)", "meta": {}}
+{"timestamp": "2025-10-20T00:54:08.195666", "event": "frontend_debug", "meta": {"msg": "MAIN PAGE LOADED", "app": "ASTRA", "version": "v2.0.0", "apiBase": "http://127.0.0.1:8000", "hasHumanize": false, "model": "gpt-4o-mini", "origin": "http://127.0.0.1:8000", "timestamp": "2025-10-20T00:54:08.187Z", "page": "index.html", "received_at": "2025-10-20T00:54:08.195666", "level": "debug", "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/141.0.0.0 Safari/537.36 Edg/141.0.0.0", "referer": "http://127.0.0.1:8000/index.html"}}
+{"timestamp": "2025-10-20T00:54:08.195666", "event": "⬅️ POST /api/debug/log → 200 (8.4 ms)", "meta": {}}
+{"timestamp": "2025-10-20T00:54:08.294961", "event": "➡️ GET /static/assets/favicon.png", "meta": {}}
+{"timestamp": "2025-10-20T00:54:08.303269", "event": "⬅️ GET /static/assets/favicon.png → 200 (8.3 ms)", "meta": {}}
+{"timestamp": "2025-10-20T00:54:17.992631", "event": "➡️ POST /api/debug/log", "meta": {}}
+{"timestamp": "2025-10-20T00:54:18.000511", "event": "frontend_debug", "meta": {"msg": "Submitting optimization", "useHumanize": false, "version": "v2.0.0", "timestamp": "2025-10-20T00:54:17.959Z", "page": "index.html", "received_at": "2025-10-20T00:54:17.997359", "origin": "127.0.0.1", "level": "debug", "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/141.0.0.0 Safari/537.36 Edg/141.0.0.0", "referer": "http://127.0.0.1:8000/index.html"}}
+{"timestamp": "2025-10-20T00:54:18.002031", "event": "➡️ GET /openapi.json", "meta": {}}
+{"timestamp": "2025-10-20T00:54:18.002031", "event": "⬅️ POST /api/debug/log → 200 (9.4 ms)", "meta": {}}
+{"timestamp": "2025-10-20T00:54:18.065569", "event": "⬅️ GET /openapi.json → 200 (63.5 ms)", "meta": {}}
+{"timestamp": "2025-10-20T00:54:18.082285", "event": "➡️ POST /optimize", "meta": {}}
+{"timestamp": "2025-10-20T00:54:18.086906", "event": "💥 [PIPELINE] Optimization failed: 500: Default base resume not found at None", "meta": {}}
+{"timestamp": "2025-10-20T00:54:18.086906", "event": "⬅️ POST /optimize → 500 (4.6 ms)", "meta": {}}
+{"timestamp": "2025-10-20T00:59:05.682213", "event": "🧩 Router loaded: backend.api.optimize", "meta": {}}
+{"timestamp": "2025-10-20T00:59:05.706965", "event": "🧩 Router loaded: backend.api.coverletter", "meta": {}}
+{"timestamp": "2025-10-20T00:59:05.732282", "event": "🧩 Router loaded: backend.api.talk", "meta": {}}
+{"timestamp": "2025-10-20T00:59:05.756497", "event": "🧩 Router loaded: backend.api.superhuman", "meta": {}}
+{"timestamp": "2025-10-20T00:59:05.762276", "event": "🧩 Router loaded: backend.api.humanize", "meta": {}}
+{"timestamp": "2025-10-20T00:59:05.789665", "event": "🧩 Router loaded: backend.api.mastermind", "meta": {}}
+{"timestamp": "2025-10-20T00:59:05.796236", "event": "🧩 Router loaded: backend.api.dashboard", "meta": {}}
+{"timestamp": "2025-10-20T00:59:05.800261", "event": "🧩 Router loaded: backend.api.models_router", "meta": {}}
+{"timestamp": "2025-10-20T00:59:05.807009", "event": "🧩 Router loaded: backend.api.context_store", "meta": {}}
+{"timestamp": "2025-10-20T00:59:05.822245", "event": "🧩 Router loaded: backend.api.utils_router", "meta": {}}
+{"timestamp": "2025-10-20T00:59:05.832453", "event": "🧩 Router loaded: backend.api.debug", "meta": {}}
+{"timestamp": "2025-10-20T00:59:05.835524", "event": "📦 Static mounted → C:\\Users\\sriak\\OneDrive\\Desktop\\HIREX\\frontend\\static", "meta": {}}
+{"timestamp": "2025-10-20T00:59:10.837466", "event": "🧩 Router loaded: backend.api.optimize", "meta": {}}
+{"timestamp": "2025-10-20T00:59:10.872600", "event": "🧩 Router loaded: backend.api.coverletter", "meta": {}}
+{"timestamp": "2025-10-20T00:59:10.909347", "event": "🧩 Router loaded: backend.api.talk", "meta": {}}
+{"timestamp": "2025-10-20T00:59:10.946915", "event": "🧩 Router loaded: backend.api.superhuman", "meta": {}}
+{"timestamp": "2025-10-20T00:59:10.953856", "event": "🧩 Router loaded: backend.api.humanize", "meta": {}}
+{"timestamp": "2025-10-20T00:59:11.002545", "event": "🧩 Router loaded: backend.api.mastermind", "meta": {}}
+{"timestamp": "2025-10-20T00:59:11.013316", "event": "🧩 Router loaded: backend.api.dashboard", "meta": {}}
+{"timestamp": "2025-10-20T00:59:11.017506", "event": "🧩 Router loaded: backend.api.models_router", "meta": {}}
+{"timestamp": "2025-10-20T00:59:11.030367", "event": "🧩 Router loaded: backend.api.context_store", "meta": {}}
+{"timestamp": "2025-10-20T00:59:11.052133", "event": "🧩 Router loaded: backend.api.utils_router", "meta": {}}
+{"timestamp": "2025-10-20T00:59:11.052133", "event": "🧩 Router loaded: backend.api.debug", "meta": {}}
+{"timestamp": "2025-10-20T00:59:11.052133", "event": "📦 Static mounted → C:\\Users\\sriak\\OneDrive\\Desktop\\HIREX\\frontend\\static", "meta": {}}
+{"timestamp": "2025-10-20T00:59:12.332313", "event": "➡️ GET /index.html", "meta": {}}
+{"timestamp": "2025-10-20T00:59:12.452193", "event": "⬅️ GET /index.html → 200 (119.9 ms)", "meta": {}}
+{"timestamp": "2025-10-20T00:59:12.523372", "event": "➡️ GET /static/assets/logo.png", "meta": {}}
+{"timestamp": "2025-10-20T00:59:12.532301", "event": "➡️ GET /static/css/animations.css", "meta": {}}
+{"timestamp": "2025-10-20T00:59:12.532301", "event": "➡️ GET /static/css/base.css", "meta": {}}
+{"timestamp": "2025-10-20T00:59:12.539405", "event": "➡️ GET /static/css/app.css", "meta": {}}
+{"timestamp": "2025-10-20T00:59:12.539405", "event": "➡️ GET /static/js/util.js", "meta": {}}
+{"timestamp": "2025-10-20T00:59:12.542252", "event": "➡️ GET /static/js/ui.js", "meta": {}}
+{"timestamp": "2025-10-20T00:59:12.552145", "event": "⬅️ GET /static/assets/logo.png → 200 (28.8 ms)", "meta": {}}
+{"timestamp": "2025-10-20T00:59:12.555694", "event": "⬅️ GET /static/css/app.css → 200 (16.3 ms)", "meta": {}}
+{"timestamp": "2025-10-20T00:59:12.555694", "event": "⬅️ GET /static/css/animations.css → 200 (23.4 ms)", "meta": {}}
+{"timestamp": "2025-10-20T00:59:12.565059", "event": "⬅️ GET /static/js/util.js → 200 (25.7 ms)", "meta": {}}
+{"timestamp": "2025-10-20T00:59:12.567801", "event": "⬅️ GET /static/js/ui.js → 200 (25.5 ms)", "meta": {}}
+{"timestamp": "2025-10-20T00:59:12.567801", "event": "⬅️ GET /static/css/base.css → 200 (35.5 ms)", "meta": {}}
+{"timestamp": "2025-10-20T00:59:12.582702", "event": "➡️ GET /static/js/main.js", "meta": {}}
+{"timestamp": "2025-10-20T00:59:12.582702", "event": "⬅️ GET /static/js/main.js → 200 (0.0 ms)", "meta": {}}
+{"timestamp": "2025-10-20T00:59:12.622378", "event": "➡️ POST /api/debug/log", "meta": {}}
+{"timestamp": "2025-10-20T00:59:12.628331", "event": "➡️ POST /api/debug/log", "meta": {}}
+{"timestamp": "2025-10-20T00:59:12.629593", "event": "frontend_debug", "meta": {"msg": "UI LOADED", "version": "v2.0.0", "page": "index.html", "origin": "http://127.0.0.1:8000", "theme": "dark", "humanize": "on", "timestamp": "2025-10-20T00:59:12.622Z", "received_at": "2025-10-20T00:59:12.629593", "level": "debug", "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/141.0.0.0 Safari/537.36 Edg/141.0.0.0", "referer": "http://127.0.0.1:8000/index.html"}}
+{"timestamp": "2025-10-20T00:59:12.632526", "event": "frontend_debug", "meta": {"msg": "MAIN PAGE LOADED", "app": "ASTRA", "version": "v2.0.0", "apiBase": "http://127.0.0.1:8000", "hasHumanize": false, "model": "gpt-4o-mini", "origin": "http://127.0.0.1:8000", "timestamp": "2025-10-20T00:59:12.623Z", "page": "index.html", "received_at": "2025-10-20T00:59:12.632526", "level": "debug", "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/141.0.0.0 Safari/537.36 Edg/141.0.0.0", "referer": "http://127.0.0.1:8000/index.html"}}
+{"timestamp": "2025-10-20T00:59:12.634517", "event": "⬅️ POST /api/debug/log → 200 (12.1 ms)", "meta": {}}
+{"timestamp": "2025-10-20T00:59:12.634517", "event": "⬅️ POST /api/debug/log → 200 (6.2 ms)", "meta": {}}
+{"timestamp": "2025-10-20T00:59:12.684960", "event": "➡️ GET /static/assets/favicon.png", "meta": {}}
+{"timestamp": "2025-10-20T00:59:12.691355", "event": "⬅️ GET /static/assets/favicon.png → 200 (6.4 ms)", "meta": {}}
+{"timestamp": "2025-10-20T00:59:26.116612", "event": "➡️ GET /openapi.json", "meta": {}}
+{"timestamp": "2025-10-20T00:59:26.116612", "event": "➡️ POST /api/debug/log", "meta": {}}
+{"timestamp": "2025-10-20T00:59:26.176111", "event": "⬅️ GET /openapi.json → 200 (60.9 ms)", "meta": {}}
+{"timestamp": "2025-10-20T00:59:26.184383", "event": "frontend_debug", "meta": {"msg": "Submitting optimization", "useHumanize": false, "version": "v2.0.0", "timestamp": "2025-10-20T00:59:26.080Z", "page": "index.html", "received_at": "2025-10-20T00:59:26.182315", "origin": "127.0.0.1", "level": "debug", "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/141.0.0.0 Safari/537.36 Edg/141.0.0.0", "referer": "http://127.0.0.1:8000/index.html"}}
+{"timestamp": "2025-10-20T00:59:26.185960", "event": "⬅️ POST /api/debug/log → 200 (69.3 ms)", "meta": {}}
+{"timestamp": "2025-10-20T00:59:26.190253", "event": "➡️ POST /optimize", "meta": {}}
+{"timestamp": "2025-10-20T00:59:26.194635", "event": "💥 [PIPELINE] Optimization failed: 500: Default base resume not found at None", "meta": {}}
+{"timestamp": "2025-10-20T00:59:26.194635", "event": "⬅️ POST /optimize → 500 (4.4 ms)", "meta": {}}
+{"timestamp": "2025-10-20T01:07:43.438481", "event": "🧩 Router loaded: backend.api.optimize", "meta": {}}
+{"timestamp": "2025-10-20T01:07:43.470024", "event": "🧩 Router loaded: backend.api.coverletter", "meta": {}}
+{"timestamp": "2025-10-20T01:07:43.495769", "event": "🧩 Router loaded: backend.api.talk", "meta": {}}
+{"timestamp": "2025-10-20T01:07:43.548225", "event": "🧩 Router loaded: backend.api.superhuman", "meta": {}}
+{"timestamp": "2025-10-20T01:07:43.555849", "event": "🧩 Router loaded: backend.api.humanize", "meta": {}}
+{"timestamp": "2025-10-20T01:07:43.611281", "event": "🧩 Router loaded: backend.api.mastermind", "meta": {}}
+{"timestamp": "2025-10-20T01:07:43.624590", "event": "🧩 Router loaded: backend.api.dashboard", "meta": {}}
+{"timestamp": "2025-10-20T01:07:43.628296", "event": "🧩 Router loaded: backend.api.models_router", "meta": {}}
+{"timestamp": "2025-10-20T01:07:43.650106", "event": "🧩 Router loaded: backend.api.context_store", "meta": {}}
+{"timestamp": "2025-10-20T01:07:43.672513", "event": "🧩 Router loaded: backend.api.utils_router", "meta": {}}
+{"timestamp": "2025-10-20T01:07:43.678234", "event": "🧩 Router loaded: backend.api.debug", "meta": {}}
+{"timestamp": "2025-10-20T01:07:43.681157", "event": "📦 Static mounted → C:\\Users\\sriak\\OneDrive\\Desktop\\HIREX\\frontend\\static", "meta": {}}
+{"timestamp": "2025-10-20T01:07:43.905361", "event": "➡️ GET /mastermind.html", "meta": {}}
+{"timestamp": "2025-10-20T01:07:44.029437", "event": "⬅️ GET /mastermind.html → 200 (124.1 ms)", "meta": {}}
+{"timestamp": "2025-10-20T01:07:44.217941", "event": "➡️ POST /api/debug/log", "meta": {}}
+{"timestamp": "2025-10-20T01:07:44.220483", "event": "➡️ POST /api/debug/log", "meta": {}}
+{"timestamp": "2025-10-20T01:07:44.223565", "event": "➡️ GET /api/mastermind/sessions", "meta": {}}
+{"timestamp": "2025-10-20T01:07:44.230298", "event": "frontend_debug", "meta": {"msg": "UI LOADED", "version": "v2.0.0", "page": "mastermind.html", "origin": "http://127.0.0.1:8000", "theme": "dark", "humanize": "on", "timestamp": "2025-10-20T01:07:44.214Z", "received_at": "2025-10-20T01:07:44.230298", "level": "debug", "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/141.0.0.0 Safari/537.36 Edg/141.0.0.0", "referer": "http://127.0.0.1:8000/mastermind.html"}}
+{"timestamp": "2025-10-20T01:07:44.232053", "event": "⬅️ GET /api/mastermind/sessions → 200 (8.5 ms)", "meta": {}}
+{"timestamp": "2025-10-20T01:07:44.235331", "event": "⬅️ POST /api/debug/log → 200 (17.4 ms)", "meta": {}}
+{"timestamp": "2025-10-20T01:07:44.239362", "event": "frontend_debug", "meta": {"msg": "MASTER MIND PAGE LOADED", "app": "ASTRA", "version": "v2.0.0", "apiBase": "http://127.0.0.1:8000", "sessions": 1, "currentId": "mm_20251020-000120_df3df3", "timestamp": "2025-10-20T01:07:44.217Z", "page": "mastermind.html", "received_at": "2025-10-20T01:07:44.237348", "origin": "127.0.0.1", "level": "debug", "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/141.0.0.0 Safari/537.36 Edg/141.0.0.0", "referer": "http://127.0.0.1:8000/mastermind.html"}}
+{"timestamp": "2025-10-20T01:07:44.242391", "event": "⬅️ POST /api/debug/log → 200 (21.9 ms)", "meta": {}}
+{"timestamp": "2025-10-20T01:07:44.464472", "event": "➡️ GET /api/mastermind/history", "meta": {}}
+{"timestamp": "2025-10-20T01:07:44.471286", "event": "⬅️ GET /api/mastermind/history → 200 (6.8 ms)", "meta": {}}
+{"timestamp": "2025-10-20T01:07:55.095998", "event": "➡️ POST /api/mastermind/start", "meta": {}}
+{"timestamp": "2025-10-20T01:07:55.114993", "event": "mastermind_session_started", "meta": {"persona": "General", "model": "gpt-4o-mini"}}
+{"timestamp": "2025-10-20T01:07:55.114993", "event": "⬅️ POST /api/mastermind/start → 200 (19.0 ms)", "meta": {}}
+{"timestamp": "2025-10-20T01:08:16.297133", "event": "➡️ POST /api/debug/log", "meta": {}}
+{"timestamp": "2025-10-20T01:08:16.305452", "event": "➡️ POST /api/debug/log", "meta": {}}
+{"timestamp": "2025-10-20T01:08:16.313493", "event": "frontend_debug", "meta": {"msg": "MM_SEND", "persona": "General", "model": "gpt-4o-mini", "text": "who is india pm", "version": "v2.0.0", "timestamp": "2025-10-20T01:08:16.291Z", "page": "mastermind.html", "received_at": "2025-10-20T01:08:16.309449", "origin": "127.0.0.1", "level": "debug", "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/141.0.0.0 Safari/537.36 Edg/141.0.0.0", "referer": "http://127.0.0.1:8000/mastermind.html"}}
+{"timestamp": "2025-10-20T01:08:16.314948", "event": "➡️ POST /api/mastermind/chat", "meta": {}}
+{"timestamp": "2025-10-20T01:08:16.318875", "event": "⬅️ POST /api/debug/log → 200 (21.7 ms)", "meta": {}}
+{"timestamp": "2025-10-20T01:08:16.325743", "event": "frontend_debug", "meta": {"msg": "MM_CHAT_POST", "session_id": "mm_20251020-010755_2f0fc8", "persona": "General", "model": "gpt-4o-mini", "tone": "balanced", "version": "v2.0.0", "timestamp": "2025-10-20T01:08:16.292Z", "page": "mastermind.html", "received_at": "2025-10-20T01:08:16.323220", "origin": "127.0.0.1", "level": "debug", "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/141.0.0.0 Safari/537.36 Edg/141.0.0.0", "referer": "http://127.0.0.1:8000/mastermind.html"}}
+{"timestamp": "2025-10-20T01:08:16.328516", "event": "⬅️ POST /api/debug/log → 200 (23.1 ms)", "meta": {}}
+{"timestamp": "2025-10-20T01:08:19.902546", "event": "mastermind_chat", "meta": {"session_id": "mm_20251020-010755_2f0fc8", "persona": "General", "tone": "balanced", "model": "gpt-4o-mini", "chars": 191}}
+{"timestamp": "2025-10-20T01:08:19.905780", "event": "⬅️ POST /api/mastermind/chat → 200 (3590.8 ms)", "meta": {}}
+{"timestamp": "2025-10-20T01:08:40.742512", "event": "➡️ POST /api/debug/log", "meta": {}}
+{"timestamp": "2025-10-20T01:08:40.742512", "event": "➡️ POST /api/debug/log", "meta": {}}
+{"timestamp": "2025-10-20T01:08:40.756036", "event": "frontend_debug", "meta": {"msg": "MM_CHAT_POST", "session_id": "mm_20251020-010755_2f0fc8", "persona": "General", "model": "gpt-4o-mini", "tone": "balanced", "version": "v2.0.0", "timestamp": "2025-10-20T01:08:40.729Z", "page": "mastermind.html", "received_at": "2025-10-20T01:08:40.756036", "origin": "127.0.0.1", "level": "debug", "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/141.0.0.0 Safari/537.36 Edg/141.0.0.0", "referer": "http://127.0.0.1:8000/mastermind.html"}}
+{"timestamp": "2025-10-20T01:08:40.763777", "event": "frontend_debug", "meta": {"msg": "MM_SEND", "persona": "General", "model": "gpt-4o-mini", "text": "who is ap cm", "version": "v2.0.0", "timestamp": "2025-10-20T01:08:40.729Z", "page": "mastermind.html", "received_at": "2025-10-20T01:08:40.756036", "origin": "127.0.0.1", "level": "debug", "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/141.0.0.0 Safari/537.36 Edg/141.0.0.0", "referer": "http://127.0.0.1:8000/mastermind.html"}}
+{"timestamp": "2025-10-20T01:08:40.765370", "event": "➡️ POST /api/mastermind/chat", "meta": {}}
+{"timestamp": "2025-10-20T01:08:40.767607", "event": "⬅️ POST /api/debug/log → 200 (25.1 ms)", "meta": {}}
+{"timestamp": "2025-10-20T01:08:40.767607", "event": "⬅️ POST /api/debug/log → 200 (25.1 ms)", "meta": {}}
+{"timestamp": "2025-10-20T01:08:44.123671", "event": "mastermind_chat", "meta": {"session_id": "mm_20251020-010755_2f0fc8", "persona": "General", "tone": "balanced", "model": "gpt-4o-mini", "chars": 206}}
+{"timestamp": "2025-10-20T01:08:44.125600", "event": "⬅️ POST /api/mastermind/chat → 200 (3360.2 ms)", "meta": {}}
+{"timestamp": "2025-10-20T01:09:56.228070", "event": "➡️ POST /api/debug/log", "meta": {}}
+{"timestamp": "2025-10-20T01:09:56.228070", "event": "➡️ POST /api/debug/log", "meta": {}}
+{"timestamp": "2025-10-20T01:09:56.236570", "event": "frontend_debug", "meta": {"msg": "MM_SEND", "persona": "General", "model": "gpt-4o-mini", "text": "what is your knowledge cut off date", "version": "v2.0.0", "timestamp": "2025-10-20T01:09:56.213Z", "page": "mastermind.html", "received_at": "2025-10-20T01:09:56.235047", "origin": "127.0.0.1", "level": "debug", "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/141.0.0.0 Safari/537.36 Edg/141.0.0.0", "referer": "http://127.0.0.1:8000/mastermind.html"}}
+{"timestamp": "2025-10-20T01:09:56.236570", "event": "➡️ POST /api/mastermind/chat", "meta": {}}
+{"timestamp": "2025-10-20T01:09:56.236570", "event": "⬅️ POST /api/debug/log → 200 (8.5 ms)", "meta": {}}
+{"timestamp": "2025-10-20T01:09:56.244892", "event": "frontend_debug", "meta": {"msg": "MM_CHAT_POST", "session_id": "mm_20251020-010755_2f0fc8", "persona": "General", "model": "gpt-4o-mini", "tone": "balanced", "version": "v2.0.0", "timestamp": "2025-10-20T01:09:56.214Z", "page": "mastermind.html", "received_at": "2025-10-20T01:09:56.236570", "origin": "127.0.0.1", "level": "debug", "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/141.0.0.0 Safari/537.36 Edg/141.0.0.0", "referer": "http://127.0.0.1:8000/mastermind.html"}}
+{"timestamp": "2025-10-20T01:09:56.249136", "event": "⬅️ POST /api/debug/log → 200 (21.1 ms)", "meta": {}}
+{"timestamp": "2025-10-20T01:09:57.566671", "event": "mastermind_chat", "meta": {"session_id": "mm_20251020-010755_2f0fc8", "persona": "General", "tone": "balanced", "model": "gpt-4o-mini", "chars": 114}}
+{"timestamp": "2025-10-20T01:09:57.569698", "event": "⬅️ POST /api/mastermind/chat → 200 (1333.1 ms)", "meta": {}}
+{"timestamp": "2025-10-20T01:11:37.870640", "event": "➡️ POST /api/debug/log", "meta": {}}
+{"timestamp": "2025-10-20T01:11:37.873766", "event": "frontend_debug", "meta": {"msg": "MM_SEND", "persona": "General", "model": "gpt-4o-mini", "text": "Who built you? who is your developer", "version": "v2.0.0", "timestamp": "2025-10-20T01:11:37.854Z", "page": "mastermind.html", "received_at": "2025-10-20T01:11:37.873766", "origin": "127.0.0.1", "level": "debug", "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/141.0.0.0 Safari/537.36 Edg/141.0.0.0", "referer": "http://127.0.0.1:8000/mastermind.html"}}
+{"timestamp": "2025-10-20T01:11:37.878692", "event": "⬅️ POST /api/debug/log → 200 (8.1 ms)", "meta": {}}
+{"timestamp": "2025-10-20T01:11:37.883841", "event": "➡️ POST /api/debug/log", "meta": {}}
+{"timestamp": "2025-10-20T01:11:37.883841", "event": "➡️ POST /api/mastermind/chat", "meta": {}}
+{"timestamp": "2025-10-20T01:11:37.893117", "event": "frontend_debug", "meta": {"msg": "MM_CHAT_POST", "session_id": "mm_20251020-010755_2f0fc8", "persona": "General", "model": "gpt-4o-mini", "tone": "balanced", "version": "v2.0.0", "timestamp": "2025-10-20T01:11:37.855Z", "page": "mastermind.html", "received_at": "2025-10-20T01:11:37.888794", "origin": "127.0.0.1", "level": "debug", "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/141.0.0.0 Safari/537.36 Edg/141.0.0.0", "referer": "http://127.0.0.1:8000/mastermind.html"}}
+{"timestamp": "2025-10-20T01:11:37.934980", "event": "⬅️ POST /api/debug/log → 200 (51.1 ms)", "meta": {}}
+{"timestamp": "2025-10-20T01:11:39.751565", "event": "mastermind_chat", "meta": {"session_id": "mm_20251020-010755_2f0fc8", "persona": "General", "tone": "balanced", "model": "gpt-4o-mini", "chars": 209}}
+{"timestamp": "2025-10-20T01:11:39.755358", "event": "⬅️ POST /api/mastermind/chat → 200 (1871.5 ms)", "meta": {}}
+{"timestamp": "2025-10-20T01:11:48.876199", "event": "➡️ POST /api/debug/log", "meta": {}}
+{"timestamp": "2025-10-20T01:11:48.884433", "event": "frontend_debug", "meta": {"msg": "MM_SEND", "persona": "General", "model": "gpt-4o-mini", "text": "then what is Hirex", "version": "v2.0.0", "timestamp": "2025-10-20T01:11:48.864Z", "page": "mastermind.html", "received_at": "2025-10-20T01:11:48.881955", "origin": "127.0.0.1", "level": "debug", "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/141.0.0.0 Safari/537.36 Edg/141.0.0.0", "referer": "http://127.0.0.1:8000/mastermind.html"}}
+{"timestamp": "2025-10-20T01:11:48.884433", "event": "➡️ POST /api/debug/log", "meta": {}}
+{"timestamp": "2025-10-20T01:11:48.884433", "event": "➡️ POST /api/mastermind/chat", "meta": {}}
+{"timestamp": "2025-10-20T01:11:48.884433", "event": "⬅️ POST /api/debug/log → 200 (8.2 ms)", "meta": {}}
+{"timestamp": "2025-10-20T01:11:48.896262", "event": "frontend_debug", "meta": {"msg": "MM_CHAT_POST", "session_id": "mm_20251020-010755_2f0fc8", "persona": "General", "model": "gpt-4o-mini", "tone": "balanced", "version": "v2.0.0", "timestamp": "2025-10-20T01:11:48.865Z", "page": "mastermind.html", "received_at": "2025-10-20T01:11:48.892927", "origin": "127.0.0.1", "level": "debug", "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/141.0.0.0 Safari/537.36 Edg/141.0.0.0", "referer": "http://127.0.0.1:8000/mastermind.html"}}
+{"timestamp": "2025-10-20T01:11:48.940309", "event": "⬅️ POST /api/debug/log → 200 (55.9 ms)", "meta": {}}
+{"timestamp": "2025-10-20T01:11:50.695808", "event": "mastermind_chat", "meta": {"session_id": "mm_20251020-010755_2f0fc8", "persona": "General", "tone": "balanced", "model": "gpt-4o-mini", "chars": 284}}
+{"timestamp": "2025-10-20T01:11:50.697821", "event": "⬅️ POST /api/mastermind/chat → 200 (1813.4 ms)", "meta": {}}
+{"timestamp": "2025-10-20T01:12:02.285671", "event": "➡️ POST /api/debug/log", "meta": {}}
+{"timestamp": "2025-10-20T01:12:02.296167", "event": "➡️ POST /api/debug/log", "meta": {}}
+{"timestamp": "2025-10-20T01:12:02.300981", "event": "frontend_debug", "meta": {"msg": "MM_SEND", "persona": "General", "model": "gpt-4o-mini", "text": "Who are you", "version": "v2.0.0", "timestamp": "2025-10-20T01:12:02.277Z", "page": "mastermind.html", "received_at": "2025-10-20T01:12:02.299468", "origin": "127.0.0.1", "level": "debug", "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/141.0.0.0 Safari/537.36 Edg/141.0.0.0", "referer": "http://127.0.0.1:8000/mastermind.html"}}
+{"timestamp": "2025-10-20T01:12:02.300981", "event": "➡️ POST /api/mastermind/chat", "meta": {}}
+{"timestamp": "2025-10-20T01:12:02.304639", "event": "⬅️ POST /api/debug/log → 200 (19.0 ms)", "meta": {}}
+{"timestamp": "2025-10-20T01:12:02.304639", "event": "frontend_debug", "meta": {"msg": "MM_CHAT_POST", "session_id": "mm_20251020-010755_2f0fc8", "persona": "General", "model": "gpt-4o-mini", "tone": "balanced", "version": "v2.0.0", "timestamp": "2025-10-20T01:12:02.278Z", "page": "mastermind.html", "received_at": "2025-10-20T01:12:02.304639", "origin": "127.0.0.1", "level": "debug", "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/141.0.0.0 Safari/537.36 Edg/141.0.0.0", "referer": "http://127.0.0.1:8000/mastermind.html"}}
+{"timestamp": "2025-10-20T01:12:02.311693", "event": "⬅️ POST /api/debug/log → 200 (15.5 ms)", "meta": {}}
+{"timestamp": "2025-10-20T01:12:03.811180", "event": "mastermind_chat", "meta": {"session_id": "mm_20251020-010755_2f0fc8", "persona": "General", "tone": "balanced", "model": "gpt-4o-mini", "chars": 249}}
+{"timestamp": "2025-10-20T01:12:03.813180", "event": "⬅️ POST /api/mastermind/chat → 200 (1512.2 ms)", "meta": {}}
+{"timestamp": "2025-10-20T01:21:32.737524", "event": "➡️ GET /index.html", "meta": {}}
+{"timestamp": "2025-10-20T01:21:32.749779", "event": "⬅️ GET /index.html → 200 (12.3 ms)", "meta": {}}
+{"timestamp": "2025-10-20T01:21:32.935296", "event": "➡️ POST /api/debug/log", "meta": {}}
+{"timestamp": "2025-10-20T01:21:32.938147", "event": "➡️ POST /api/debug/log", "meta": {}}
+{"timestamp": "2025-10-20T01:21:32.942172", "event": "frontend_debug", "meta": {"msg": "UI LOADED", "version": "v2.0.0", "page": "index.html", "origin": "http://127.0.0.1:8000", "theme": "dark", "humanize": "on", "timestamp": "2025-10-20T01:21:32.926Z", "received_at": "2025-10-20T01:21:32.941452", "level": "debug", "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/141.0.0.0 Safari/537.36 Edg/141.0.0.0", "referer": "http://127.0.0.1:8000/index.html"}}
+{"timestamp": "2025-10-20T01:21:32.943895", "event": "⬅️ POST /api/debug/log → 200 (8.6 ms)", "meta": {}}
+{"timestamp": "2025-10-20T01:21:32.946739", "event": "frontend_debug", "meta": {"msg": "MAIN PAGE LOADED", "app": "ASTRA", "version": "v2.0.0", "apiBase": "http://127.0.0.1:8000", "hasHumanize": false, "model": "gpt-4o-mini", "origin": "http://127.0.0.1:8000", "timestamp": "2025-10-20T01:21:32.927Z", "page": "index.html", "received_at": "2025-10-20T01:21:32.944987", "level": "debug", "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/141.0.0.0 Safari/537.36 Edg/141.0.0.0", "referer": "http://127.0.0.1:8000/index.html"}}
+{"timestamp": "2025-10-20T01:21:32.948749", "event": "⬅️ POST /api/debug/log → 200 (10.6 ms)", "meta": {}}
+{"timestamp": "2025-10-20T01:21:34.852669", "event": "➡️ GET /mastermind.html", "meta": {}}
+{"timestamp": "2025-10-20T01:21:34.861491", "event": "⬅️ GET /mastermind.html → 200 (7.7 ms)", "meta": {}}
+{"timestamp": "2025-10-20T01:21:34.957794", "event": "➡️ POST /api/debug/log", "meta": {}}
+{"timestamp": "2025-10-20T01:21:34.963877", "event": "frontend_debug", "meta": {"msg": "UI LOADED", "version": "v2.0.0", "page": "mastermind.html", "origin": "http://127.0.0.1:8000", "theme": "dark", "humanize": "on", "timestamp": "2025-10-20T01:21:34.951Z", "received_at": "2025-10-20T01:21:34.962454", "level": "debug", "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/141.0.0.0 Safari/537.36 Edg/141.0.0.0", "referer": "http://127.0.0.1:8000/mastermind.html"}}
+{"timestamp": "2025-10-20T01:21:34.966383", "event": "⬅️ POST /api/debug/log → 200 (8.6 ms)", "meta": {}}
+{"timestamp": "2025-10-20T01:21:34.971704", "event": "➡️ POST /api/debug/log", "meta": {}}
+{"timestamp": "2025-10-20T01:21:34.979305", "event": "➡️ GET /api/mastermind/sessions", "meta": {}}
+{"timestamp": "2025-10-20T01:21:35.024316", "event": "frontend_debug", "meta": {"msg": "MASTER MIND PAGE LOADED", "app": "ASTRA", "version": "v2.0.0", "apiBase": "http://127.0.0.1:8000", "sessions": 2, "currentId": "mm_20251020-010755_2f0fc8", "timestamp": "2025-10-20T01:21:34.953Z", "page": "mastermind.html", "received_at": "2025-10-20T01:21:35.024316", "origin": "127.0.0.1", "level": "debug", "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/141.0.0.0 Safari/537.36 Edg/141.0.0.0", "referer": "http://127.0.0.1:8000/mastermind.html"}}
+{"timestamp": "2025-10-20T01:21:35.026575", "event": "⬅️ GET /api/mastermind/sessions → 200 (47.3 ms)", "meta": {}}
+{"timestamp": "2025-10-20T01:21:35.026575", "event": "⬅️ POST /api/debug/log → 200 (54.9 ms)", "meta": {}}
+{"timestamp": "2025-10-20T01:21:35.034792", "event": "➡️ GET /api/mastermind/history", "meta": {}}
+{"timestamp": "2025-10-20T01:21:35.043305", "event": "⬅️ GET /api/mastermind/history → 200 (8.5 ms)", "meta": {}}
+{"timestamp": "2025-10-20T01:30:56.277751", "event": "➡️ GET /superhuman.html", "meta": {}}
+{"timestamp": "2025-10-20T01:30:56.290592", "event": "⬅️ GET /superhuman.html → 200 (12.8 ms)", "meta": {}}
+{"timestamp": "2025-10-20T01:30:56.620015", "event": "➡️ POST /api/debug/log", "meta": {}}
+{"timestamp": "2025-10-20T01:30:56.623053", "event": "➡️ POST /api/debug/log", "meta": {}}
+{"timestamp": "2025-10-20T01:30:56.630774", "event": "frontend_debug", "meta": {"msg": "UI LOADED", "version": "v2.0.0", "page": "superhuman.html", "origin": "http://127.0.0.1:8000", "theme": "dark", "humanize": "on", "timestamp": "2025-10-20T01:30:56.612Z", "received_at": "2025-10-20T01:30:56.630774", "level": "debug", "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/141.0.0.0 Safari/537.36 Edg/141.0.0.0", "referer": "http://127.0.0.1:8000/superhuman.html"}}
+{"timestamp": "2025-10-20T01:30:56.633615", "event": "frontend_debug", "meta": {"msg": "SUPERHUMAN PAGE LOADED", "version": "v2.0.0", "apiBase": "http://127.0.0.1:8000", "restored": false, "tone": "balanced", "mode": "paragraph", "latexSafe": true, "humanizeOn": true, "timestamp": "2025-10-20T01:30:56.614Z", "page": "superhuman.html", "received_at": "2025-10-20T01:30:56.632784", "origin": "127.0.0.1", "level": "debug", "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/141.0.0.0 Safari/537.36 Edg/141.0.0.0", "referer": "http://127.0.0.1:8000/superhuman.html"}}
+{"timestamp": "2025-10-20T01:30:56.633615", "event": "⬅️ POST /api/debug/log → 200 (13.6 ms)", "meta": {}}
+{"timestamp": "2025-10-20T01:30:56.636620", "event": "⬅️ POST /api/debug/log → 200 (13.6 ms)", "meta": {}}
+{"timestamp": "2025-10-20T01:31:15.769906", "event": "➡️ POST /api/debug/log", "meta": {}}
+{"timestamp": "2025-10-20T01:31:15.774579", "event": "➡️ POST /api/superhuman/rewrite", "meta": {}}
+{"timestamp": "2025-10-20T01:31:15.778274", "event": "frontend_debug", "meta": {"msg": "SuperHuman submit", "tone": "balanced", "mode": "paragraph", "latexSafe": true, "humanizeOn": true, "version": "v2.0.0", "timestamp": "2025-10-20T01:31:15.762Z", "page": "superhuman.html", "received_at": "2025-10-20T01:31:15.778274", "origin": "127.0.0.1", "level": "debug", "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/141.0.0.0 Safari/537.36 Edg/141.0.0.0", "referer": "http://127.0.0.1:8000/superhuman.html"}}
+{"timestamp": "2025-10-20T01:31:15.782892", "event": "⬅️ POST /api/debug/log → 200 (13.0 ms)", "meta": {}}
+{"timestamp": "2025-10-20T01:31:16.218109", "event": "⬅️ POST /api/superhuman/rewrite → 500 (444.0 ms)", "meta": {}}
+{"timestamp": "2025-10-20T01:41:38.049656", "event": "➡️ GET /superhuman.html", "meta": {}}
+{"timestamp": "2025-10-20T01:41:38.053953", "event": "⬅️ GET /superhuman.html → 200 (7.5 ms)", "meta": {}}
+{"timestamp": "2025-10-20T01:41:38.147583", "event": "➡️ POST /api/debug/log", "meta": {}}
+{"timestamp": "2025-10-20T01:41:38.151613", "event": "➡️ POST /api/debug/log", "meta": {}}
+{"timestamp": "2025-10-20T01:41:38.155879", "event": "frontend_debug", "meta": {"msg": "UI LOADED", "version": "v2.0.0", "page": "superhuman.html", "origin": "http://127.0.0.1:8000", "theme": "dark", "humanize": "on", "timestamp": "2025-10-20T01:41:38.144Z", "received_at": "2025-10-20T01:41:38.153628", "level": "debug", "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/141.0.0.0 Safari/537.36 Edg/141.0.0.0", "referer": "http://127.0.0.1:8000/superhuman.html"}}
+{"timestamp": "2025-10-20T01:41:38.157888", "event": "frontend_debug", "meta": {"msg": "SUPERHUMAN PAGE LOADED", "version": "v2.0.0", "apiBase": "http://127.0.0.1:8000", "restored": true, "tone": "balanced", "mode": "paragraph", "latexSafe": true, "humanizeOn": true, "timestamp": "2025-10-20T01:41:38.145Z", "page": "superhuman.html", "received_at": "2025-10-20T01:41:38.157888", "origin": "127.0.0.1", "level": "debug", "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/141.0.0.0 Safari/537.36 Edg/141.0.0.0", "referer": "http://127.0.0.1:8000/superhuman.html"}}
+{"timestamp": "2025-10-20T01:41:38.163420", "event": "⬅️ POST /api/debug/log → 200 (15.8 ms)", "meta": {}}
+{"timestamp": "2025-10-20T01:41:38.163420", "event": "⬅️ POST /api/debug/log → 200 (11.8 ms)", "meta": {}}
