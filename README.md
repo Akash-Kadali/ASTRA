@@ -3,9 +3,6 @@
   <img src="https://github.com/Akash-Kadali/ASTRA/blob/main/data/astra.png" alt="ASTRA Logo" width="700"/>
 </p>
 
-# 🌌 ASTRA v2.1.0
-### Autonomous System for Talent & Resume Automation
-
 ### *Autonomous System for Talent & Resume Automation*
 
 **Author:** Sri Akash Kadali
