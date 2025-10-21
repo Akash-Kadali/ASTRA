@@ -1,5 +1,3 @@
----
-
 # 🌌 **ASTRA v2.0.0**
 
 <p align="center">
